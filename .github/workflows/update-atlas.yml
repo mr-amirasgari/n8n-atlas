@@ -1,0 +1,106 @@
+name: Update n8n Atlas
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "15 3 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: n8n-atlas
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Collect official nodes
+        run: python scripts/collect_official.py
+
+      - name: Collect community packages
+        run: python scripts/collect_community.py
+
+      - name: Enrich community nodes
+        run: python scripts/enrich_community.py --workers 8
+
+      - name: Build catalog
+        run: python scripts/build_catalog.py
+
+      - name: Show statistics
+        run: |
+          python - <<'PY'
+          import json
+
+          with open("data/catalog.json", encoding="utf-8") as f:
+              catalog = json.load(f)
+
+          official = sum(
+              1 for x in catalog
+              if x.get("source") == "official"
+          )
+
+          community = sum(
+              1 for x in catalog
+              if x.get("source") == "community"
+          )
+
+          print("Official:", official)
+          print("Community:", community)
+          print("Total:", len(catalog))
+          PY
+
+      - name: Commit updated data
+        run: |
+          git config user.name "n8n-atlas-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "chore: update n8n Atlas data"
+            git push
+          fi
+
+      - name: Prepare website
+        run: |
+          mkdir -p _site/data
+
+          cp index.html _site/
+          cp style.css _site/
+          cp app.js _site/
+          cp data/catalog.json _site/data/
+
+          touch _site/.nojekyll
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

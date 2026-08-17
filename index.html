@@ -3,30 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>n8n Atlas</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
+<header class="hero">
+
+  <div class="hero-badge">
+    Explore the n8n ecosystem
+  </div>
+
   <h1>n8n Atlas</h1>
-  <p id="count">Loading nodes...</p>
+
+  <p class="subtitle">
+    Discover official and community nodes for n8n.
+  </p>
+
+  <div class="stats">
+
+    <div class="stat">
+      <strong id="total-stat">0</strong>
+      <span>Total</span>
+    </div>
+
+    <div class="stat">
+      <strong id="official-stat">0</strong>
+      <span>Official</span>
+    </div>
+
+    <div class="stat">
+      <strong id="community-stat">0</strong>
+      <span>Community</span>
+    </div>
+
+  </div>
 
   <input
     id="search"
     type="search"
-    placeholder="Search nodes..."
+    placeholder="Search integrations, packages, nodes..."
+    autocomplete="off"
   >
 
   <div class="filters">
-    <button data-filter="all" class="active">All</button>
-    <button data-filter="official">Official</button>
-    <button data-filter="community">Community</button>
+
+    <button
+      class="active"
+      data-filter="all">
+      All
+    </button>
+
+    <button data-filter="official">
+      Official
+    </button>
+
+    <button data-filter="community">
+      Community
+    </button>
+
   </div>
+
+  <p id="count"></p>
+
 </header>
+
 
 <main id="nodes"></main>
 
+
+<div class="load-more-container">
+  <button id="load-more">
+    Load more
+  </button>
+</div>
+
+
 <script src="app.js"></script>
+
 </body>
 </html>

@@ -8,29 +8,20 @@ SEARCH_TERM = "keywords:n8n-community-node-package"
 PAGE_SIZE = 250
 MAX_RETRIES = 6
 
-DATA_DIR = Path(__file__).parent.parent / "data"
-OUTPUT = DATA_DIR / "community-nodes.json"
-PROGRESS = DATA_DIR / "community-progress.json"
+ROOT = Path(__file__).parent.parent
+DATA = ROOT / "data"
 
-DATA_DIR.mkdir(exist_ok=True)
+RAW_OUTPUT = DATA / "community-nodes-raw.json"
+UNIQUE_OUTPUT = DATA / "community-nodes.json"
 
-# Resume
+DATA.mkdir(exist_ok=True)
+
 all_packages = []
+offset = 0
 
-if OUTPUT.exists():
-    try:
-        with open(OUTPUT, "r", encoding="utf-8") as f:
-            all_packages = json.load(f)
-    except:
-        all_packages = []
-
-offset = len(all_packages)
-
-print("Searching npm registry...")
-print(f"Starting from: {offset}")
+print("Collecting community packages from npm...")
 
 while True:
-
     params = urllib.parse.urlencode({
         "text": SEARCH_TERM,
         "size": PAGE_SIZE,
@@ -60,19 +51,12 @@ while True:
 
         except Exception as e:
             wait = 2 ** attempt
-
-            print(
-                f"Connection error. "
-                f"Retry {attempt + 1}/{MAX_RETRIES} "
-                f"in {wait}s..."
-            )
-
+            print(f"Retry {attempt + 1}/{MAX_RETRIES} in {wait}s...")
             print(e)
             time.sleep(wait)
 
     if data is None:
-        print("Failed after retries.")
-        print("Progress has been saved.")
+        print("Stopped after repeated connection errors.")
         break
 
     objects = data.get("objects", [])
@@ -89,9 +73,7 @@ while True:
             "version": package.get("version"),
             "date": package.get("date"),
             "keywords": package.get("keywords", []),
-            "publisher": (
-                package.get("publisher") or {}
-            ).get("username"),
+            "publisher": (package.get("publisher") or {}).get("username"),
             "links": package.get("links", {}),
             "type": "community",
             "official": False,
@@ -99,16 +81,15 @@ while True:
 
     offset += len(objects)
 
-    # ذخیره بعد از هر صفحه
-    with open(OUTPUT, "w", encoding="utf-8") as f:
+    print(f"Raw: {len(all_packages)}")
+
+    with open(RAW_OUTPUT, "w", encoding="utf-8") as f:
         json.dump(
             all_packages,
             f,
             ensure_ascii=False,
             indent=2
         )
-
-    print(f"Collected: {len(all_packages)}")
 
     total = data.get("total", 0)
 
@@ -117,6 +98,43 @@ while True:
 
     time.sleep(0.5)
 
+
+# Deduplicate by package name
+unique = {}
+
+for package in all_packages:
+    name = package.get("name")
+
+    if not name:
+        continue
+
+    current = unique.get(name)
+
+    if current is None:
+        unique[name] = package
+        continue
+
+    # نگه داشتن رکورد جدیدتر
+    if (package.get("date") or "") > (current.get("date") or ""):
+        unique[name] = package
+
+
+unique_packages = sorted(
+    unique.values(),
+    key=lambda x: (x.get("name") or "").lower()
+)
+
+with open(UNIQUE_OUTPUT, "w", encoding="utf-8") as f:
+    json.dump(
+        unique_packages,
+        f,
+        ensure_ascii=False,
+        indent=2
+    )
+
 print()
-print(f"Done: {len(all_packages)} community packages collected")
-print(f"Saved to: {OUTPUT}")
+print("=" * 40)
+print(f"Raw records: {len(all_packages)}")
+print(f"Unique packages: {len(unique_packages)}")
+print(f"Raw saved: {RAW_OUTPUT}")
+print(f"Unique saved: {UNIQUE_OUTPUT}")
