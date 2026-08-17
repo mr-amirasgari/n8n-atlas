@@ -86,7 +86,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes."
           else
-            git commit -m "chore: update n8n Atlas data"
+            git commit -m "chore: update n8n Atlas data [skip ci]"
             git push
           fi
 
@@ -95,12 +95,14 @@ jobs:
           mkdir -p _site/data
           mkdir -p _site/assets/icons
           mkdir -p _site/vendor
+          mkdir -p _site/css
+          mkdir -p _site/js
 
           cp index.html _site/
           cp node.html _site/
-          cp style.css _site/
-          cp app.js _site/
-          cp node.js _site/
+
+          cp -r css/* _site/css/
+          cp -r js/* _site/js/
 
           cp data/catalog.json _site/data/
 

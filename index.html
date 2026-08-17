@@ -15,7 +15,10 @@
 
   <title>n8n Atlas</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
 </head>
 
 <body>
@@ -31,6 +34,7 @@
   <p class="subtitle">
     Discover official and community nodes for n8n.
   </p>
+
 
   <div class="stats">
 
@@ -51,6 +55,7 @@
 
   </div>
 
+
   <input
     id="search"
     type="search"
@@ -58,6 +63,7 @@
     autocomplete="off"
     spellcheck="false"
   >
+
 
   <div class="filters">
 
@@ -78,6 +84,7 @@
 
   </div>
 
+
   <div class="advanced-filters">
 
     <select
@@ -88,6 +95,7 @@
         All categories
       </option>
     </select>
+
 
     <select
       id="kind-filter"
@@ -106,6 +114,7 @@
       </option>
     </select>
 
+
     <select
       id="status-filter"
       aria-label="Filter by status"
@@ -123,6 +132,7 @@
       </option>
     </select>
 
+
     <button
       id="clear-filters"
       type="button"
@@ -132,11 +142,13 @@
 
   </div>
 
+
   <p id="count">
     Loading catalog...
   </p>
 
 </header>
+
 
 
 <section
@@ -147,7 +159,9 @@
   <div class="discovery-block">
 
     <div class="section-heading">
+
       <div>
+
         <span class="eyebrow">
           Curated
         </span>
@@ -155,8 +169,11 @@
         <h2>
           Featured
         </h2>
+
       </div>
+
     </div>
+
 
     <div
       id="featured-nodes"
@@ -166,10 +183,13 @@
   </div>
 
 
+
   <div class="discovery-block">
 
     <div class="section-heading">
+
       <div>
+
         <span class="eyebrow">
           npm popularity
         </span>
@@ -177,8 +197,11 @@
         <h2>
           Popular
         </h2>
+
       </div>
+
     </div>
+
 
     <div
       id="popular-nodes"
@@ -190,17 +213,22 @@
 </section>
 
 
+
 <section class="all-section">
 
   <div class="all-heading">
+
     <h2>
       All integrations
     </h2>
+
   </div>
+
 
   <main id="nodes"></main>
 
 </section>
+
 
 
 <div class="load-more-container">
@@ -212,8 +240,9 @@
 </div>
 
 
+
 <script src="vendor/fuse.min.js"></script>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 
 </body>
 </html>
