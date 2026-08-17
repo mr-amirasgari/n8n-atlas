@@ -11667,39 +11667,6 @@
     "deprecated": null
   },
   {
-    "name": "@dapplets/n8n-nodes-telegram-utils",
-    "description": "Validate init data from Telegram",
-    "version": "0.1.8",
-    "date": "2025-04-29T11:01:22.212Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "dapplets-org",
-    "links": {
-      "homepage": "https://github.com/dapplets/n8n-nodes-telegram-utils#readme",
-      "repository": "git+https://github.com/dapplets/n8n-nodes-telegram-utils.git",
-      "bugs": "https://github.com/dapplets/n8n-nodes-telegram-utils/issues",
-      "npm": "https://www.npmjs.com/package/@dapplets/n8n-nodes-telegram-utils"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/ValidateThirdParty/ValidateThirdParty.node.js",
-        "displayName": "Validate 3rd Init Data",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Validate 3rd Init Data"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/dapplets/n8n-nodes-telegram-utils.git",
-    "homepage": "https://github.com/dapplets/n8n-nodes-telegram-utils#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "@datafix/n8n-nodes-exact-online",
     "description": "Exact Online Node",
     "version": "0.3.7",
@@ -92829,8 +92796,8 @@
   {
     "name": "n8n-nodes-diariz",
     "description": "n8n community node for Diariz meeting transcription: react to transcriptions and drive the full REST API.",
-    "version": "0.215.0",
-    "date": "2026-08-15T15:07:52.730Z",
+    "version": "0.221.0",
+    "date": "2026-08-17T20:38:46.848Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -92846,6 +92813,10 @@
       "bugs": "https://github.com/kenhayward/Diariz/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-diariz"
     },
+    "npmScore": 23.38154,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -105489,6 +105460,46 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/SlavaVlad/n8n-nodes-ffmpeg-features.git",
     "homepage": "https://github.com/shmeller86/n8n-nodes-ffmpeg",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-fidelimax",
+    "description": "n8n community node for the Fidelimax loyalty program API integration",
+    "version": "1.1.2",
+    "date": "2026-04-22T15:12:20.982Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "fidelimax",
+      "loyalty",
+      "points"
+    ],
+    "publisher": "fidelimax",
+    "links": {
+      "homepage": "https://github.com/Fidelimax/n8n/",
+      "repository": "git+https://github.com/Fidelimax/n8n.git",
+      "bugs": "https://github.com/Fidelimax/n8n/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-fidelimax"
+    },
+    "npmScore": 9.977666,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Fidelimax/Fidelimax.node.js",
+        "displayName": "Fidelimax",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Fidelimax"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/Fidelimax/n8n.git",
+    "homepage": "https://github.com/Fidelimax/n8n/",
     "license": "MIT",
     "deprecated": null
   },
@@ -133069,49 +133080,6 @@
     "repository": "git+https://github.com/Schubeler-Consulting/n8n-nodes-knowmind.git",
     "homepage": "https://knowmind.de",
     "license": "Apache-2.0",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-kobana",
-    "description": "n8n community node for Kobana API integration - Kobana is a financial automation platform that offers banking API gateway, B2B payments and receivables and bank statement updates, all in a complete financial automation software for Brazilian companies.",
-    "version": "0.0.1",
-    "date": "2025-08-19T00:04:24.996Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "kobana",
-      "banking",
-      "brazil",
-      "payment",
-      "cash-management",
-      "billing",
-      "boleto",
-      "pix",
-      "ted",
-      "tef"
-    ],
-    "publisher": "kobana_rafaelp",
-    "links": {
-      "homepage": "https://github.com/universokobana/n8n-nodes-kobana",
-      "repository": "git+https://github.com/universokobana/n8n-nodes-kobana.git",
-      "bugs": "https://github.com/universokobana/n8n-nodes-kobana/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-kobana"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Kobana/Kobana.node.js",
-        "displayName": "Kobana",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Kobana"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/universokobana/n8n-nodes-kobana.git",
-    "homepage": "https://github.com/universokobana/n8n-nodes-kobana",
-    "license": "MIT",
     "deprecated": null
   },
   {
@@ -226123,6 +226091,43 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/princevish/n8n-nodes-zoho-assist.git",
     "homepage": "https://github.com/princevish/n8n-nodes-zoho-assist#readme",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-zoho-calendar",
+    "description": "A community node for Zoho Calendar",
+    "version": "0.2.3",
+    "date": "2024-02-28T23:56:36.811Z",
+    "keywords": [
+      "n8n-community-node-package"
+    ],
+    "publisher": "liammcgarrigle",
+    "links": {
+      "homepage": "https://github.com/liamdmcgarrigle/n8n-nodes-zoho-calendar",
+      "repository": "git+https://github.com/liamdmcgarrigle/n8n-nodes-zoho-calendar.git",
+      "bugs": "https://github.com/liamdmcgarrigle/n8n-nodes-zoho-calendar/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-zoho-calendar"
+    },
+    "npmScore": 9.977666,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ZohoCalendar/ZohoCalendar.node.js",
+        "displayName": "Zoho Calendar",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Zoho Calendar"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/liamdmcgarrigle/n8n-nodes-zoho-calendar.git",
+    "homepage": "https://github.com/liamdmcgarrigle/n8n-nodes-zoho-calendar",
     "license": "MIT",
     "deprecated": null
   },
