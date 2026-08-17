@@ -1,0 +1,37 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="192" height="192" shape-rendering="geometricPrecision">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="gTop" gradientUnits="userSpaceOnUse" x1="16" y1="4" x2="16" y2="16">
+      <ns0:stop offset="0" stop-color="#ffffff" stop-opacity="0.82" />
+      <ns0:stop offset="1" stop-color="#ffffff" stop-opacity="0.74" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="gRight" gradientUnits="userSpaceOnUse" x1="28" y1="16" x2="16" y2="16">
+      <ns0:stop offset="0" stop-color="#ffffff" stop-opacity="0.46" />
+      <ns0:stop offset="1" stop-color="#ffffff" stop-opacity="0.40" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="gBottom" gradientUnits="userSpaceOnUse" x1="16" y1="28" x2="16" y2="16">
+      <ns0:stop offset="0" stop-color="#ffffff" stop-opacity="0.82" />
+      <ns0:stop offset="1" stop-color="#ffffff" stop-opacity="0.74" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="gAmber" gradientUnits="userSpaceOnUse" x1="4" y1="16" x2="16" y2="16">
+      <ns0:stop offset="0" stop-color="#d3a13a" />
+      <ns0:stop offset="1" stop-color="#c19337" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  <ns0:rect width="32" height="32" fill="#0f1115" />
+
+  <ns0:g transform="translate(16 16) scale(1 -1) translate(-16 -16) rotate(-45 16 16)">
+    
+    <ns0:path d="M 16 16 L 16 4.72 Q 16 4 16.322 4.644 Q 19.312 9.374 21.678 15.356 Q 22 16 21.28 16 Z" fill="url(#gTop)" />
+
+    
+    <ns0:path d="M 16 16 L 27.28 16 Q 28 16 27.356 16.322 Q 22.626 19.312 16.644 21.678 Q 16 22 16 21.28 Z" fill="url(#gRight)" />
+
+    
+    <ns0:path d="M 16 16 L 16 27.28 Q 16 28 15.678 27.356 Q 12.688 22.626 10.322 16.644 Q 10 16 10.72 16 Z" fill="url(#gBottom)" />
+
+    
+    <ns0:path d="M 16 16 L 4.72 16 Q 4 16 4.644 15.678 Q 9.374 12.688 15.356 10.322 Q 16 10 16 10.72 Z" fill="url(#gAmber)" />
+  </ns0:g>
+</ns0:svg>

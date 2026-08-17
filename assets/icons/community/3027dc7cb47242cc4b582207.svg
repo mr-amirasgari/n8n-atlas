@@ -1,0 +1,49 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60" fill="none">
+  <ns0:defs>
+    <ns0:radialGradient id="bgGlow" cx="50%" cy="45%" r="70%">
+      <ns0:stop offset="0%" stop-color="#ffffff" />
+      <ns0:stop offset="70%" stop-color="#f4f2ef" />
+      <ns0:stop offset="100%" stop-color="#ebe7e2" />
+    </ns0:radialGradient>
+    <ns0:linearGradient id="starFill" x1="14" y1="12" x2="46" y2="48" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#a7fbff" />
+      <ns0:stop offset="16%" stop-color="#e6fbff" />
+      <ns0:stop offset="30%" stop-color="#fff46f" />
+      <ns0:stop offset="44%" stop-color="#ff7aa8" />
+      <ns0:stop offset="58%" stop-color="#7d3eff" />
+      <ns0:stop offset="74%" stop-color="#1d1239" />
+      <ns0:stop offset="100%" stop-color="#030303" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="edgeGlow" x1="11" y1="29" x2="49" y2="31" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#ff6fb2" />
+      <ns0:stop offset="22%" stop-color="#6df8ff" />
+      <ns0:stop offset="50%" stop-color="#fff59d" />
+      <ns0:stop offset="78%" stop-color="#8f56ff" />
+      <ns0:stop offset="100%" stop-color="#4ee9ff" />
+    </ns0:linearGradient>
+    <ns0:filter id="shadow" x="5" y="7" width="50" height="46" filterUnits="userSpaceOnUse">
+      <ns0:feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur" />
+      <ns0:feOffset dy="0.5" />
+      <ns0:feColorMatrix type="matrix" values="0 0 0 0 0.06                 0 0 0 0 0.04                 0 0 0 0 0.11                 0 0 0 0.55 0" />
+      <ns0:feBlend in2="SourceGraphic" mode="normal" />
+    </ns0:filter>
+    <ns0:filter id="softGlow" x="8" y="8" width="44" height="44" filterUnits="userSpaceOnUse">
+      <ns0:feGaussianBlur stdDeviation="1.3" />
+    </ns0:filter>
+  </ns0:defs>
+
+  <ns0:rect width="60" height="60" rx="8" fill="url(#bgGlow)" />
+
+  <ns0:g filter="url(#softGlow)" opacity="0.75">
+    <ns0:path d="M30 11.2C31.7 22 38 28.3 48.8 30C38 31.7 31.7 38 30 48.8C28.3 38 22 31.7 11.2 30C22 28.3 28.3 22 30 11.2Z" fill="url(#edgeGlow)" />
+  </ns0:g>
+
+  <ns0:g filter="url(#shadow)">
+    <ns0:path d="M30 10.4C31.85 22.1 37.9 28.15 49.6 30C37.9 31.85 31.85 37.9 30 49.6C28.15 37.9 22.1 31.85 10.4 30C22.1 28.15 28.15 22.1 30 10.4Z" fill="url(#starFill)" />
+    <ns0:path d="M30 12.7C31.45 22.3 37.7 28.55 47.3 30C37.7 31.45 31.45 37.7 30 47.3C28.55 37.7 22.3 31.45 12.7 30C22.3 28.55 28.55 22.3 30 12.7Z" stroke="url(#edgeGlow)" stroke-width="0.9" stroke-linejoin="round" opacity="0.95" />
+    <ns0:path d="M30 16.1L36.8 29.2L30 43.7L23.4 30.2L30 16.1Z" fill="#08070f" opacity="0.62" />
+    <ns0:path d="M30 16.1L36.8 29.2L30 30.2L23.4 30.2L30 16.1Z" fill="#cfffff" opacity="0.3" />
+    <ns0:path d="M23.4 30.2L30 30.2L30 43.7L23.4 30.2Z" fill="#3a2254" opacity="0.4" />
+    <ns0:path d="M30 30.2L36.8 29.2L30 43.7L30 30.2Z" fill="#17121f" opacity="0.42" />
+  </ns0:g>
+</ns0:svg>
