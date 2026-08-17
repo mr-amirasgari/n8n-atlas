@@ -1,0 +1,51 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none">
+  
+  <ns0:rect width="60" height="60" rx="12" fill="url(#bg)" />
+
+  
+  
+  <ns0:circle cx="10" cy="20" r="4" fill="#a78bfa" opacity="0.9" />
+  <ns0:circle cx="10" cy="40" r="4" fill="#c4b5fd" opacity="0.9" />
+
+  
+  <ns0:circle cx="30" cy="30" r="10" fill="url(#hub)" />
+  <ns0:circle cx="30" cy="30" r="7" fill="url(#hubInner)" />
+
+  
+  <ns0:circle cx="50" cy="20" r="4" fill="#818cf8" opacity="0.9" />
+  <ns0:circle cx="50" cy="40" r="4" fill="#6d28d9" opacity="0.9" />
+
+  
+  <ns0:circle cx="30" cy="8" r="3.5" fill="#ddd6fe" opacity="0.85" />
+  <ns0:circle cx="30" cy="52" r="3.5" fill="#7c3aed" opacity="0.85" />
+
+  
+  <ns0:line x1="14" y1="20" x2="21" y2="26" stroke="#a78bfa" stroke-width="1.5" opacity="0.7" />
+  <ns0:line x1="14" y1="40" x2="21" y2="34" stroke="#c4b5fd" stroke-width="1.5" opacity="0.7" />
+
+  
+  <ns0:line x1="39" y1="26" x2="46" y2="20" stroke="#818cf8" stroke-width="1.5" opacity="0.7" />
+  <ns0:line x1="39" y1="34" x2="46" y2="40" stroke="#6d28d9" stroke-width="1.5" opacity="0.7" />
+
+  
+  <ns0:line x1="30" y1="20" x2="30" y2="11.5" stroke="#ddd6fe" stroke-width="1.5" opacity="0.6" />
+  <ns0:line x1="30" y1="40" x2="30" y2="48.5" stroke="#7c3aed" stroke-width="1.5" opacity="0.6" />
+
+  
+  <ns0:text x="30" y="34.5" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="white" opacity="0.95">N</ns0:text>
+
+  <ns0:defs>
+    <ns0:linearGradient id="bg" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#1e1b4b" />
+      <ns0:stop offset="100%" stop-color="#2e1065" />
+    </ns0:linearGradient>
+    <ns0:radialGradient id="hub" cx="50%" cy="50%" r="50%">
+      <ns0:stop offset="0%" stop-color="#7c3aed" />
+      <ns0:stop offset="100%" stop-color="#4c1d95" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="hubInner" cx="50%" cy="50%" r="50%">
+      <ns0:stop offset="0%" stop-color="#8b5cf6" />
+      <ns0:stop offset="100%" stop-color="#6d28d9" />
+    </ns0:radialGradient>
+  </ns0:defs>
+</ns0:svg>

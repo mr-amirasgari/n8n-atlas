@@ -2,7 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Explore official and community n8n nodes."
+  >
 
   <title>n8n Atlas</title>
 
@@ -45,15 +54,17 @@
   <input
     id="search"
     type="search"
-    placeholder="Search integrations, packages, nodes..."
+    placeholder="Try: telgram, open ai, postgress..."
     autocomplete="off"
+    spellcheck="false"
   >
 
   <div class="filters">
 
     <button
       class="active"
-      data-filter="all">
+      data-filter="all"
+    >
       All
     </button>
 
@@ -67,21 +78,141 @@
 
   </div>
 
-  <p id="count"></p>
+  <div class="advanced-filters">
+
+    <select
+      id="category-filter"
+      aria-label="Filter by category"
+    >
+      <option value="all">
+        All categories
+      </option>
+    </select>
+
+    <select
+      id="kind-filter"
+      aria-label="Filter by node type"
+    >
+      <option value="all">
+        All types
+      </option>
+
+      <option value="action">
+        Actions
+      </option>
+
+      <option value="trigger">
+        Triggers
+      </option>
+    </select>
+
+    <select
+      id="status-filter"
+      aria-label="Filter by status"
+    >
+      <option value="all">
+        All status
+      </option>
+
+      <option value="active">
+        Active
+      </option>
+
+      <option value="deprecated">
+        Deprecated
+      </option>
+    </select>
+
+    <button
+      id="clear-filters"
+      type="button"
+    >
+      Clear filters
+    </button>
+
+  </div>
+
+  <p id="count">
+    Loading catalog...
+  </p>
 
 </header>
 
 
-<main id="nodes"></main>
+<section
+  id="discovery"
+  class="discovery"
+>
+
+  <div class="discovery-block">
+
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">
+          Curated
+        </span>
+
+        <h2>
+          Featured
+        </h2>
+      </div>
+    </div>
+
+    <div
+      id="featured-nodes"
+      class="showcase-grid"
+    ></div>
+
+  </div>
+
+
+  <div class="discovery-block">
+
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">
+          npm popularity
+        </span>
+
+        <h2>
+          Popular
+        </h2>
+      </div>
+    </div>
+
+    <div
+      id="popular-nodes"
+      class="showcase-grid"
+    ></div>
+
+  </div>
+
+</section>
+
+
+<section class="all-section">
+
+  <div class="all-heading">
+    <h2>
+      All integrations
+    </h2>
+  </div>
+
+  <main id="nodes"></main>
+
+</section>
 
 
 <div class="load-more-container">
+
   <button id="load-more">
     Load more
   </button>
+
 </div>
 
 
+<script src="vendor/fuse.min.js"></script>
 <script src="app.js"></script>
 
 </body>

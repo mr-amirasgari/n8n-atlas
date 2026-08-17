@@ -1,0 +1,21 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" fill="none">
+  <ns0:defs>
+    <ns0:mask id="lgmBlue" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="600">
+      <ns0:rect x="312" y="4" width="284" height="284" rx="44" fill="#fff" />
+      <ns0:rect x="430" y="246" width="48" height="52" rx="24" fill="#000" />
+    </ns0:mask>
+    <ns0:mask id="lgmRed" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="600">
+      <ns0:rect x="312" y="312" width="284" height="284" rx="44" fill="#fff" />
+      <ns0:rect x="430" y="302" width="48" height="52" rx="24" fill="#000" />
+      <ns0:rect x="302" y="430" width="52" height="48" rx="24" fill="#000" />
+    </ns0:mask>
+    <ns0:mask id="lgmPink" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="600">
+      <ns0:rect x="4" y="312" width="284" height="284" rx="44" fill="#fff" />
+      <ns0:rect x="244" y="430" width="50" height="48" rx="24" fill="#000" />
+    </ns0:mask>
+  </ns0:defs>
+  <ns0:circle cx="146" cy="146" r="142" fill="#33C06A" />
+  <ns0:rect x="0" y="0" width="600" height="600" fill="#2E7DF6" mask="url(#lgmBlue)" />
+  <ns0:rect x="0" y="0" width="600" height="600" fill="#F65C54" mask="url(#lgmRed)" />
+  <ns0:rect x="0" y="0" width="600" height="600" fill="#FBCEC8" mask="url(#lgmPink)" />
+</ns0:svg>

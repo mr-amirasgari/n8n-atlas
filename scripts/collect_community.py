@@ -51,12 +51,20 @@ while True:
 
         except Exception as e:
             wait = 2 ** attempt
-            print(f"Retry {attempt + 1}/{MAX_RETRIES} in {wait}s...")
+
+            print(
+                f"Retry {attempt + 1}/"
+                f"{MAX_RETRIES} in {wait}s..."
+            )
+
             print(e)
+
             time.sleep(wait)
 
     if data is None:
-        print("Stopped after repeated connection errors.")
+        print(
+            "Stopped after repeated connection errors."
+        )
         break
 
     objects = data.get("objects", [])
@@ -67,23 +75,58 @@ while True:
     for item in objects:
         package = item.get("package", {})
 
+        score = item.get("score") or {}
+        detail = score.get("detail") or {}
+
         all_packages.append({
             "name": package.get("name"),
             "description": package.get("description"),
             "version": package.get("version"),
             "date": package.get("date"),
-            "keywords": package.get("keywords", []),
-            "publisher": (package.get("publisher") or {}).get("username"),
-            "links": package.get("links", {}),
+            "keywords": package.get(
+                "keywords",
+                []
+            ),
+
+            "publisher": (
+                package.get("publisher")
+                or {}
+            ).get("username"),
+
+            "links": package.get(
+                "links",
+                {}
+            ),
+
+            "npmScore": score.get("final"),
+
+            "npmPopularity": detail.get(
+                "popularity"
+            ),
+
+            "npmQuality": detail.get(
+                "quality"
+            ),
+
+            "npmMaintenance": detail.get(
+                "maintenance"
+            ),
+
             "type": "community",
             "official": False,
         })
 
     offset += len(objects)
 
-    print(f"Raw: {len(all_packages)}")
+    print(
+        f"Raw: {len(all_packages)}"
+    )
 
-    with open(RAW_OUTPUT, "w", encoding="utf-8") as f:
+    with open(
+        RAW_OUTPUT,
+        "w",
+        encoding="utf-8"
+    ) as f:
         json.dump(
             all_packages,
             f,
@@ -91,7 +134,10 @@ while True:
             indent=2
         )
 
-    total = data.get("total", 0)
+    total = data.get(
+        "total",
+        0
+    )
 
     if offset >= total:
         break
@@ -99,7 +145,10 @@ while True:
     time.sleep(0.5)
 
 
-# Deduplicate by package name
+# ----------------------------------------
+# Deduplicate packages
+# ----------------------------------------
+
 unique = {}
 
 for package in all_packages:
@@ -114,17 +163,30 @@ for package in all_packages:
         unique[name] = package
         continue
 
-    # نگه داشتن رکورد جدیدتر
-    if (package.get("date") or "") > (current.get("date") or ""):
+    current_date = (
+        current.get("date") or ""
+    )
+
+    new_date = (
+        package.get("date") or ""
+    )
+
+    if new_date > current_date:
         unique[name] = package
 
 
 unique_packages = sorted(
     unique.values(),
-    key=lambda x: (x.get("name") or "").lower()
+    key=lambda x:
+        (x.get("name") or "").lower()
 )
 
-with open(UNIQUE_OUTPUT, "w", encoding="utf-8") as f:
+
+with open(
+    UNIQUE_OUTPUT,
+    "w",
+    encoding="utf-8"
+) as f:
     json.dump(
         unique_packages,
         f,
@@ -132,9 +194,41 @@ with open(UNIQUE_OUTPUT, "w", encoding="utf-8") as f:
         indent=2
     )
 
+
+with_popularity = sum(
+    1
+    for item in unique_packages
+    if item.get("npmPopularity")
+    is not None
+)
+
+
 print()
-print("=" * 40)
-print(f"Raw records: {len(all_packages)}")
-print(f"Unique packages: {len(unique_packages)}")
-print(f"Raw saved: {RAW_OUTPUT}")
-print(f"Unique saved: {UNIQUE_OUTPUT}")
+print("=" * 50)
+print("COMMUNITY COLLECTION DONE")
+print("=" * 50)
+
+print(
+    f"Raw records: "
+    f"{len(all_packages)}"
+)
+
+print(
+    f"Unique packages: "
+    f"{len(unique_packages)}"
+)
+
+print(
+    f"Packages with popularity: "
+    f"{with_popularity}"
+)
+
+print(
+    f"Raw saved: "
+    f"{RAW_OUTPUT}"
+)
+
+print(
+    f"Unique saved: "
+    f"{UNIQUE_OUTPUT}"
+)

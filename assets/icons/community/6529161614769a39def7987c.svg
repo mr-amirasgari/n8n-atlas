@@ -1,0 +1,42 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <ns0:defs>
+    <ns0:linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#7B68EE;stop-opacity:1" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  
+  <ns0:circle cx="50" cy="50" r="15" fill="url(#grad1)" />
+
+  
+  <ns0:g stroke="url(#grad1)" stroke-width="3" fill="none" stroke-linecap="round">
+    
+    <ns0:path d="M 35 40 Q 20 30, 10 25" />
+    <ns0:path d="M 35 50 Q 20 50, 10 50" />
+    <ns0:path d="M 35 60 Q 20 70, 10 75" />
+
+    
+    <ns0:path d="M 65 40 Q 80 30, 90 25" />
+    <ns0:path d="M 65 50 Q 80 50, 90 50" />
+    <ns0:path d="M 65 60 Q 80 70, 90 75" />
+  </ns0:g>
+
+  
+  <ns0:g opacity="0.6" stroke="#FFFFFF" stroke-width="1.5" fill="none">
+    <ns0:circle cx="50" cy="50" r="8" />
+    <ns0:circle cx="45" cy="45" r="2" fill="#FFFFFF" />
+    <ns0:circle cx="55" cy="45" r="2" fill="#FFFFFF" />
+    <ns0:line x1="50" y1="42" x2="50" y2="38" />
+    <ns0:line x1="50" y1="58" x2="50" y2="62" />
+  </ns0:g>
+
+  
+  <ns0:g opacity="0.2" stroke="url(#grad1)" stroke-width="1" fill="none">
+    <ns0:circle cx="50" cy="50" r="35" />
+    <ns0:line x1="50" y1="15" x2="50" y2="85" />
+    <ns0:line x1="15" y1="50" x2="85" y2="50" />
+    <ns0:line x1="25" y1="25" x2="75" y2="75" />
+    <ns0:line x1="75" y1="25" x2="25" y2="75" />
+  </ns0:g>
+</ns0:svg>

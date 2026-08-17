@@ -1,0 +1,23 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <ns0:title>FactoryIQ Nodes</ns0:title>
+  <ns0:defs>
+    <ns0:linearGradient id="lineGrad" x1="16" y1="48" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#00C6FF" />
+      <ns0:stop offset="100%" stop-color="#0072FF" />
+    </ns0:linearGradient>
+    <ns0:radialGradient id="nodeGrad" cx="0.5" cy="0.5" r="0.5">
+      <ns0:stop offset="0%" stop-color="#0072FF" />
+      <ns0:stop offset="100%" stop-color="#00C6FF" />
+    </ns0:radialGradient>
+  </ns0:defs>
+  <ns0:g stroke-linecap="round" stroke-linejoin="round">
+    <ns0:path d="M32 32 V12" stroke="url(#lineGrad)" stroke-width="2" />
+    <ns0:path d="M32 32 L12 46" stroke="url(#lineGrad)" stroke-width="2" />
+    <ns0:path d="M32 32 L52 46" stroke="url(#lineGrad)" stroke-width="2" />
+    <ns0:path d="M12 46 L52 46" stroke="url(#lineGrad)" stroke-width="2" />
+  </ns0:g>
+  <ns0:circle cx="32" cy="32" r="6" fill="url(#nodeGrad)" stroke="#FFFFFF" stroke-width="2" />
+  <ns0:circle cx="32" cy="12" r="4" fill="url(#nodeGrad)" stroke="#FFFFFF" stroke-width="2" />
+  <ns0:circle cx="12" cy="46" r="4" fill="url(#nodeGrad)" stroke="#FFFFFF" stroke-width="2" />
+  <ns0:circle cx="52" cy="46" r="4" fill="url(#nodeGrad)" stroke="#FFFFFF" stroke-width="2" />
+</ns0:svg>

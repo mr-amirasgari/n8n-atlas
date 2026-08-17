@@ -1,0 +1,29 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <ns0:defs>
+    <ns0:linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <ns0:stop offset="0%" stop-color="#0DAA66" />
+      <ns0:stop offset="100%" stop-color="#0E7F55" />
+    </ns0:linearGradient>
+    <ns0:pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <ns0:path d="M64 0H0M0 64V0" stroke="#0c6e49" stroke-width="2" opacity="0.35" />
+    </ns0:pattern>
+  </ns0:defs>
+
+  <ns0:rect x="0" y="0" width="512" height="512" rx="40" fill="url(#bg)" />
+  <ns0:rect x="0" y="0" width="512" height="512" rx="40" fill="url(#grid)" />
+
+  
+  <ns0:g transform="translate(0,-8)">
+    <ns0:rect x="154" y="96" width="28" height="260" rx="14" fill="#fff" />
+    <ns0:rect x="242" y="96" width="28" height="260" rx="14" fill="#fff" />
+    <ns0:rect x="330" y="96" width="28" height="260" rx="14" fill="#fff" />
+    <ns0:rect x="112" y="138" width="288" height="28" rx="14" fill="#fff" />
+    <ns0:rect x="112" y="226" width="288" height="28" rx="14" fill="#fff" />
+    <ns0:rect x="112" y="314" width="288" height="28" rx="14" fill="#fff" />
+  </ns0:g>
+
+  
+  <ns0:text x="256" y="460" text-anchor="middle" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="66" font-weight="600" fill="#ffffff" letter-spacing="0.5">
+    SheetBase
+  </ns0:text>
+</ns0:svg>

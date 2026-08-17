@@ -1,0 +1,49 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 60 60" fill="none">
+  
+  <ns0:circle cx="30" cy="30" r="30" fill="url(#bg)" />
+
+  
+  <ns0:path d="M 10 30 A 20 20 0 0 1 50 30" stroke="url(#arc1)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7" />
+  <ns0:path d="M 50 30 A 20 20 0 0 1 10 30" stroke="url(#arc2)" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7" />
+
+  
+  <ns0:polygon points="30,16 41,23 41,37 30,44 19,37 19,23" fill="url(#hex)" opacity="0.95" />
+
+  
+  <ns0:path d="M 32 20 L 26 30 L 31 30 L 28 40 L 34 28 L 29 28 Z" fill="white" opacity="0.95" />
+
+  
+  <ns0:circle cx="30" cy="8" r="3" fill="#a78bfa" opacity="0.9" />
+  <ns0:circle cx="50" cy="19" r="3" fill="#60a5fa" opacity="0.9" />
+  <ns0:circle cx="50" cy="41" r="3" fill="#34d399" opacity="0.9" />
+  <ns0:circle cx="30" cy="52" r="3" fill="#f472b6" opacity="0.9" />
+  <ns0:circle cx="10" cy="41" r="3" fill="#fb923c" opacity="0.9" />
+  <ns0:circle cx="10" cy="19" r="3" fill="#facc15" opacity="0.9" />
+
+  
+  <ns0:line x1="30" y1="16" x2="30" y2="11" stroke="white" stroke-width="1" opacity="0.4" />
+  <ns0:line x1="41" y1="23" x2="48" y2="20" stroke="white" stroke-width="1" opacity="0.4" />
+  <ns0:line x1="41" y1="37" x2="48" y2="40" stroke="white" stroke-width="1" opacity="0.4" />
+  <ns0:line x1="30" y1="44" x2="30" y2="49" stroke="white" stroke-width="1" opacity="0.4" />
+  <ns0:line x1="19" y1="37" x2="12" y2="40" stroke="white" stroke-width="1" opacity="0.4" />
+  <ns0:line x1="19" y1="23" x2="12" y2="20" stroke="white" stroke-width="1" opacity="0.4" />
+
+  <ns0:defs>
+    <ns0:linearGradient id="bg" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#1e1b4b" />
+      <ns0:stop offset="100%" stop-color="#312e81" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="hex" x1="19" y1="16" x2="41" y2="44" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#6d28d9" />
+      <ns0:stop offset="100%" stop-color="#4f46e5" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="arc1" x1="10" y1="30" x2="50" y2="30" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#a78bfa" />
+      <ns0:stop offset="100%" stop-color="#60a5fa" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="arc2" x1="50" y1="30" x2="10" y2="30" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#34d399" />
+      <ns0:stop offset="100%" stop-color="#a78bfa" />
+    </ns0:linearGradient>
+  </ns0:defs>
+</ns0:svg>

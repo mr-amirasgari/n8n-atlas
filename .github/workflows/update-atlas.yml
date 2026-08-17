@@ -42,6 +42,9 @@ jobs:
       - name: Enrich community nodes
         run: python scripts/enrich_community.py --workers 8
 
+      - name: Extract icons and categories
+        run: python scripts/extract_icons.py
+
       - name: Build catalog
         run: python scripts/build_catalog.py
 
@@ -54,13 +57,13 @@ jobs:
               catalog = json.load(f)
 
           official = sum(
-              1 for x in catalog
-              if x.get("source") == "official"
+              1 for item in catalog
+              if item.get("source") == "official"
           )
 
           community = sum(
-              1 for x in catalog
-              if x.get("source") == "community"
+              1 for item in catalog
+              if item.get("source") == "community"
           )
 
           print("Official:", official)
@@ -74,6 +77,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add data/
+          git add assets/icons/
 
           if git diff --cached --quiet; then
             echo "No data changes."
@@ -82,14 +86,28 @@ jobs:
             git push
           fi
 
-      - name: Prepare website
+       - name: Prepare website
         run: |
           mkdir -p _site/data
+          mkdir -p _site/assets/icons
+          mkdir -p _site/vendor
 
           cp index.html _site/
+          cp node.html _site/
+
           cp style.css _site/
+
           cp app.js _site/
+          cp node.js _site/
+
           cp data/catalog.json _site/data/
+
+          cp vendor/fuse.min.js _site/vendor/
+          cp vendor/FUSE-LICENSE _site/vendor/
+
+          if [ -d "assets/icons" ]; then
+            cp -r assets/icons/* _site/assets/icons/
+          fi
 
           touch _site/.nojekyll
 

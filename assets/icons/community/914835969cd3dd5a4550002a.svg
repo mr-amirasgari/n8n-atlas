@@ -1,0 +1,49 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="tf-flow" x1="64" y1="448" x2="448" y2="64" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#0B7C82" />
+      <ns0:stop offset="50%" stop-color="#22E0E8" />
+      <ns0:stop offset="100%" stop-color="#7AF3F8" />
+    </ns0:linearGradient>
+    
+    <ns0:linearGradient id="tf-amber" x1="384" y1="64" x2="448" y2="128" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#FFD27A" />
+      <ns0:stop offset="100%" stop-color="#FFB347" />
+    </ns0:linearGradient>
+    
+    <ns0:filter id="tf-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <ns0:feGaussianBlur stdDeviation="6" result="blur" />
+      <ns0:feMerge>
+        <ns0:feMergeNode in="blur" />
+        <ns0:feMergeNode in="SourceGraphic" />
+      </ns0:feMerge>
+    </ns0:filter>
+    
+    <ns0:radialGradient id="tf-bg" cx="50%" cy="45%" r="65%">
+      <ns0:stop offset="0%" stop-color="#0E131E" />
+      <ns0:stop offset="100%" stop-color="#02030A" />
+    </ns0:radialGradient>
+  </ns0:defs>
+
+  
+  <ns0:rect width="512" height="512" rx="96" fill="url(#tf-bg)" />
+
+  
+  <ns0:path d="M96 416 C 184 304, 328 192, 416 96" stroke="url(#tf-flow)" stroke-width="18" stroke-linecap="round" filter="url(#tf-glow)" opacity="0.95" />
+
+  
+  <ns0:g filter="url(#tf-glow)">
+    <ns0:circle cx="96" cy="416" r="40" fill="#02030A" stroke="#22E0E8" stroke-width="13" />
+    <ns0:circle cx="96" cy="416" r="15" fill="#7AF3F8" />
+  </ns0:g>
+
+  
+  <ns0:g filter="url(#tf-glow)">
+    <ns0:circle cx="416" cy="96" r="40" fill="#02030A" stroke="#FFB347" stroke-width="13" />
+    
+    <ns0:g transform="translate(402, 83) scale(1.25)">
+      <ns0:path d="M21.5 2.5 L2.5 11.2 C 1.6 11.6, 1.7 12.9, 2.6 13.2 L8 14.8 L10.5 21 C 10.8 21.8, 11.9 21.8, 12.2 21 L13.8 16.5 L19 20 C 19.9 20.6, 21.1 19.9, 21 18.8 L21.5 2.5 Z" fill="url(#tf-amber)" stroke="#FFB347" stroke-width="0.6" stroke-linejoin="round" />
+    </ns0:g>
+  </ns0:g>
+</ns0:svg>

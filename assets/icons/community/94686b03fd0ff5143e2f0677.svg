@@ -1,0 +1,13 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <ns0:rect width="100" height="100" rx="22" fill="#020c12" />
+  <ns0:defs>
+    <ns0:linearGradient id="lsia" x1="0%" y1="0%" x2="100%" y2="0%"><ns0:stop offset="0%" stop-color="#f0f9ff" /><ns0:stop offset="100%" stop-color="#7dd3fc" /></ns0:linearGradient>
+    <ns0:linearGradient id="lsib" x1="0%" y1="0%" x2="0%" y2="100%"><ns0:stop offset="0%" stop-color="#e0f2fe" stop-opacity=".55" /><ns0:stop offset="100%" stop-color="#0369a1" stop-opacity=".08" /></ns0:linearGradient>
+    <ns0:filter id="lsig"><ns0:feGaussianBlur stdDeviation="1.6" result="b" /><ns0:feMerge><ns0:feMergeNode in="b" /><ns0:feMergeNode in="SourceGraphic" /></ns0:feMerge></ns0:filter>
+  </ns0:defs>
+  <ns0:path d="M2 72 L10 72 C15 72 19 68 23 63 C27 57 30 51 34 45 C37 40 40 36 43 31 C45 28 47 25 49 23 C50 22 51 21 52 21 C53 21 54 22 55 23 C56 24 57 26 58 22 C59 18 60 13 62 8 C63 5 64 3 65 2 C66 4 67 7 68 11 C69 16 71 23 73 30 C75 37 77 45 79 52 C81 58 84 64 88 68 L98 72 Z" fill="url(#lsib)" />
+  <ns0:path d="M2 72 L10 72 C15 72 19 68 23 63 C27 57 30 51 34 45 C37 40 40 36 43 31 C45 28 47 25 49 23 C50 22 51 21 52 21 C53 21 54 22 55 23 C56 24 57 26 58 22 C59 18 60 13 62 8 C63 5 64 3 65 2 C66 4 67 7 68 11 C69 16 71 23 73 30 C75 37 77 45 79 52 C81 58 84 64 88 68 L98 72" stroke="url(#lsia)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#lsig)" />
+  <ns0:path d="M62 9 L65 2 L68 9 Z" fill="rgba(255,255,255,0.92)" />
+  <ns0:circle cx="65" cy="2" r="4" fill="#f0f9ff" />
+  <ns0:circle cx="52" cy="21" r="2.5" fill="#bae6fd" opacity="0.85" />
+</ns0:svg>

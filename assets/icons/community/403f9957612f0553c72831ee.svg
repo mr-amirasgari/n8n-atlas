@@ -1,0 +1,23 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" fill="none">
+    <ns0:defs>
+        <ns0:linearGradient id="bg_grad" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+            <ns0:stop offset="0%" stop-color="#1A1A2E" />
+            <ns0:stop offset="100%" stop-color="#16213E" />
+        </ns0:linearGradient>
+        <ns0:linearGradient id="star_grad" x1="10" y1="10" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+            <ns0:stop offset="0%" stop-color="#00C9FF" />
+            <ns0:stop offset="50%" stop-color="#92FE9D" />
+            <ns0:stop offset="100%" stop-color="#F857A6" />
+        </ns0:linearGradient>
+    </ns0:defs>
+    
+    
+    <ns0:rect x="2" y="2" width="56" height="56" rx="14" fill="url(#bg_grad)" stroke="#4facfe" stroke-width="1.5" stroke-opacity="0.3" />
+    
+    
+    <ns0:path d="M30 13C33.5 22.5 37.5 26.5 47 30C37.5 33.5 33.5 37.5 30 47C26.5 37.5 22.5 33.5 13 30C22.5 26.5 26.5 22.5 30 13Z" fill="url(#star_grad)" />
+    
+    
+    <ns0:circle cx="30" cy="30" r="3" fill="white" fill-opacity="0.9" />
+    <ns0:path d="M30 8V10 M30 50V52 M50 30H52 M8 30H10" stroke="white" stroke-width="2" stroke-linecap="round" stroke-opacity="0.4" />
+</ns0:svg>

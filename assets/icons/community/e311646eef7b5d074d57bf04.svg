@@ -1,0 +1,49 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </ns0:linearGradient>
+    
+    <ns0:linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
+    </ns0:linearGradient>
+    <ns0:filter id="glow">
+      <ns0:feGaussianBlur stdDeviation="1.5" result="coloredBlur" />
+      <ns0:feMerge>
+        <ns0:feMergeNode in="coloredBlur" />
+        <ns0:feMergeNode in="SourceGraphic" />
+      </ns0:feMerge>
+    </ns0:filter>
+  </ns0:defs>
+
+  
+  <ns0:circle cx="30" cy="30" r="29" fill="#ffffff" />
+  <ns0:circle cx="30" cy="30" r="28" fill="url(#mainGradient)" opacity="0.1" />
+
+  
+  <ns0:g>
+    
+    <ns0:rect x="15" y="12" width="30" height="36" rx="3" fill="white" stroke="url(#mainGradient)" stroke-width="2.5" />
+
+    
+    <ns0:g opacity="0.9">
+      <ns0:text x="30" y="22" font-family="'SF Mono', 'Monaco', 'Courier New', monospace" font-size="8" fill="url(#mainGradient)" font-weight="700" text-anchor="middle">&lt;html&gt;</ns0:text>
+      <ns0:rect x="20" y="26" width="20" height="1.5" fill="url(#mainGradient)" opacity="0.4" rx="0.5" />
+      <ns0:rect x="20" y="30" width="16" height="1.5" fill="url(#mainGradient)" opacity="0.4" rx="0.5" />
+    </ns0:g>
+
+    
+    <ns0:line x1="18" y1="34" x2="42" y2="34" stroke="url(#accentGradient)" stroke-width="2" stroke-dasharray="1,1" opacity="0.5" />
+
+    
+    <ns0:g>
+      <ns0:text x="30" y="42" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="url(#accentGradient)" font-weight="800" text-anchor="middle">PDF</ns0:text>
+    </ns0:g>
+  </ns0:g>
+
+  
+  <ns0:circle cx="30" cy="30" r="27" fill="none" stroke="url(#mainGradient)" stroke-width="1" opacity="0.2" />
+</ns0:svg>

@@ -1,0 +1,77 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60" aria-labelledby="title-desc-dark">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="bgGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#1F2937" />
+      <ns0:stop offset="100%" stop-color="#111827" />
+    </ns0:linearGradient>
+    
+    <ns0:linearGradient id="documentGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#374151" />
+      <ns0:stop offset="100%" stop-color="#2D3748" />
+    </ns0:linearGradient>
+    
+    <ns0:linearGradient id="lockGradientDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#FF8A00" />
+      <ns0:stop offset="100%" stop-color="#FF6A00" />
+    </ns0:linearGradient>
+    
+    
+    <ns0:filter id="documentShadowDark" x="-20%" y="-20%" width="140%" height="140%">
+      <ns0:feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3" />
+    </ns0:filter>
+    
+    <ns0:filter id="lockShadowDark" x="-30%" y="-30%" width="160%" height="160%">
+      <ns0:feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.4" />
+    </ns0:filter>
+  </ns0:defs>
+
+  <ns0:title id="title-desc-dark">UnlockPDF — Dark theme n8n node icon</ns0:title>
+  <ns0:desc>Dark theme icon showing PDF document with prominent unlock symbol overlay</ns0:desc>
+
+  
+  <ns0:rect width="60" height="60" rx="12" ry="12" fill="url(#bgGradientDark)" />
+  
+  
+  <ns0:g transform="translate(4,4)" filter="url(#documentShadowDark)">
+    
+    <ns0:rect x="0" y="0" width="46" height="52" rx="4" ry="4" fill="url(#documentGradientDark)" stroke="#4B5563" stroke-width="0.8" />
+    
+    
+    <ns0:path d="M38 0 L46 0 L46 8 Z" fill="#4B5563" stroke="#6B7280" stroke-width="0.8" />
+    <ns0:path d="M38 0 L38 8 L46 8" fill="none" stroke="#6B7280" stroke-width="0.8" />
+    
+    
+    <ns0:g opacity="0.6">
+      <ns0:line x1="6" y1="12" x2="32" y2="12" stroke="#9CA3AF" stroke-width="0.6" />
+      <ns0:line x1="6" y1="16" x2="36" y2="16" stroke="#9CA3AF" stroke-width="0.6" />
+      <ns0:line x1="6" y1="20" x2="28" y2="20" stroke="#9CA3AF" stroke-width="0.6" />
+      <ns0:line x1="6" y1="24" x2="34" y2="24" stroke="#9CA3AF" stroke-width="0.6" />
+      <ns0:line x1="6" y1="28" x2="30" y2="28" stroke="#9CA3AF" stroke-width="0.6" />
+      <ns0:line x1="6" y1="32" x2="32" y2="32" stroke="#9CA3AF" stroke-width="0.6" />
+    </ns0:g>
+    
+    
+    <ns0:rect x="28" y="6" width="14" height="9" rx="2" ry="2" fill="#EF4444" stroke="#DC2626" stroke-width="0.5" />
+    <ns0:text x="35" y="12" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="6" font-weight="800" fill="#FFFFFF">PDF</ns0:text>
+  </ns0:g>
+
+  
+  <ns0:g transform="translate(18,22)" filter="url(#lockShadowDark)">
+    
+    <ns0:path d="M6 0 C6 -1.5 7.5 -3 9.5 -3 C11.5 -3 13 -1.5 13 0 L13 2 L15 2" fill="none" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" />
+    
+    
+    <ns0:rect x="0" y="4" width="18" height="14" rx="3" ry="3" fill="url(#lockGradientDark)" stroke="#F59E0B" stroke-width="1" />
+    
+    
+    <ns0:circle cx="9" cy="10" r="2.2" fill="#000000" />
+    <ns0:rect x="8.2" y="11.8" width="1.6" height="3.5" rx="0.8" fill="#000000" />
+    
+    
+    <ns0:ellipse cx="5" cy="6" rx="2" ry="1" fill="#FDE047" opacity="0.7" />
+  </ns0:g>
+
+  
+  <ns0:text x="30" y="48" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="8" font-weight="500" fill="#E5E7EB" opacity="0.9">unlockpdf</ns0:text>
+</ns0:svg>

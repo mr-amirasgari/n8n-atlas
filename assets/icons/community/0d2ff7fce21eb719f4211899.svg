@@ -1,0 +1,35 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="256" height="256" role="img" aria-labelledby="title desc">
+  <ns0:title>MIME Type Corrector (n8n node icon)</ns0:title>
+  <ns0:desc>Document with a folded corner and a check badge to represent fixing/correcting MIME types.</ns0:desc>
+  <ns0:style>
+    :root{
+      --ink:#0f172a;        /* strokes / outlines */
+      --primary:#ff6a66;    /* check badge */
+      --paper:#ffffff;      /* document fill */
+      --paper-fold:#e9eef7; /* folded corner */
+      --line:#cbd5e1;       /* doc lines */
+    }
+    .s{stroke:var(--ink);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+  </ns0:style>
+
+  
+  <ns0:g>
+    <ns0:rect x="6" y="6" width="28" height="36" rx="3.5" fill="var(--paper)" class="s" />
+    
+    <ns0:path d="M28 6h4a2 2 0 0 1 2 2v4l-6-6z" fill="var(--paper-fold)" class="s" />
+    
+    <ns0:rect x="11" y="18" width="20" height="2.5" rx="1.25" fill="var(--line)" />
+    <ns0:rect x="11" y="23" width="16" height="2.5" rx="1.25" fill="var(--line)" />
+    <ns0:rect x="11" y="28" width="12" height="2.5" rx="1.25" fill="var(--line)" />
+    
+    <ns0:circle cx="12.5" cy="34" r="1.6" fill="var(--line)" />
+    <ns0:circle cx="18.5" cy="34" r="1.6" fill="var(--line)" />
+    <ns0:circle cx="24.5" cy="34" r="1.6" fill="var(--line)" />
+  </ns0:g>
+
+  
+  <ns0:g>
+    <ns0:circle cx="38" cy="38" r="9" fill="var(--primary)" class="s" />
+    <ns0:path d="M33.2 38l3.2 3.1L43 34.5" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </ns0:g>
+</ns0:svg>

@@ -1,0 +1,25 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="240" height="240" fill="none">
+  
+  <ns0:defs>
+    <ns0:linearGradient id="bg-grad-gw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#141E30" />
+      <ns0:stop offset="100%" stop-color="#243B55" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="glow-grad-gw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#00C9FF" />
+      <ns0:stop offset="100%" stop-color="#92FE9D" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  
+  <ns0:rect width="24" height="24" rx="6" fill="url(#bg-grad-gw)" />
+
+  
+  <ns0:path d="M12 4 L18 6.5 V11 C18 15 15.5 18 12 19 C8.5 18 6 15 6 11 V6.5 L12 4 Z" stroke="url(#glow-grad-gw)" stroke-width="1.2" stroke-linejoin="round" />
+  
+  
+  <ns0:path d="M12 7 V15 M10 12 L12 10 L14 12" stroke="url(#glow-grad-gw)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+  
+  
+  <ns0:circle cx="12" cy="15" r="0.8" fill="#FFFFFF" />
+</ns0:svg>

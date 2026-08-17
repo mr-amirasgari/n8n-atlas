@@ -1,0 +1,32 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" role="img" aria-label="Anaella" overflow="visible">
+  <ns0:defs>
+    <ns0:linearGradient id="anaSq" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0" stop-color="#F43F6B" />
+      <ns0:stop offset="1" stop-color="#FB7185" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="anaMol" gradientUnits="userSpaceOnUse" x1="30" y1="18" x2="60" y2="82">
+      <ns0:stop offset="0" stop-color="#FDA4AF" />
+      <ns0:stop offset="0.45" stop-color="#BE123C" />
+      <ns0:stop offset="1" stop-color="#7F1D1D" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="anaMolV" gradientUnits="userSpaceOnUse" x1="18" y1="46" x2="46" y2="70">
+      <ns0:stop offset="0" stop-color="#FB7185" />
+      <ns0:stop offset="1" stop-color="#9F1239" />
+    </ns0:linearGradient>
+    <ns0:filter id="anaSh" x="-25%" y="-25%" width="150%" height="150%">
+      <ns0:feDropShadow dx="0" dy="2.5" stdDeviation="2.4" flood-color="#000" flood-opacity="0.4" />
+    </ns0:filter>
+  </ns0:defs>
+  <ns0:rect x="18" y="18" width="64" height="64" fill="url(#anaSq)" />
+  <ns0:rect x="18" y="18" width="64" height="64" fill="#F59E0B" transform="rotate(45 50 50)" />
+  <ns0:g filter="url(#anaSh)" transform="translate(47.7 52.3) scale(0.92) translate(-47.7 -52.3)">
+    <ns0:g fill="none" stroke="url(#anaMol)" stroke-width="9" stroke-linecap="round">
+      <ns0:path d="M53 28 L27 59" />
+      <ns0:path d="M53 28 L63 70" />
+      <ns0:path d="M27 59 L63 70" />
+    </ns0:g>
+    <ns0:path d="M37 28 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0 Z" fill="url(#anaMol)" />
+    <ns0:path d="M14 59 a13 13 0 1 0 26 0 a13 13 0 1 0 -26 0 Z" fill="url(#anaMolV)" />
+    <ns0:path d="M48 70 a16 16 0 1 0 32 0 a16 16 0 1 0 -32 0 Z" fill="url(#anaMol)" />
+  </ns0:g>
+</ns0:svg>

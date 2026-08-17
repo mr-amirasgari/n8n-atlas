@@ -1,0 +1,48 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="grad1" gradientTransform="rotate(90)">
+      <ns0:stop offset="0%" stop-color="#8A2BE2" />
+      <ns0:stop offset="100%" stop-color="#FF4500" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="grad2" gradientTransform="rotate(90)">
+      <ns0:stop offset="0%" stop-color="#4169E1" />
+      <ns0:stop offset="100%" stop-color="#FFD700" />
+    </ns0:linearGradient>
+     <ns0:linearGradient id="grad3" gradientTransform="rotate(90)">
+      <ns0:stop offset="0%" stop-color="#FF8C00" />
+      <ns0:stop offset="100%" stop-color="#DC143C" />
+    </ns0:linearGradient>
+
+    
+    <ns0:radialGradient id="hexagonGrad">
+      <ns0:stop offset="0%" stop-color="#FFD700" />
+      <ns0:stop offset="25%" stop-color="#FF8C00" />
+      <ns0:stop offset="50%" stop-color="#FF4500" />
+      <ns0:stop offset="75%" stop-color="#DC143C" />
+      <ns0:stop offset="100%" stop-color="#8A2BE2" />
+    </ns0:radialGradient>
+
+    
+    <ns0:path id="ray" d="M 47,42 L 53,42 L 50,0 Z" />
+  </ns0:defs>
+
+  
+  <ns0:use href="#ray" fill="url(#grad1)" transform="rotate(0, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad2)" transform="rotate(22.5, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad3)" transform="rotate(45, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad1)" transform="rotate(67.5, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad2)" transform="rotate(90, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad3)" transform="rotate(112.5, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad1)" transform="rotate(135, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad2)" transform="rotate(157.5, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad3)" transform="rotate(180, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad1)" transform="rotate(202.5, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad2)" transform="rotate(225, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad3)" transform="rotate(247.5, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad1)" transform="rotate(270, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad2)" transform="rotate(292.5, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad3)" transform="rotate(315, 50, 50)" />
+  <ns0:use href="#ray" fill="url(#grad1)" transform="rotate(337.5, 50, 50)" />
+
+</ns0:svg>

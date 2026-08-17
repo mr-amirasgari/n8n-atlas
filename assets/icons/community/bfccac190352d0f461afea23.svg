@@ -1,0 +1,27 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 300 300" height="300" width="300">
+  <ns0:defs>
+    <ns0:linearGradient gradientUnits="userSpaceOnUse" y2="240" x2="240" y1="60" x1="60" id="lightBg">
+      <ns0:stop stop-color="#F0F9FF" offset="0%" />
+      <ns0:stop stop-color="#E0F2FE" offset="100%" />
+    </ns0:linearGradient>
+    <ns0:linearGradient gradientUnits="userSpaceOnUse" y2="200" x2="145" y1="110" x1="90" id="HGradient">
+      <ns0:stop stop-color="#3B82F6" offset="0%" />
+      <ns0:stop stop-color="#1E40AF" offset="100%" />
+    </ns0:linearGradient>
+    <ns0:linearGradient gradientUnits="userSpaceOnUse" y2="205" x2="225" y1="110" x1="165" id="SGradient">
+      <ns0:stop stop-color="#10B981" offset="0%" />
+      <ns0:stop stop-color="#047857" offset="100%" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  <ns0:circle stroke-width="16" stroke="#E0F2FE" fill="url(#lightBg)" r="142" cy="150" cx="150" />
+
+  
+  <ns0:text letter-spacing="-9px" text-anchor="middle" fill="url(#HGradient)" font-weight="900" font-size="138" font-family="Arial Black, sans-serif" y="177" x="117">H</ns0:text>
+
+  
+  <ns0:text letter-spacing="-9px" text-anchor="middle" fill="url(#SGradient)" font-weight="900" font-size="138" font-family="Arial Black, sans-serif" y="177" x="198">S</ns0:text>
+
+  
+  <ns0:circle opacity="0.25" stroke-width="9" stroke="#34D399" fill="none" r="78" cy="158" cx="198" />
+</ns0:svg>

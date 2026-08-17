@@ -1,0 +1,29 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <ns0:defs>
+    <ns0:linearGradient id="wolfGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#FF3366" />
+      <ns0:stop offset="100%" stop-color="#FF9900" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="glowGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <ns0:stop offset="0%" stop-color="#FF007F" />
+      <ns0:stop offset="100%" stop-color="#FFCC00" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:circle cx="32" cy="32" r="30" fill="#14151F" />
+  <ns0:polygon points="32,20 22,28 32,32" fill="url(#wolfGrad)" opacity="0.9" />
+  <ns0:polygon points="22,28 14,38 24,38" fill="url(#wolfGrad)" opacity="0.7" />
+  <ns0:polygon points="32,32 24,38 32,48" fill="url(#wolfGrad)" opacity="0.85" />
+  <ns0:polygon points="24,38 32,48 32,56" fill="url(#wolfGrad)" opacity="0.75" />
+  <ns0:polygon points="22,28 24,38 32,32" fill="url(#wolfGrad)" opacity="0.95" />
+  <ns0:polygon points="32,20 42,28 32,32" fill="url(#wolfGrad)" opacity="0.9" />
+  <ns0:polygon points="42,28 50,38 40,38" fill="url(#wolfGrad)" opacity="0.7" />
+  <ns0:polygon points="32,32 40,38 32,48" fill="url(#wolfGrad)" opacity="0.85" />
+  <ns0:polygon points="40,38 32,48 32,56" fill="url(#wolfGrad)" opacity="0.75" />
+  <ns0:polygon points="42,28 40,38 32,32" fill="url(#wolfGrad)" opacity="0.95" />
+  <ns0:polygon points="18,12 24,24 16,26" fill="url(#glowGrad)" opacity="0.8" />
+  <ns0:polygon points="46,12 40,24 48,26" fill="url(#glowGrad)" opacity="0.8" />
+  <ns0:circle cx="27" cy="34" r="1.5" fill="#FFF" />
+  <ns0:circle cx="37" cy="34" r="1.5" fill="#FFF" />
+  <ns0:path d="M52 14 C52 17 50 19 47 19 C50 19 52 21 52 24 C52 21 54 19 57 19 C54 19 52 17 52 14Z" fill="#FFCC00" />
+  <ns0:path d="M12 48 C12 50 10 51 8 51 C10 51 12 52 12 54 C12 52 14 51 16 51 C14 51 12 50 12 48Z" fill="#FF007F" />
+</ns0:svg>

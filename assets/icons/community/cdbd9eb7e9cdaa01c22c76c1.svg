@@ -1,0 +1,18 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="15 5 70 70">
+  
+  <ns0:rect x="20" y="10" width="60" height="12" fill="#ccc" />
+  <ns0:rect x="20" y="28" width="60" height="12" fill="#bbb" />
+  <ns0:rect x="20" y="46" width="60" height="12" fill="#aaa" />
+  <ns0:rect x="20" y="64" width="60" height="12" fill="#999" />
+
+  
+  <ns0:line x1="50" y1="52" x2="50" y2="16" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <ns0:line x1="60" y1="16" x2="60" y2="52" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  
+  <ns0:defs>
+    <ns0:marker id="arrowhead" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto" markerUnits="strokeWidth">
+      <ns0:path d="M0,0 L6,3 L0,6 Z" fill="#333" />
+    </ns0:marker>
+  </ns0:defs>
+</ns0:svg>

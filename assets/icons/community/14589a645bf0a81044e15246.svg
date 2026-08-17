@@ -1,0 +1,173 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="sberGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#21A038" />
+      <ns0:stop offset="50%" stop-color="#1DB337" />
+      <ns0:stop offset="100%" stop-color="#0D8A25" />
+    </ns0:linearGradient>
+
+    
+    <ns0:radialGradient id="glowGrad" cx="35%" cy="35%" r="65%">
+      <ns0:stop offset="0%" stop-color="#5CFF7E" stop-opacity="0.6" />
+      <ns0:stop offset="50%" stop-color="#21A038" stop-opacity="0.3" />
+      <ns0:stop offset="100%" stop-color="#0A5C18" stop-opacity="0" />
+    </ns0:radialGradient>
+
+    
+    <ns0:linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.25" />
+      <ns0:stop offset="30%" stop-color="#ffffff" stop-opacity="0.08" />
+      <ns0:stop offset="70%" stop-color="#ffffff" stop-opacity="0.03" />
+      <ns0:stop offset="100%" stop-color="#ffffff" stop-opacity="0.15" />
+    </ns0:linearGradient>
+
+    
+    <ns0:linearGradient id="glassEdge" x1="0%" y1="0%" x2="0%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.5" />
+      <ns0:stop offset="50%" stop-color="#ffffff" stop-opacity="0.05" />
+      <ns0:stop offset="100%" stop-color="#ffffff" stop-opacity="0.2" />
+    </ns0:linearGradient>
+
+    
+    <ns0:radialGradient id="innerGlow" cx="30%" cy="25%" r="60%">
+      <ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+      <ns0:stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </ns0:radialGradient>
+
+    
+    <ns0:radialGradient id="bgGrad" cx="50%" cy="50%" r="55%">
+      <ns0:stop offset="0%" stop-color="#0F2D15" />
+      <ns0:stop offset="100%" stop-color="#050E07" />
+    </ns0:radialGradient>
+
+    
+    <ns0:linearGradient id="letterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#3DFF5C" />
+      <ns0:stop offset="40%" stop-color="#21A038" />
+      <ns0:stop offset="100%" stop-color="#0D7A22" />
+    </ns0:linearGradient>
+
+    
+    <ns0:filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <ns0:feGaussianBlur in="SourceGraphic" stdDeviation="25" />
+    </ns0:filter>
+
+    <ns0:filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <ns0:feGaussianBlur in="SourceGraphic" stdDeviation="8" />
+    </ns0:filter>
+
+    <ns0:filter id="glassBlur" x="-10%" y="-10%" width="120%" height="120%">
+      <ns0:feGaussianBlur in="SourceGraphic" stdDeviation="2" />
+    </ns0:filter>
+
+    <ns0:filter id="dropShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <ns0:feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#21A038" flood-opacity="0.4" />
+    </ns0:filter>
+
+    <ns0:filter id="letterGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <ns0:feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#3DFF5C" flood-opacity="0.6" />
+    </ns0:filter>
+
+    <ns0:filter id="noiseFilter">
+      <ns0:feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch" />
+      <ns0:feColorMatrix type="saturate" values="0" />
+      <ns0:feComponentTransfer>
+        <ns0:feFuncA type="linear" slope="0.08" />
+      </ns0:feComponentTransfer>
+      <ns0:feBlend in="SourceGraphic" mode="overlay" />
+    </ns0:filter>
+
+    
+    <ns0:clipPath id="squircleClip">
+      <ns0:path d="M256 32 C380 32 480 32 480 156 L480 356 C480 480 380 480 256 480 L256 480 C132 480 32 480 32 356 L32 156 C32 32 132 32 256 32 Z" />
+    </ns0:clipPath>
+
+    
+    <ns0:pattern id="neuralPattern" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <ns0:circle cx="0" cy="0" r="1.5" fill="#21A038" opacity="0.3" />
+      <ns0:circle cx="80" cy="0" r="1.5" fill="#21A038" opacity="0.3" />
+      <ns0:circle cx="40" cy="40" r="1.5" fill="#21A038" opacity="0.4" />
+      <ns0:circle cx="0" cy="80" r="1.5" fill="#21A038" opacity="0.3" />
+      <ns0:circle cx="80" cy="80" r="1.5" fill="#21A038" opacity="0.3" />
+      <ns0:line x1="0" y1="0" x2="40" y2="40" stroke="#21A038" stroke-width="0.5" opacity="0.15" />
+      <ns0:line x1="80" y1="0" x2="40" y2="40" stroke="#21A038" stroke-width="0.5" opacity="0.15" />
+      <ns0:line x1="40" y1="40" x2="0" y2="80" stroke="#21A038" stroke-width="0.5" opacity="0.15" />
+      <ns0:line x1="40" y1="40" x2="80" y2="80" stroke="#21A038" stroke-width="0.5" opacity="0.15" />
+    </ns0:pattern>
+  </ns0:defs>
+
+  
+  <ns0:g clip-path="url(#squircleClip)">
+    
+    <ns0:rect width="512" height="512" fill="url(#bgGrad)" />
+
+    
+    <ns0:rect width="512" height="512" fill="url(#neuralPattern)" opacity="0.6" />
+
+    
+    <ns0:circle cx="150" cy="150" r="160" fill="#21A038" opacity="0.12" filter="url(#blur)" />
+    <ns0:circle cx="380" cy="350" r="140" fill="#1DB337" opacity="0.1" filter="url(#blur)" />
+    <ns0:circle cx="256" cy="256" r="100" fill="#3DFF5C" opacity="0.08" filter="url(#blur)" />
+
+    
+    <ns0:g filter="url(#dropShadow)">
+      
+      <ns0:rect x="86" y="86" width="340" height="340" rx="60" ry="60" fill="url(#glassGrad)" stroke="url(#glassEdge)" stroke-width="1.5" />
+
+      
+      <ns0:rect x="86" y="86" width="340" height="340" rx="60" ry="60" fill="url(#innerGlow)" />
+
+      
+      <ns0:rect x="86" y="86" width="340" height="340" rx="60" ry="60" fill="white" opacity="0.02" filter="url(#noiseFilter)" />
+
+      
+      <ns0:rect x="110" y="88" width="292" height="1" rx="0.5" fill="white" opacity="0.4" />
+    </ns0:g>
+
+    
+    <ns0:g filter="url(#letterGlow)">
+      
+      <ns0:path d="         M 310 230          L 310 290          L 270 290          L 270 268          L 290 268          L 290 248          L 255 248         L 255 290         C 255 330 230 355 195 355         C 155 355 140 325 140 290         L 140 222         C 140 187 160 157 200 157         L 280 157         C 315 157 335 178 335 210         L 335 230         Z         M 195 190         C 180 190 175 200 175 215         L 175 292         C 175 310 182 322 200 322         C 218 322 222 310 222 292         L 222 248         L 222 230         L 310 230         L 310 210         C 310 198 304 190 290 190         Z       " fill="url(#letterGrad)" fill-rule="evenodd" />
+    </ns0:g>
+
+    
+    
+    <ns0:g opacity="0.5">
+      <ns0:circle cx="370" cy="130" r="3" fill="#3DFF5C" />
+      <ns0:line x1="370" y1="130" x2="400" y2="130" stroke="#21A038" stroke-width="1.5" opacity="0.6" />
+      <ns0:circle cx="400" cy="130" r="2" fill="#21A038" opacity="0.6" />
+      <ns0:line x1="370" y1="130" x2="370" y2="105" stroke="#21A038" stroke-width="1.5" opacity="0.4" />
+      <ns0:circle cx="370" cy="105" r="2" fill="#21A038" opacity="0.4" />
+    </ns0:g>
+
+    
+    <ns0:g opacity="0.5">
+      <ns0:circle cx="142" cy="382" r="3" fill="#3DFF5C" />
+      <ns0:line x1="142" y1="382" x2="112" y2="382" stroke="#21A038" stroke-width="1.5" opacity="0.6" />
+      <ns0:circle cx="112" cy="382" r="2" fill="#21A038" opacity="0.6" />
+      <ns0:line x1="142" y1="382" x2="142" y2="407" stroke="#21A038" stroke-width="1.5" opacity="0.4" />
+      <ns0:circle cx="142" cy="407" r="2" fill="#21A038" opacity="0.4" />
+    </ns0:g>
+
+    
+    <ns0:circle cx="120" cy="200" r="2" fill="#3DFF5C" opacity="0.6">
+      <ns0:animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="390" cy="280" r="1.5" fill="#3DFF5C" opacity="0.4">
+      <ns0:animate attributeName="opacity" values="0.4;0.1;0.4" dur="4s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="300" cy="400" r="2" fill="#21A038" opacity="0.5">
+      <ns0:animate attributeName="opacity" values="0.5;0.15;0.5" dur="3.5s" repeatCount="indefinite" />
+    </ns0:circle>
+    <ns0:circle cx="200" cy="120" r="1.5" fill="#5CFF7E" opacity="0.3">
+      <ns0:animate attributeName="opacity" values="0.3;0.1;0.3" dur="2.5s" repeatCount="indefinite" />
+    </ns0:circle>
+
+    
+    <ns0:text x="355" y="400" font-family="'SF Pro Display', 'Helvetica Neue', sans-serif" font-size="16" font-weight="300" letter-spacing="4" fill="#21A038" opacity="0.4">AI</ns0:text>
+  </ns0:g>
+
+  
+  <ns0:path d="M256 32 C380 32 480 32 480 156 L480 356 C480 480 380 480 256 480 L256 480 C132 480 32 480 32 356 L32 156 C32 32 132 32 256 32 Z" fill="none" stroke="#21A038" stroke-width="1.5" stroke-opacity="0.3" />
+</ns0:svg>

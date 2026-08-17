@@ -1,0 +1,62 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <ns0:defs>
+    <ns0:style>
+      .window-fill { fill: #ffffff; }
+      .window-stroke { stroke: #4a4a4a; stroke-width: 1.5; }
+      .titlebar-fill { fill: #e0e0e0; }
+      .titlebar-stroke { stroke: #4a4a4a; stroke-width: 1; }
+      .content-fill { fill: #f5f5f5; }
+      .text-style {
+        font-family: Arial, sans-serif;
+        font-size: 6px;
+        fill: #333333;
+        text-anchor: left;
+        font-weight: bold;
+      }
+      .text-style-faded {
+        font-family: Arial, sans-serif;
+        font-size: 6px;
+        fill: #888888;
+        text-anchor: left;
+      }
+      /* Стиль для иконки замочка */
+      .lock-icon {
+        stroke: #888888; /* Цвет обводки как у заголовка */
+        stroke-width: 1;  /* Толщина обводки */
+        fill: none;       /* Без заливки (только контур) */
+        stroke-linecap: round; /* Скругление концов линий */
+        stroke-linejoin: round;/* Скругление соединений линий */
+      }
+      .lock-icon-filled {
+        stroke: #888888;
+        stroke-width: 0.5;
+        fill: #888888;
+      }
+      .button-close { fill: #ff5f57; }
+      .button-min { fill: #ffbd2e; }
+      .button-max { fill: #27c93f; }
+    </ns0:style>
+  </ns0:defs>
+
+  <ns0:rect x="4" y="4" width="56" height="58" rx="3" ry="3" class="window-fill window-stroke" />
+
+  <ns0:path d="M 7 4 H 57 C 58.65 4 60 5.35 60 7 V 14 H 4 V 7 C 4 5.35 5.35 4 7 4 Z" class="titlebar-fill titlebar-stroke" />
+
+  <ns0:circle cx="10" cy="9" r="2.5" class="button-close" />
+  <ns0:circle cx="18" cy="9" r="2.5" class="button-min" />
+  <ns0:circle cx="26" cy="9" r="2.5" class="button-max" />
+
+  <ns0:text x="32" y="11" class="text-style">WebDAV</ns0:text>
+
+  <ns0:rect x="10" y="17" width="44" height="6" rx="1" ry="1" class="content-fill" />
+  <ns0:rect x="10" y="26" width="34" height="6" rx="1" ry="1" class="content-fill" />
+  <ns0:rect x="10" y="35" width="44" height="6" rx="1" ry="1" class="content-fill" />
+  <ns0:rect x="10" y="44" width="34" height="6" rx="1" ry="1" class="content-fill" />
+
+  <ns0:g class="lock-icon" transform="translate(10.5, 52.8) scale(0.63, 0.53)">
+     <ns0:path d="M 0 4 H 6 V 9 C 6 9.55 5.55 10 5 10 H 1 C 0.45 10 0 9.55 0 9 V 4 Z" />
+     <ns0:path d="M 1 4 V 2.5 A 2 2 0 0 1 5 2.5 V 4" />
+  </ns0:g>
+  <ns0:text x="17" y="58" class="text-style-faded">NTML Auth</ns0:text>
+
+</ns0:svg>

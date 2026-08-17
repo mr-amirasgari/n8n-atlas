@@ -1,0 +1,18 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <ns0:defs>
+    <ns0:linearGradient id="forest-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#1A5F4A" />
+      <ns0:stop offset="100%" stop-color="#0F2E23" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="mango-fg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#F5A623" />
+      <ns0:stop offset="100%" stop-color="#FFCC66" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  
+  <ns0:circle cx="256" cy="256" r="250" fill="url(#forest-bg)" />
+  <ns0:circle cx="256" cy="256" r="230" fill="url(#mango-fg)" />
+  <ns0:circle cx="256" cy="256" r="220" fill="url(#forest-bg)" />
+  <ns0:path d="M 256,36 A 220,220 0 0,1 256,476 A 110,110 0 0,1 256,256 A 110,110 0 0,0 256,36 Z" fill="url(#mango-fg)" stroke="url(#mango-fg)" stroke-width="2" />
+  <ns0:path d="M 256,94 A 52,52 0 0,1 256,198 Z" fill="url(#mango-fg)" />
+</ns0:svg>

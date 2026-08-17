@@ -1,0 +1,26 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none">
+  <ns0:defs>
+    <ns0:linearGradient id="mainBackgroundGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#A770EF;stop-opacity:1" />
+      <ns0:stop offset="50%" style="stop-color:#CF8BF3;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#FBC7D4;stop-opacity:1" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="audiogramBarsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.8" />
+      <ns0:stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0.95" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  <ns0:rect x="0" y="0" width="256" height="256" fill="transparent" />
+
+  <ns0:rect x="32" y="32" width="192" height="192" rx="48" fill="url(#mainBackgroundGradient)" />
+
+  <ns0:g transform="translate(128, 128) scale(0.8) translate(-128, -128)">
+    <ns0:rect x="75" y="110" width="12" height="20" rx="4" fill="url(#audiogramBarsGradient)" />
+    <ns0:rect x="95" y="100" width="12" height="40" rx="4" fill="url(#audiogramBarsGradient)" />
+    <ns0:rect x="115" y="90" width="12" height="60" rx="4" fill="url(#audiogramBarsGradient)" />
+    <ns0:rect x="135" y="95" width="12" height="50" rx="4" fill="url(#audiogramBarsGradient)" />
+    <ns0:rect x="155" y="105" width="12" height="30" rx="4" fill="url(#audiogramBarsGradient)" />
+    <ns0:rect x="175" y="110" width="12" height="20" rx="4" fill="url(#audiogramBarsGradient)" />
+  </ns0:g>
+</ns0:svg>

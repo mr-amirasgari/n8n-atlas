@@ -1,0 +1,31 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <ns0:defs>
+    <ns0:linearGradient id="aimc-eye-bg" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#0A1021" />
+      <ns0:stop offset="100%" stop-color="#0D1B3A" />
+    </ns0:linearGradient>
+    <ns0:radialGradient id="aimc-eye-core" cx="50%" cy="50%" r="50%">
+      <ns0:stop offset="0%" stop-color="#7DD3FC" />
+      <ns0:stop offset="65%" stop-color="#38BDF8" />
+      <ns0:stop offset="100%" stop-color="#0EA5E9" />
+    </ns0:radialGradient>
+  </ns0:defs>
+  <ns0:rect x="6" y="6" width="52" height="52" rx="10" fill="url(#aimc-eye-bg)" />
+  <ns0:path d="M12 32C18 22 26 18 32 18C38 18 46 22 52 32C46 42 38 46 32 46C26 46 18 42 12 32Z" fill="none" stroke="#38BDF8" stroke-width="2.5" />
+  <ns0:circle cx="32" cy="32" r="9.5" fill="url(#aimc-eye-core)" opacity="0.9" />
+  <ns0:circle cx="32" cy="32" r="3.5" fill="#0B1223" />
+  <ns0:g stroke="#1E3A8A" stroke-width="1.5" stroke-linecap="round" opacity="0.8">
+    <ns0:path d="M20 14V26" />
+    <ns0:path d="M24 12V24" />
+    <ns0:path d="M28 10V22" />
+    <ns0:path d="M36 10V22" />
+    <ns0:path d="M40 12V24" />
+    <ns0:path d="M44 14V26" />
+    <ns0:path d="M20 38V50" />
+    <ns0:path d="M24 40V52" />
+    <ns0:path d="M28 42V54" />
+    <ns0:path d="M36 42V54" />
+    <ns0:path d="M40 40V52" />
+    <ns0:path d="M44 38V50" />
+  </ns0:g>
+</ns0:svg>
