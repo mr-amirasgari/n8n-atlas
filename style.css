@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: white;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: min(600px, 90%);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+  background: #161b22;
+  color: white;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.filters button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.filters .active {
+  background: #7c3aed;
+  color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 25px;
+}
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+  word-break: break-word;
+}
+
+.card p {
+  color: #8b949e;
+}
+
+.badge {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #30363d;
+  font-size: 12px;
+}

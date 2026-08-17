@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>n8n Atlas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>n8n Atlas</h1>
+  <p id="count">Loading nodes...</p>
+
+  <input
+    id="search"
+    type="search"
+    placeholder="Search nodes..."
+  >
+
+  <div class="filters">
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="official">Official</button>
+    <button data-filter="community">Community</button>
+  </div>
+</header>
+
+<main id="nodes"></main>
+
+<script src="app.js"></script>
+</body>
+</html>
