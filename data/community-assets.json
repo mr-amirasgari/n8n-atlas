@@ -103,6 +103,36 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@7plx/n8n-nodes-hearlink",
+    "version": "0.2.1",
+    "nodePath": "dist/nodes/HearLink/HearLink.node.js",
+    "displayName": "HearLink",
+    "icon": {
+      "light": "assets/icons/community/3fc2f1f0c58e3a00565549ef.svg"
+    },
+    "categories": [
+      "Productivity",
+      "Communication"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@7plx/n8n-nodes-hearlink",
+    "version": "0.2.1",
+    "nodePath": "dist/nodes/HearLinkTrigger/HearLinkTrigger.node.js",
+    "displayName": "HearLink Trigger",
+    "icon": {
+      "light": "assets/icons/community/3fc2f1f0c58e3a00565549ef.svg"
+    },
+    "categories": [
+      "Productivity",
+      "Communication"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@a24k/n8n-nodes-mattermost",
     "version": "0.4.0",
     "nodePath": "dist/nodes/Mattermost/Mattermost.node.js",
@@ -1405,9 +1435,22 @@
   },
   {
     "package": "@app4you/n8n-nodes-portal-invoices",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "nodePath": "dist/PortalInvoices.node.js",
     "displayName": "Faktury z portali \\u2014 tylko odczyt",
+    "icon": {
+      "light": "assets/icons/community/4ad86bb0c22dc237a4ce69d0.svg",
+      "dark": "assets/icons/community/62ed0011fda83d6c2453e88d.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@app4you/n8n-nodes-portal-invoices",
+    "version": "0.3.0",
+    "nodePath": "dist/ImapBackfill.node.js",
+    "displayName": "IMAP Backfill \\u2014 tylko odczyt",
     "icon": {
       "light": "assets/icons/community/4ad86bb0c22dc237a4ce69d0.svg",
       "dark": "assets/icons/community/62ed0011fda83d6c2453e88d.svg"
@@ -9018,109 +9061,6 @@
     "assetStatus": "no-assets"
   },
   {
-    "package": "@getalecs/n8n-nodes-braze",
-    "version": "0.1.2",
-    "nodePath": "nodes/BrazeAnalytics/BrazeAnalytics.node.js",
-    "displayName": "Braze Analytics",
-    "icon": {
-      "light": "assets/icons/community/219ba3cf44ee1cbc39daa71b.svg",
-      "dark": "assets/icons/community/219ba3cf44ee1cbc39daa71b.svg"
-    },
-    "categories": [
-      "Analytics",
-      "Marketing & Content"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@getalecs/n8n-nodes-braze",
-    "version": "0.1.2",
-    "nodePath": "nodes/BrazeCampaigns/BrazeCampaigns.node.js",
-    "displayName": "Braze Campaigns",
-    "icon": {
-      "light": "assets/icons/community/c94cad70a4318cd3b27a0c65.svg",
-      "dark": "assets/icons/community/c94cad70a4318cd3b27a0c65.svg"
-    },
-    "categories": [
-      "Marketing & Content",
-      "Communication"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@getalecs/n8n-nodes-braze",
-    "version": "0.1.2",
-    "nodePath": "nodes/BrazeCanvas/BrazeCanvas.node.js",
-    "displayName": "Braze Canvas",
-    "icon": {
-      "light": "assets/icons/community/219ba3cf44ee1cbc39daa71b.svg",
-      "dark": "assets/icons/community/219ba3cf44ee1cbc39daa71b.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@getalecs/n8n-nodes-braze",
-    "version": "0.1.2",
-    "nodePath": "nodes/BrazeContentBlocks/BrazeContentBlocks.node.js",
-    "displayName": "Braze Content Blocks",
-    "icon": {
-      "light": "assets/icons/community/b1939b9cdd94253fede64804.svg",
-      "dark": "assets/icons/community/b1939b9cdd94253fede64804.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@getalecs/n8n-nodes-braze",
-    "version": "0.1.2",
-    "nodePath": "nodes/BrazeEmailTemplate/BrazeEmailTemplate.node.js",
-    "displayName": "Braze Email Template",
-    "icon": {
-      "light": "assets/icons/community/b1939b9cdd94253fede64804.svg",
-      "dark": "assets/icons/community/b1939b9cdd94253fede64804.svg"
-    },
-    "categories": [
-      "Marketing & Content",
-      "Development"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@getalecs/n8n-nodes-braze",
-    "version": "0.1.2",
-    "nodePath": "nodes/BrazeSegments/BrazeSegments.node.js",
-    "displayName": "Braze Segments",
-    "icon": {
-      "light": "assets/icons/community/219ba3cf44ee1cbc39daa71b.svg",
-      "dark": "assets/icons/community/219ba3cf44ee1cbc39daa71b.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@getalecs/n8n-nodes-braze",
-    "version": "0.1.2",
-    "nodePath": "nodes/BrazeSendMessage/BrazeSendMessage.node.js",
-    "displayName": "Braze Send Message",
-    "icon": {
-      "light": "assets/icons/community/29eb726384a34d66b2f1add4.svg",
-      "dark": "assets/icons/community/29eb726384a34d66b2f1add4.svg"
-    },
-    "categories": [
-      "Marketing & Content",
-      "Communication"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@getalecs/n8n-nodes-cloudflare",
     "version": "0.1.7",
     "nodePath": "nodes/CloudflareAI/CloudflareAi.node.js",
@@ -13100,16 +13040,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@lowwattlabs/n8n-nodes-clamav",
-    "version": "0.1.2",
-    "nodePath": "dist/nodes/Clamav/Clamav.node.js",
-    "displayName": "ClamAV",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
     "package": "@lrtherond/n8n-nodes-falkordb",
     "version": "1.0.2",
     "nodePath": "dist/nodes/FalkorDb/FalkorDbKnowledgeGraph.node.js",
@@ -13196,6 +13126,21 @@
       "light": "assets/icons/community/3b1c1e9495b4e2d20e235552.svg"
     },
     "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@luka-cat-mimi/n8n-nodes-browserless",
+    "version": "1.2.4",
+    "nodePath": "dist/nodes/Browserless/Browserless.node.js",
+    "displayName": "Browserless",
+    "icon": {
+      "light": "assets/icons/community/8e1a2448a84cd537726a2c38.svg"
+    },
+    "categories": [
+      "Development",
+      "Developer Tools"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -14534,7 +14479,7 @@
   },
   {
     "package": "@mixpeek/n8n-nodes-mixpeek",
-    "version": "1.0.381",
+    "version": "1.0.386",
     "nodePath": "dist/nodes/Mixpeek/Mixpeek.node.js",
     "displayName": "Mixpeek",
     "icon": {
@@ -30590,20 +30535,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@wizaco/n8n-nodes-wiza",
-    "version": "0.1.4",
-    "nodePath": "dist/nodes/Wiza/Wiza.node.js",
-    "displayName": "Wiza",
-    "icon": {
-      "light": "assets/icons/community/a314715b3097d243de16a288.svg"
-    },
-    "categories": [
-      "Marketing & Content"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@wizcut/n8n-nodes-wizcut",
     "version": "0.1.8",
     "nodePath": "dist/nodes/Wizcut/Wizcut.node.js",
@@ -38568,30 +38499,6 @@
     "displayName": "Axonaut",
     "icon": {
       "light": "assets/icons/community/2601302c35142d36836466e0.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ayudala",
-    "version": "0.13.0",
-    "nodePath": "dist/nodes/Ayudala/Ayudala.node.js",
-    "displayName": "Ayudala",
-    "icon": {
-      "light": "assets/icons/community/3ee68d5120252d7c772379f5.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ayudala",
-    "version": "0.13.0",
-    "nodePath": "dist/nodes/Ayudala/AyudalaTrigger.node.js",
-    "displayName": "Ayudala Trigger",
-    "icon": {
-      "light": "assets/icons/community/3ee68d5120252d7c772379f5.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -48241,25 +48148,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-coles-product-search-scraper",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/ApifyColesProductSearchScraper/ApifyColesProductSearchScraper.node.js",
-    "displayName": "Apify API key connection",
-    "icon": {
-      "light": "assets/icons/community/4e30ef18cc5a5900ba1fcf0c.svg"
-    },
-    "categories": [
-      "Development",
-      "Marketing & Content",
-      "Sales",
-      "Analytics",
-      "Utility",
-      "Data & Storage"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-comercia",
     "version": "1.0.121",
     "nodePath": "dist/nodes/ComerciaClientes/Comercia.node.js",
@@ -50117,6 +50005,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-creatomate",
+    "version": "0.2.0",
+    "nodePath": "dist/nodes/creatomate/Creatomate.node.js",
+    "displayName": "Creatomate",
+    "icon": {
+      "light": "assets/icons/community/a134dc75f2c9e7bace391a71.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-cred-sync",
     "version": "0.6.6",
     "nodePath": "dist/nodes/CredentialShare/CredentialShare.node.js",
@@ -51664,18 +51564,6 @@
     "displayName": "DataMagik",
     "icon": {
       "light": "assets/icons/community/f8976742212b46d35d08bdc2.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-datamagik-docs",
-    "version": "1.0.11",
-    "nodePath": "dist/nodes/DataMagikDocs/DataMagikDocs.node.js",
-    "displayName": "DataMagik Docs",
-    "icon": {
-      "light": "assets/icons/community/b1173991476aafe6a248e5f6.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -59073,20 +58961,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-fidelimax",
-    "version": "1.1.2",
-    "nodePath": "dist/nodes/Fidelimax/Fidelimax.node.js",
-    "displayName": "Fidelimax",
-    "icon": {
-      "light": "assets/icons/community/12efeca59b229d237c039fad.svg"
-    },
-    "categories": [
-      "Marketing & Content"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-figranium",
     "version": "0.6.2",
     "nodePath": "dist/nodes/Figranium/Figranium.node.js",
@@ -59152,18 +59026,6 @@
     "icon": {
       "light": "assets/icons/community/1cfa1db4d3621d2a1482f759.svg",
       "dark": "assets/icons/community/1cfa1db4d3621d2a1482f759.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-fileget",
-    "version": "0.0.1",
-    "nodePath": "dist/nodes/FilePost/FilePost.node.js",
-    "displayName": "FilePost",
-    "icon": {
-      "light": "assets/icons/community/d8d5836bf055e56b0f1b0f6e.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -66767,6 +66629,18 @@
       "Data & Storage",
       "Marketing & Content"
     ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-hyperliquid",
+    "version": "0.2.1",
+    "nodePath": "dist/nodes/Hyperliquid/Hyperliquid.node.js",
+    "displayName": "Hyperliquid",
+    "icon": {
+      "light": "assets/icons/community/aac31795c123e0147854811f.svg"
+    },
+    "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -74689,7 +74563,7 @@
   },
   {
     "package": "n8n-nodes-kordoc",
-    "version": "0.1.19",
+    "version": "0.1.20",
     "nodePath": "dist/nodes/KorDoc/KorDoc.node.js",
     "displayName": "KorDoc Parser",
     "icon": {
@@ -75310,6 +75184,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-lazyssh",
+    "version": "0.2.2",
+    "nodePath": "dist/nodes/LazySsh/LazySsh.node.js",
+    "displayName": "LazySsh",
+    "icon": {
+      "light": "assets/icons/community/fea3fd7c27e2c8980ff93066.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-ldxhub",
     "version": "0.10.0",
     "nodePath": "dist/nodes/LdxHub/LdxHub.node.js",
@@ -75751,6 +75637,20 @@
     },
     "categories": [
       "Data & Storage"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-lexoffice",
+    "version": "0.1.5",
+    "nodePath": "dist/nodes/LexOffice/LexOffice.node.js",
+    "displayName": "LexOffice",
+    "icon": {
+      "light": "assets/icons/community/3a734ba4cb32f96c46ac4fea.svg"
+    },
+    "categories": [
+      "Miscellaneous"
     ],
     "subcategories": {},
     "assetStatus": "ok"
@@ -77777,6 +77677,20 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-m4tt72",
+    "version": "0.5.0",
+    "nodePath": "dist/nodes/YoutubeDownloadNode/YoutubeDownloadNode.node.js",
+    "displayName": "Youtube Download",
+    "icon": {
+      "light": "assets/icons/community/6da5466cb69b20a2dd21823f.svg"
+    },
+    "categories": [
+      "M4TT72"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-machador",
     "version": "1.0.1",
     "nodePath": "dist/nodes/llms/LmChatMachador/LmChatMachador.node.js",
@@ -79103,6 +79017,38 @@
       ],
       "Core Nodes": [
         "Other Trigger Nodes"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-mcp-vertex-safe",
+    "version": "0.3.1",
+    "nodePath": "dist/nodes/LmChatAnthropicVertex/LmChatAnthropicVertex.node.js",
+    "displayName": "Anthropic Chat Model (Vertex)",
+    "icon": {},
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Language Models"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-mcp-vertex-safe",
+    "version": "0.3.1",
+    "nodePath": "dist/nodes/McpClientToolVertexSafe/McpClientToolVertexSafe.node.js",
+    "displayName": "MCP Client Tool (Vertex-Safe)",
+    "icon": {},
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Tools"
       ]
     },
     "assetStatus": "ok"
@@ -88596,6 +88542,22 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-oracle-jwt",
+    "version": "0.3.3",
+    "nodePath": "dist/nodes/OracleJwt/OracleJwt.node.js",
+    "displayName": "Oracle Fusion JWT Generator",
+    "icon": {
+      "light": "assets/icons/community/f0ee71fe9a79ea55e512634f.svg",
+      "dark": "assets/icons/community/675264a8ce888a7eadac3b64.svg"
+    },
+    "categories": [
+      "Development",
+      "Developer Tools"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-oracle11g",
     "version": "1.0.8",
     "nodePath": "nodes/Oracle11g/Oracle11g.node.js",
@@ -90401,37 +90363,6 @@
       "Data & Storage",
       "Utility",
       "Productivity"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-pash",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/Pash/Pash.node.js",
-    "displayName": "Pash",
-    "icon": {
-      "light": "assets/icons/community/0d28b4aac0773267d75ef1ce.svg",
-      "dark": "assets/icons/community/2cb97c7096915ae4b40d8345.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-pash",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/Pash/PashWebhook.node.js",
-    "displayName": "Pash Webhooks",
-    "icon": {
-      "light": "assets/icons/community/0d28b4aac0773267d75ef1ce.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
     ],
     "subcategories": {},
     "assetStatus": "ok"
@@ -92288,7 +92219,7 @@
   },
   {
     "package": "n8n-nodes-pictomancer",
-    "version": "0.5.0",
+    "version": "0.6.0",
     "nodePath": "dist/nodes/Pictomancer/Pictomancer.node.js",
     "displayName": "Pictomancer",
     "icon": {
@@ -93664,21 +93595,6 @@
     },
     "categories": [
       "Marketing"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-posteahora",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/PosteAhora/PosteAhora.node.js",
-    "displayName": "PosteAhora",
-    "icon": {
-      "light": "assets/icons/community/6bd045d4e794625b4444c14a.svg"
-    },
-    "categories": [
-      "Marketing",
-      "Social Media"
     ],
     "subcategories": {},
     "assetStatus": "ok"
@@ -95137,6 +95053,21 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "n8n-nodes-puppetflow",
+    "version": "2026.8.1",
+    "nodePath": "dist/nodes/Puppetflow/Puppetflow.node.js",
+    "displayName": "Puppetflow",
+    "icon": {
+      "light": "assets/icons/community/557e4ac91ce33ea4f9c85a86.svg"
+    },
+    "categories": [
+      "Development",
+      "Data & Storage"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "n8n-nodes-pushinator",
@@ -98024,20 +97955,6 @@
     },
     "categories": [
       "Productivity"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-restic-backup",
-    "version": "0.1.4",
-    "nodePath": "dist/nodes/ResticBackup/ResticBackup.node.js",
-    "displayName": "Restic Backup",
-    "icon": {
-      "light": "assets/icons/community/4fe7d64a7b26d07aec15b60e.svg"
-    },
-    "categories": [
-      "Utility"
     ],
     "subcategories": {},
     "assetStatus": "ok"
@@ -102039,30 +101956,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-silubridge",
-    "version": "0.2.1",
-    "nodePath": "dist/nodes/Silubridge/Silubridge.node.js",
-    "displayName": "Silubridge",
-    "icon": {
-      "light": "assets/icons/community/16463c61a7b30a93e849fcc7.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-silubridge",
-    "version": "0.2.1",
-    "nodePath": "dist/nodes/Silubridge/SilubridgeChatModel.node.js",
-    "displayName": "Silubridge Chat Model",
-    "icon": {
-      "light": "assets/icons/community/16463c61a7b30a93e849fcc7.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-simla",
     "version": "0.1.2",
     "nodePath": "dist/nodes/Simla/Simla.node.js",
@@ -104776,7 +104669,7 @@
   },
   {
     "package": "n8n-nodes-spintax",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "nodePath": "dist/nodes/Spintax/Spintax.node.js",
     "displayName": "Spintax",
     "icon": {
@@ -104800,6 +104693,16 @@
     ],
     "subcategories": {},
     "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-splitinbatches-advanced",
+    "version": "0.2.4",
+    "nodePath": "dist/nodes/SplitInBatchesAdvanced/SplitInBatchesAdvanced.node.js",
+    "displayName": "Split In Batches Advanced",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
   },
   {
     "package": "n8n-nodes-spreadapi",
@@ -110145,6 +110048,16 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-tinkoffnode",
+    "version": "0.1.8",
+    "nodePath": "./dist/nodes/TinkoffPayment/TinkoffPayment.node.js",
+    "displayName": "Tinkoff Payment",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
     "package": "n8n-nodes-tiny-erp",
     "version": "0.1.15",
     "nodePath": "dist/nodes/TinyErp/TinyErp.node.js",
@@ -115066,6 +114979,30 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-virtualsms",
+    "version": "0.1.5",
+    "nodePath": "dist/nodes/VirtualSms/VirtualSms.node.js",
+    "displayName": "VirtualSMS",
+    "icon": {
+      "light": "assets/icons/community/61c0f8c5e71eff8669a3016f.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-virtualsms",
+    "version": "0.1.5",
+    "nodePath": "dist/nodes/VirtualSmsTrigger/VirtualSmsTrigger.node.js",
+    "displayName": "VirtualSMS Trigger",
+    "icon": {
+      "light": "assets/icons/community/61c0f8c5e71eff8669a3016f.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-virustotal",
     "version": "0.1.1",
     "nodePath": "dist/nodes/VirusTotal/VirusTotal.node.js",
@@ -116666,30 +116603,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-wapro",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/HubSpotWapro/HubSpotWapro.node.js",
-    "displayName": "HubSpot (WAPRO Integration)",
-    "icon": {
-      "light": "assets/icons/community/0168bea749fb774897eb2cf5.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-wapro",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/WaproMag/WaproMag.node.js",
-    "displayName": "Integrator WAPRO MAG / WebAPI",
-    "icon": {
-      "light": "assets/icons/community/a35a87617c08a064ebad81ce.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-warmr",
     "version": "3.1.0",
     "nodePath": "dist/nodes/Companies.node.js",
@@ -117121,21 +117034,6 @@
       "light": "assets/icons/community/e773e108a55f1597b6cbc3c3.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-wazend",
-    "version": "1.0.9",
-    "nodePath": "dist/nodes/EvolutionApi/EvolutionApi.node.js",
-    "displayName": "Wazend API",
-    "icon": {
-      "light": "assets/icons/community/f259365f83cc5b83ca459fd8.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
