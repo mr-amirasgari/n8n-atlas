@@ -29639,48 +29639,6 @@
     "deprecated": null
   },
   {
-    "name": "@n8n-dev/n8n-nodes-adyen-marketpaynotificationservice",
-    "description": "Classic integration. For new implementations, consult the new guide.",
-    "version": "1.0.2",
-    "date": "2026-06-13T06:14:33.210Z",
-    "keywords": [
-      "n8n",
-      "n8n-community-node",
-      "n8n-node",
-      "n8n-community-node-package",
-      "openapi",
-      "swagger",
-      "API",
-      "automation",
-      "workflow",
-      "adyen-marketpaynotificationservice"
-    ],
-    "publisher": "kelvinzero",
-    "links": {
-      "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-adyen-marketpaynotificationservice",
-      "repository": "git+https://github.com/n8n-code/n8n-nodes-adyen-marketpaynotificationservice.git",
-      "bugs": "https://github.com/n8n-code/n8n-nodes-adyen-marketpaynotificationservice/issues",
-      "npm": "https://www.npmjs.com/package/@n8n-dev/n8n-nodes-adyen-marketpaynotificationservice"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/AdyenMarketpaynotificationservice/AdyenMarketpaynotificationservice.node.js",
-        "displayName": "Adyen Marketpaynotificationservice",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Adyen Marketpaynotificationservice"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/n8n-code/n8n-nodes-adyen-marketpaynotificationservice.git",
-    "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-adyen-marketpaynotificationservice",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "@n8n-dev/n8n-nodes-adyen-storedvalueservice",
     "description": "API endpoints for stored value product management",
     "version": "1.0.2",
@@ -49578,8 +49536,8 @@
   {
     "name": "@websitelabs/n8n-nodes-software-teams",
     "description": "Software Teams specialist agents as n8n community nodes. Self-hosted only; requires the claude binary and a Claude subscription OAuth token or Anthropic API key.",
-    "version": "1.0.0",
-    "date": "2026-08-17T01:23:24.341Z",
+    "version": "1.0.1",
+    "date": "2026-08-18T04:25:12.564Z",
     "keywords": [
       "n8n-community-node-package",
       "software-teams",
@@ -49594,6 +49552,10 @@
       "bugs": "https://github.com/zottiben/software-teams/issues",
       "npm": "https://www.npmjs.com/package/@websitelabs/n8n-nodes-software-teams"
     },
+    "npmScore": 23.537334,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -158808,51 +158770,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-openbsp",
-    "description": "Send and receive WhatsApp and Instagram messages through OpenBSP — the open-source WhatsApp/Instagram Business Platform on Meta's official Cloud API.",
-    "version": "0.1.0",
-    "date": "2026-06-26T23:00:05.624Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "openbsp",
-      "whatsapp",
-      "instagram",
-      "whatsapp-business",
-      "messaging"
-    ],
-    "publisher": "matiasbattocchia",
-    "links": {
-      "homepage": "https://github.com/matiasbattocchia/n8n-nodes-openbsp#readme",
-      "repository": "git+https://github.com/matiasbattocchia/n8n-nodes-openbsp.git",
-      "bugs": "https://github.com/matiasbattocchia/n8n-nodes-openbsp/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-openbsp"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/OpenBsp/OpenBsp.node.js",
-        "displayName": "OpenBSP",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/OpenBspTrigger/OpenBspTrigger.node.js",
-        "displayName": "OpenBSP Trigger",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "OpenBSP",
-      "OpenBSP Trigger"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/matiasbattocchia/n8n-nodes-openbsp.git",
-    "homepage": "https://github.com/matiasbattocchia/n8n-nodes-openbsp#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-opencell",
     "description": "n8n node for Opencell.",
     "version": "1.0.11",
@@ -191104,6 +191021,53 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/your-username/n8n-nodes-solana-program-interface.git",
     "homepage": "https://github.com/your-username/n8n-nodes-solana-program-interface",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-solana-swap",
+    "description": "n8n node for Solana blockchain operations with Raydium and Jupiter swap integration. SPL token transfers now fully implemented with @solana/spl-token. Developed by CHECKHC.",
+    "version": "1.6.3",
+    "date": "2025-12-23T01:20:25.183Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "solana",
+      "blockchain",
+      "crypto",
+      "trading",
+      "jupiter",
+      "raydium",
+      "swap",
+      "dex",
+      "defi"
+    ],
+    "publisher": "checkhc",
+    "links": {
+      "homepage": "https://github.com/checkhc/n8n-nodes-solana-swap#readme",
+      "repository": "git+https://github.com/checkhc/n8n-nodes-solana-swap.git",
+      "bugs": "https://github.com/checkhc/n8n-nodes-solana-swap/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-solana-swap"
+    },
+    "npmScore": 10.060562,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/SolanaNode/SolanaNode.node.js",
+        "displayName": "Solana by CHECKHC",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Solana by CHECKHC"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/checkhc/n8n-nodes-solana-swap.git",
+    "homepage": "https://github.com/checkhc/n8n-nodes-solana-swap#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -225363,6 +225327,56 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/muhannadhg/n8n-nodes-zatca-tools.git",
     "homepage": "https://zatcatools.com/docs/api",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-zavu",
+    "description": "n8n community node for Zavu — one API for SMS, WhatsApp, Telegram, Email, Instagram, Messenger and Voice.",
+    "version": "0.1.0",
+    "date": "2026-08-11T04:21:06.451Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "zavu",
+      "sms",
+      "whatsapp",
+      "telegram",
+      "messaging",
+      "email",
+      "voice"
+    ],
+    "publisher": "zavu",
+    "links": {
+      "homepage": "https://zavu.dev",
+      "repository": "git+https://github.com/zavudev/n8n-nodes-zavu.git",
+      "bugs": "https://github.com/zavudev/n8n-nodes-zavu/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-zavu"
+    },
+    "npmScore": 13.726699,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Zavu/Zavu.node.js",
+        "displayName": "Zavu",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/ZavuTrigger/ZavuTrigger.node.js",
+        "displayName": "Zavu Trigger",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Zavu",
+      "Zavu Trigger"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/zavudev/n8n-nodes-zavu.git",
+    "homepage": "https://zavu.dev",
     "license": "MIT",
     "deprecated": null
   },
