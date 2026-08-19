@@ -1,0 +1,33 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" role="img" aria-label="Tamperlens">
+  
+  <ns0:defs>
+    
+    <ns0:mask id="tlm-out" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <ns0:rect width="64" height="64" fill="#fff" />
+      <ns0:circle cx="40" cy="40" r="12.7" fill="#000" />
+    </ns0:mask>
+    <ns0:clipPath id="tlm-in">
+      <ns0:circle cx="40" cy="40" r="11.5" />
+    </ns0:clipPath>
+  </ns0:defs>
+
+  
+  <ns0:g stroke="#1c2321" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <ns0:path d="M15 5h21l11 11v38a4 4 0 0 1-4 4H15a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4Z" />
+    <ns0:path d="M36 5v11h11" />
+  </ns0:g>
+
+  
+  <ns0:g stroke="#1c2321" stroke-width="2.4" stroke-linecap="round">
+    <ns0:path d="M19 24h14" />
+    <ns0:path d="M19 46h22" />
+    <ns0:path d="M19 34h22" mask="url(#tlm-out)" />
+  </ns0:g>
+
+  
+  <ns0:circle cx="40" cy="40" r="11.5" fill="#0f766e" fill-opacity="0.08" />
+  <ns0:g clip-path="url(#tlm-in)" stroke="#0f766e" stroke-width="2.4" stroke-linecap="round">
+    <ns0:path d="M19 38.5h22" />
+  </ns0:g>
+  <ns0:circle cx="40" cy="40" r="11.5" stroke="#0f766e" stroke-width="2.8" />
+</ns0:svg>

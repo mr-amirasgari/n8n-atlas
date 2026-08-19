@@ -1,0 +1,32 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  
+  <ns0:defs>
+    <ns0:linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#4285F4;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#1967D2;stop-opacity:1" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#0F9D58;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#0B8043;stop-opacity:1" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#F4B400;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#DB4437;stop-opacity:1" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  
+  
+  <ns0:path d="M 128 48 L 200 168 L 168 168 L 96 48 Z" fill="url(#blueGrad)" />
+  <ns0:path d="M 56 168 L 128 48 L 96 48 L 24 168 Z" fill="url(#greenGrad)" />
+  <ns0:path d="M 24 168 L 128 168 L 128 208 L 56 208 Z" fill="url(#yellowGrad)" />
+  
+  
+  <ns0:circle cx="180" cy="80" r="16" fill="#4285F4" opacity="0.9" />
+  <ns0:circle cx="220" cy="120" r="16" fill="#4285F4" opacity="0.9" />
+  <ns0:circle cx="200" cy="160" r="16" fill="#4285F4" opacity="0.9" />
+  
+  
+  <ns0:line x1="180" y1="80" x2="220" y2="120" stroke="#4285F4" stroke-width="3" opacity="0.6" />
+  <ns0:line x1="220" y1="120" x2="200" y2="160" stroke="#4285F4" stroke-width="3" opacity="0.6" />
+  <ns0:line x1="200" y1="160" x2="180" y2="80" stroke="#4285F4" stroke-width="3" opacity="0.6" />
+</ns0:svg>
