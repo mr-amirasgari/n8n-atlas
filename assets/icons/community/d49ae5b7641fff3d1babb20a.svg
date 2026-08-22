@@ -1,0 +1,154 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <ns0:defs>
+    
+    <ns0:radialGradient id="premiumBg" cx="28%" cy="28%">
+      <ns0:stop offset="0%" style="stop-color:#F5EBFF;stop-opacity:1" />
+      <ns0:stop offset="35%" style="stop-color:#C084FC;stop-opacity:1" />
+      <ns0:stop offset="70%" style="stop-color:#9D6BA8;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#5A4A6A;stop-opacity:1" />
+    </ns0:radialGradient>
+
+    
+    <ns0:radialGradient id="premiumCore" cx="50%" cy="50%">
+      <ns0:stop offset="0%" style="stop-color:#FFEB3B;stop-opacity:1" />
+      <ns0:stop offset="50%" style="stop-color:#FFC107;stop-opacity:0.95" />
+      <ns0:stop offset="100%" style="stop-color:#FF9800;stop-opacity:0.8" />
+    </ns0:radialGradient>
+
+    <ns0:filter id="shadowPremium">
+      <ns0:feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000000" flood-opacity="0.45" />
+    </ns0:filter>
+
+    <ns0:filter id="glowPremium">
+      <ns0:feGaussianBlur stdDeviation="3" result="coloredBlur" />
+      <ns0:feMerge>
+        <ns0:feMergeNode in="coloredBlur" />
+        <ns0:feMergeNode in="SourceGraphic" />
+      </ns0:feMerge>
+    </ns0:filter>
+
+    <ns0:filter id="innerLight">
+      <ns0:feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+    </ns0:filter>
+  </ns0:defs>
+
+  
+  <ns0:circle cx="128" cy="128" r="128" fill="#0A0A14" />
+
+  
+  <ns0:circle cx="128" cy="128" r="112" fill="url(#premiumBg)" filter="url(#shadowPremium)" />
+
+  
+  <ns0:ellipse cx="102" cy="82" rx="28" ry="40" fill="#FFFFFF" opacity="0.22" />
+  <ns0:ellipse cx="102" cy="82" rx="18" ry="28" fill="#FFFFFF" opacity="0.1" />
+
+  
+  <ns0:g opacity="0.3" stroke="#FFD700" stroke-width="0.75" fill="none">
+    
+    <ns0:circle cx="128" cy="128" r="52" />
+    <ns0:circle cx="128" cy="128" r="40" />
+    <ns0:circle cx="128" cy="128" r="28" />
+    
+    
+    <ns0:line x1="128" y1="128" x2="128" y2="60" />
+    <ns0:line x1="128" y1="128" x2="175" y2="81" />
+    <ns0:line x1="128" y1="128" x2="196" y2="128" />
+    <ns0:line x1="128" y1="128" x2="175" y2="175" />
+    <ns0:line x1="128" y1="128" x2="128" y2="196" />
+    <ns0:line x1="128" y1="128" x2="81" y2="175" />
+    <ns0:line x1="128" y1="128" x2="60" y2="128" />
+    <ns0:line x1="128" y1="128" x2="81" y2="81" />
+  </ns0:g>
+
+  
+  <ns0:g transform="translate(128, 128)" filter="url(#glowPremium)">
+    
+    
+    <ns0:circle cx="0" cy="0" r="40" fill="none" stroke="#FFD700" stroke-width="1.8" opacity="0.52" />
+    <ns0:circle cx="0" cy="0" r="40" fill="none" stroke="#FFC107" stroke-width="0.6" opacity="0.7" stroke-dasharray="4,4" />
+    
+    
+    <ns0:circle cx="0" cy="0" r="28" fill="none" stroke="#C084FC" stroke-width="1.2" opacity="0.62" />
+
+    
+    
+    
+    <ns0:path d="M 0,-24 Q -12,-34 -8,-46 Q 0,-52 8,-46 Q 12,-34 0,-24" fill="#FFD700" opacity="0.96" />
+    <ns0:circle cx="0" cy="-24" r="8" fill="#FFEB3B" opacity="0.65" />
+    
+    
+    <ns0:path d="M 21,-12 Q 28,-24 38,-28 Q 46,-30 44,-18 Q 36,-6 21,-12" fill="#C084FC" opacity="0.92" />
+    <ns0:circle cx="21" cy="-12" r="8" fill="#D8A5FF" opacity="0.6" />
+    
+    
+    <ns0:path d="M 21,12 Q 36,6 44,18 Q 46,30 38,28 Q 28,24 21,12" fill="#FFD700" opacity="0.96" />
+    <ns0:circle cx="21" cy="12" r="8" fill="#FFEB3B" opacity="0.65" />
+    
+    
+    <ns0:path d="M 0,24 Q 12,34 8,46 Q 0,52 -8,46 Q -12,34 0,24" fill="#A855F7" opacity="0.90" />
+    <ns0:circle cx="0" cy="24" r="8" fill="#C084FC" opacity="0.6" />
+    
+    
+    <ns0:path d="M -21,12 Q -36,6 -44,18 Q -46,30 -38,28 Q -28,24 -21,12" fill="#FFD700" opacity="0.96" />
+    <ns0:circle cx="-21" cy="12" r="8" fill="#FFEB3B" opacity="0.65" />
+    
+    
+    <ns0:path d="M -21,-12 Q -28,-24 -38,-28 Q -46,-30 -44,-18 Q -36,-6 -21,-12" fill="#C084FC" opacity="0.92" />
+    <ns0:circle cx="-21" cy="-12" r="8" fill="#D8A5FF" opacity="0.6" />
+
+    
+    <ns0:circle cx="0" cy="0" r="14" fill="url(#premiumCore)" />
+    <ns0:circle cx="0" cy="0" r="11" fill="#FFEB3B" opacity="0.7" />
+    <ns0:circle cx="0" cy="0" r="8" fill="#FFEB3B" opacity="0.4" />
+    <ns0:circle cx="0" cy="0" r="5" fill="#FFFFFF" opacity="0.35" />
+    <ns0:circle cx="-2" cy="-2" r="2.5" fill="#FFFFFF" opacity="0.92" />
+  </ns0:g>
+
+  
+  <ns0:g fill="#FFD700" opacity="0.68">
+    <ns0:circle cx="128" cy="42" r="3.5" />
+    <ns0:circle cx="198" cy="74" r="3" />
+    <ns0:circle cx="224" cy="128" r="3.5" />
+    <ns0:circle cx="198" cy="182" r="3" />
+    <ns0:circle cx="128" cy="214" r="3.5" />
+    <ns0:circle cx="58" cy="182" r="3" />
+    <ns0:circle cx="32" cy="128" r="3.5" />
+    <ns0:circle cx="58" cy="74" r="3" />
+  </ns0:g>
+
+  
+  <ns0:circle cx="128" cy="128" r="160" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.18" stroke-dasharray="3,3" />
+  <ns0:circle cx="128" cy="128" r="180" fill="none" stroke="#C084FC" stroke-width="0.4" opacity="0.12" stroke-dasharray="2,5" />
+
+  
+  <ns0:g stroke="#C084FC" stroke-width="1" opacity="0.32" fill="none">
+    <ns0:line x1="128" y1="52" x2="128" y2="72" />
+    <ns0:line x1="188" y1="84" x2="208" y2="74" />
+    <ns0:line x1="214" y1="128" x2="194" y2="128" />
+    <ns0:line x1="188" y1="172" x2="208" y2="182" />
+    <ns0:line x1="128" y1="204" x2="128" y2="184" />
+    <ns0:line x1="68" y1="172" x2="48" y2="182" />
+    <ns0:line x1="42" y1="128" x2="62" y2="128" />
+    <ns0:line x1="68" y1="84" x2="48" y2="74" />
+  </ns0:g>
+
+  
+  <ns0:circle cx="128" cy="128" r="112" fill="none" stroke="#FFD700" stroke-width="2.5" opacity="0.85" />
+  <ns0:circle cx="128" cy="128" r="114" fill="none" stroke="#C084FC" stroke-width="0.6" opacity="0.5" />
+  <ns0:circle cx="128" cy="128" r="110" fill="none" stroke="#FFD700" stroke-width="0.5" opacity="0.4" />
+
+  
+  <ns0:ellipse cx="128" cy="165" rx="55" ry="20" fill="#000000" opacity="0.15" />
+
+  
+  <ns0:g stroke="#C084FC" stroke-width="0.6" fill="none" opacity="0.25">
+    
+    <ns0:path d="M 35,35 L 50,35 M 35,35 L 35,50" />
+    
+    <ns0:path d="M 221,35 L 206,35 M 221,35 L 221,50" />
+    
+    <ns0:path d="M 221,221 L 206,221 M 221,221 L 221,206" />
+    
+    <ns0:path d="M 35,221 L 50,221 M 35,221 L 35,206" />
+  </ns0:g>
+</ns0:svg>
