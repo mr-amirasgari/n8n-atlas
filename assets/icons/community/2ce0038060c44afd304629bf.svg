@@ -1,0 +1,15 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <ns0:defs>
+    <ns0:linearGradient id="vGrad" x1="0" y1="0" x2="60" y2="120" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#C084FC" />
+      <ns0:stop offset="50%" stop-color="#A78BFA" />
+      <ns0:stop offset="100%" stop-color="#8B5CF6" />
+    </ns0:linearGradient>
+    <ns0:radialGradient id="dotGrad" cx="50%" cy="50%" r="50%">
+      <ns0:stop offset="0%" stop-color="#A5F3FC" />
+      <ns0:stop offset="100%" stop-color="#22D3EE" />
+    </ns0:radialGradient>
+  </ns0:defs>
+  <ns0:path d="M10 30 C10 30 28 30 30 32 L58 95 C59 97 61 97 62 95 L90 32 C92 30 100 28 100 28" stroke="url(#vGrad)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:circle cx="96" cy="28" r="12" fill="url(#dotGrad)" />
+</ns0:svg>
