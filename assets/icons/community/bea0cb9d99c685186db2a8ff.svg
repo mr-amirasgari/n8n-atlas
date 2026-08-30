@@ -1,0 +1,27 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <ns0:defs>
+    <ns0:linearGradient id="mh-grad-dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#FF6B4A" />
+      <ns0:stop offset="50%" stop-color="#FF2A6D" />
+      <ns0:stop offset="100%" stop-color="#9D4EDD" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="mh-sun-dark" x1="0%" y1="100%" x2="0%" y2="0%">
+      <ns0:stop offset="0%" stop-color="#FFB703" />
+      <ns0:stop offset="100%" stop-color="#FFF3B0" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  
+  <ns0:rect x="5" y="5" width="90" height="90" rx="22" fill="url(#mh-grad-dark)" />
+  
+  
+  <ns0:path d="M30 28 L70 28 L54 47 C52 49.5 48 49.5 46 47 Z" fill="#FFFFFF" opacity="0.98" />
+  
+  
+  <ns0:circle cx="50" cy="50" r="7.5" fill="url(#mh-sun-dark)" stroke="#FFFFFF" stroke-width="2" />
+  
+  
+  <ns0:path d="M46 53 C48 50.5 52 50.5 54 53 L70 72 L30 72 Z" fill="#FFFFFF" opacity="0.98" />
+  
+  
+  <ns0:path d="M72 22 Q72 27 77 27 Q72 27 72 32 Q72 27 67 27 Q72 27 72 22 Z" fill="#FFF3B0" />
+</ns0:svg>
