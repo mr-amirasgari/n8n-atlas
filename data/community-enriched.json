@@ -5439,6 +5439,49 @@
     "deprecated": null
   },
   {
+    "name": "@bergetai/n8n-nodes-berget-ai-agent",
+    "description": "n8n node for Berget AI agent with tool calling",
+    "version": "1.1.0",
+    "date": "2025-12-28T23:32:38.998Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "berget-ai",
+      "ai",
+      "agent",
+      "llm",
+      "tools"
+    ],
+    "publisher": "bergetai",
+    "links": {
+      "homepage": "https://github.com/bergetai/n8n-plugins",
+      "repository": "git+https://github.com/bergetai/n8n-plugins.git",
+      "bugs": "https://github.com/bergetai/n8n-plugins/issues",
+      "npm": "https://www.npmjs.com/package/@bergetai/n8n-nodes-berget-ai-agent"
+    },
+    "npmScore": 10.363708,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/BergetAiAgent/BergetAiAgent.node.js",
+        "displayName": "Berget AI Agent",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Berget AI Agent"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/bergetai/n8n-plugins.git",
+    "homepage": "https://github.com/bergetai/n8n-plugins",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "@bergetai/n8n-nodes-berget-ai-chat",
     "description": "n8n node for Berget AI chat/text models",
     "version": "1.1.0",
@@ -10721,8 +10764,8 @@
   {
     "name": "@crowdin/n8n-nodes-crowdin",
     "description": "n8n nodes for Crowdin - a cloud-based localization management platform",
-    "version": "0.23.0",
-    "date": "2026-08-26T09:11:47.924Z",
+    "version": "0.24.0",
+    "date": "2026-08-31T07:14:38.411Z",
     "keywords": [
       "n8n-community-node-package",
       "Crowdin",
@@ -10754,7 +10797,7 @@
       "bugs": "https://github.com/crowdin/n8n-nodes-crowdin/issues",
       "npm": "https://www.npmjs.com/package/@crowdin/n8n-nodes-crowdin"
     },
-    "npmScore": 21.108315,
+    "npmScore": 20.63135,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -15512,42 +15555,6 @@
     "deprecated": null
   },
   {
-    "name": "@fabcovalesci/n8n-nodes-affiliate-marketplaces",
-    "description": "Crawlers de listas de afiliados (Mercado Livre hoje; extensível para Amazon e outros marketplaces).",
-    "version": "0.1.6",
-    "date": "2026-05-03T15:57:44.495Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "affiliate",
-      "mercadolivre",
-      "marketplace"
-    ],
-    "publisher": "fabcovalesci",
-    "links": {
-      "homepage": "https://github.com/fabcovalesci/n8n-nodes-affiliate-marketplaces#readme",
-      "repository": "git+https://github.com/fabcovalesci/n8n-nodes-affiliate-marketplaces.git",
-      "bugs": "https://github.com/fabcovalesci/n8n-nodes-affiliate-marketplaces/issues",
-      "npm": "https://www.npmjs.com/package/@fabcovalesci/n8n-nodes-affiliate-marketplaces"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "nodes/AffiliateMarketplaceList/AffiliateMarketplaceList.node.js",
-        "displayName": "Affiliate Marketplace List",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Affiliate Marketplace List"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/fabcovalesci/n8n-nodes-affiliate-marketplaces.git",
-    "homepage": "https://github.com/fabcovalesci/n8n-nodes-affiliate-marketplaces#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "@fachkraftfreund/n8n-nodes-supabase",
     "description": "Comprehensive n8n community node for Supabase with database and storage operations",
     "version": "1.4.5",
@@ -17645,88 +17652,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/getalby/n8n-nodes-l402-request.git",
     "homepage": "https://github.com/getalby/n8n-nodes-l402-request#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "@getalecs/n8n-nodes-braze",
-    "description": "n8n nodes for Braze services including Campaigns, Canvas, Message Sending, Email Templates, Content Blocks, Segments, and Analytics",
-    "version": "0.1.2",
-    "date": "2025-09-15T17:04:51.950Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "braze",
-      "campaigns",
-      "canvas",
-      "message-sending",
-      "email-templates",
-      "content-blocks",
-      "segments",
-      "analytics",
-      "crm"
-    ],
-    "publisher": "dsfaccini",
-    "links": {
-      "homepage": "https://www.npmjs.com/package/@getalecs/n8n-nodes-braze",
-      "repository": "git+https://github.com/dsfaccini/braze-nodes.git",
-      "bugs": "https://github.com/dsfaccini/braze-nodes/issues",
-      "npm": "https://www.npmjs.com/package/@getalecs/n8n-nodes-braze"
-    },
-    "npmScore": 10.695177,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "nodes/BrazeAnalytics/BrazeAnalytics.node.js",
-        "displayName": "Braze Analytics",
-        "verified": true
-      },
-      {
-        "path": "nodes/BrazeCampaigns/BrazeCampaigns.node.js",
-        "displayName": "Braze Campaigns",
-        "verified": true
-      },
-      {
-        "path": "nodes/BrazeCanvas/BrazeCanvas.node.js",
-        "displayName": "Braze Canvas",
-        "verified": true
-      },
-      {
-        "path": "nodes/BrazeContentBlocks/BrazeContentBlocks.node.js",
-        "displayName": "Braze Content Blocks",
-        "verified": true
-      },
-      {
-        "path": "nodes/BrazeEmailTemplate/BrazeEmailTemplate.node.js",
-        "displayName": "Braze Email Template",
-        "verified": true
-      },
-      {
-        "path": "nodes/BrazeSegments/BrazeSegments.node.js",
-        "displayName": "Braze Segments",
-        "verified": true
-      },
-      {
-        "path": "nodes/BrazeSendMessage/BrazeSendMessage.node.js",
-        "displayName": "Braze Send Message",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Braze Analytics",
-      "Braze Campaigns",
-      "Braze Canvas",
-      "Braze Content Blocks",
-      "Braze Email Template",
-      "Braze Segments",
-      "Braze Send Message"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/dsfaccini/braze-nodes.git",
-    "homepage": "https://www.npmjs.com/package/@getalecs/n8n-nodes-braze",
     "license": "MIT",
     "deprecated": null
   },
@@ -20842,8 +20767,8 @@
   {
     "name": "@indahash/n8n-nodes-idh-argus-execute",
     "description": "",
-    "version": "0.1.103",
-    "date": "2026-08-27T10:10:02.795Z",
+    "version": "0.1.104",
+    "date": "2026-08-31T08:26:40.846Z",
     "keywords": [
       "n8n-community-node-package"
     ],
@@ -20853,7 +20778,7 @@
       "repository": "https://github.com/indahash",
       "npm": "https://www.npmjs.com/package/@indahash/n8n-nodes-idh-argus-execute"
     },
-    "npmScore": 20.43269,
+    "npmScore": 20.815346,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -22019,8 +21944,8 @@
   {
     "name": "@joaoveiga/n8n-nodes-claudecode",
     "description": "Two n8n nodes for Claude Code v2 via the Claude Agent SDK: the agent — with file attachments from n8n binary data (images, PDFs, CSV), effort, thinking, Ultracode, tool restriction, a spend cap, graceful timeouts and run diagnostics — plus a free usage re",
-    "version": "1.0.0",
-    "date": "2026-08-29T16:51:09.701Z",
+    "version": "1.1.0",
+    "date": "2026-08-30T22:25:33.911Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -22043,7 +21968,7 @@
       "bugs": "https://github.com/JVVeiga/n8n-nodes-claudecode/issues",
       "npm": "https://www.npmjs.com/package/@joaoveiga/n8n-nodes-claudecode"
     },
-    "npmScore": 20.784136,
+    "npmScore": 21.206518,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -22244,6 +22169,48 @@
     "metadataStatus": "no-display-name",
     "repository": "git+https://github.com/jordanburke/n8n-nodes-discord.git",
     "homepage": "https://github.com/jordanburke/n8n-nodes-discord",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "@joshuanode/n8n-nodes-addigy",
+    "description": "n8n community node for Addigy API integration",
+    "version": "0.0.7",
+    "date": "2026-03-16T00:27:14.384Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "addigy",
+      "mdm",
+      "apple",
+      "device-management"
+    ],
+    "publisher": "ajoshuasmith",
+    "links": {
+      "homepage": "https://github.com/ajoshuasmith/n8n-nodes-addigy",
+      "repository": "git+https://github.com/ajoshuasmith/n8n-nodes-addigy.git",
+      "bugs": "https://github.com/ajoshuasmith/n8n-nodes-addigy/issues",
+      "npm": "https://www.npmjs.com/package/@joshuanode/n8n-nodes-addigy"
+    },
+    "npmScore": 12.621233,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Addigy/Addigy.node.js",
+        "displayName": "Addigy",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Addigy"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/ajoshuasmith/n8n-nodes-addigy.git",
+    "homepage": "https://github.com/ajoshuasmith/n8n-nodes-addigy",
     "license": "MIT",
     "deprecated": null
   },
@@ -28678,44 +28645,6 @@
     "deprecated": null
   },
   {
-    "name": "@mikiguillamon/n8n-nodes-holded",
-    "description": "n8n community node for Holded with guided resources plus a full custom API request operation.",
-    "version": "0.1.12",
-    "date": "2026-05-04T12:03:21.186Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "holded",
-      "erp",
-      "crm",
-      "accounting"
-    ],
-    "publisher": "GitHub Actions",
-    "links": {
-      "homepage": "https://github.com/mikiguillamon/n8n-nodes-holded#readme",
-      "repository": "git+https://github.com/mikiguillamon/n8n-nodes-holded.git",
-      "bugs": "https://github.com/mikiguillamon/n8n-nodes-holded/issues",
-      "npm": "https://www.npmjs.com/package/@mikiguillamon/n8n-nodes-holded"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Holded/Holded.node.js",
-        "displayName": "Holded",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Holded"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/mikiguillamon/n8n-nodes-holded.git",
-    "homepage": "https://github.com/mikiguillamon/n8n-nodes-holded#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "@mikiguillamon/n8n-nodes-solidtime",
     "description": "n8n community node for Solidtime with guided operations, flexible API requests, and AI agent tool support.",
     "version": "0.2.6",
@@ -28977,8 +28906,8 @@
   {
     "name": "@mmkhak/n8n-nodes-crm",
     "description": "![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)",
-    "version": "0.2.52",
-    "date": "2026-08-29T13:30:14.596Z",
+    "version": "0.2.53",
+    "date": "2026-08-31T09:38:45.181Z",
     "keywords": [
       "n8n-community-node-package"
     ],
@@ -28989,7 +28918,7 @@
       "bugs": "https://github.com/mmkhakdaman/n8n-nodes-crm/issues",
       "npm": "https://www.npmjs.com/package/@mmkhak/n8n-nodes-crm"
     },
-    "npmScore": 18.991976,
+    "npmScore": 21.606531,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -29580,6 +29509,51 @@
     "deprecated": null
   },
   {
+    "name": "@moophlo/n8n-nodes-proxmox",
+    "description": "n8n community node for Proxmox Virtual Environment (VE) API integration with VM, container, storage, and cluster management capabilities",
+    "version": "1.0.4",
+    "date": "2026-02-22T13:24:33.597Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "proxmox",
+      "virtualization",
+      "containers",
+      "vm",
+      "storage",
+      "cluster",
+      "hypervisor",
+      "infrastructure"
+    ],
+    "publisher": "moophlo",
+    "links": {
+      "homepage": "http://TBD",
+      "repository": "TBD",
+      "npm": "https://www.npmjs.com/package/@moophlo/n8n-nodes-proxmox"
+    },
+    "npmScore": 12.188604,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ProxMox.node.js",
+        "displayName": "ProxMox VE",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "ProxMox VE"
+    ],
+    "metadataStatus": "ok",
+    "repository": "TBD",
+    "homepage": "http://TBD",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "@mspcopilot/n8n-nodes-connectwise",
     "description": "n8n node to integrate with ConnectWise PSA",
     "version": "0.3.3",
@@ -29613,6 +29587,45 @@
     ],
     "metadataStatus": "ok",
     "repository": "",
+    "homepage": "https://mspcopilot.io",
+    "license": "SUL-1.0",
+    "deprecated": null
+  },
+  {
+    "name": "@mspcopilot/n8n-nodes-microsoft-partner-gdap",
+    "description": "Microsoft Partner GDAP API Node for n8n",
+    "version": "0.1.0-beta.2",
+    "date": "2025-11-24T01:03:31.547Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "microsoft",
+      "graph",
+      "gdap",
+      "msp",
+      "microsoft-partner",
+      "granular-delegated-admin-privileges"
+    ],
+    "publisher": "danbuhler",
+    "links": {
+      "homepage": "https://mspcopilot.io",
+      "npm": "https://www.npmjs.com/package/@mspcopilot/n8n-nodes-microsoft-partner-gdap"
+    },
+    "npmScore": 11.740276,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/MicrosoftPartnerGdap/MicrosoftPartnerGdap.node.js",
+        "displayName": null,
+        "verified": false
+      }
+    ],
+    "displayNames": [],
+    "metadataStatus": "no-display-name",
+    "repository": null,
     "homepage": "https://mspcopilot.io",
     "license": "SUL-1.0",
     "deprecated": null
@@ -32195,8 +32208,8 @@
   {
     "name": "@n8n-dev/n8n-nodes-taostats",
     "description": "TaoStats: Bittensor block explorer, analytics, staking, subnet discovery.",
-    "version": "1.0.16",
-    "date": "2026-08-28T14:17:53.395Z",
+    "version": "1.0.17",
+    "date": "2026-08-31T08:28:52.492Z",
     "keywords": [
       "n8n",
       "n8n-community-node",
@@ -32216,7 +32229,7 @@
       "bugs": "https://github.com/n8n-code/n8n-nodes-taostats/issues",
       "npm": "https://www.npmjs.com/package/@n8n-dev/n8n-nodes-taostats"
     },
-    "npmScore": 19.412512,
+    "npmScore": 19.07573,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -32503,45 +32516,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/n8n-code/n8n-nodes-zapper.git",
     "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-zapper",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "@n8njimmy/n8n-nodes-binance",
-    "description": "N8N nodes for Binance Exchange",
-    "version": "0.0.6",
-    "date": "2026-01-18T17:29:28.056Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "foryou1000",
-    "links": {
-      "homepage": "https://github.com/jimmylegendary/n8n-nodes-binance#readme",
-      "repository": "git+https://github.com/jimmylegendary/n8n-nodes-binance.git",
-      "bugs": "https://github.com/jimmylegendary/n8n-nodes-binance/issues",
-      "npm": "https://www.npmjs.com/package/@n8njimmy/n8n-nodes-binance"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Binance/Binance.node.js",
-        "displayName": "Binance",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/Binance/BinanceTrigger.node.js",
-        "displayName": "Binance Trigger",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Binance",
-      "Binance Trigger"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/jimmylegendary/n8n-nodes-binance.git",
-    "homepage": "https://github.com/jimmylegendary/n8n-nodes-binance#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -33589,8 +33563,8 @@
   {
     "name": "@nooviai/n8n-nodes-noovichat",
     "description": "n8n community node for NooviChat — customer engagement, pipeline CRM, lead scoring and WhatsApp integration",
-    "version": "0.19.0",
-    "date": "2026-07-04T00:26:14.251Z",
+    "version": "0.21.1",
+    "date": "2026-08-31T02:44:48.671Z",
     "keywords": [
       "n8n-community-node-package",
       "noovichat",
@@ -33618,6 +33592,10 @@
       "bugs": "https://github.com/Noovi-AI/n8n-nodes-noovichat/issues",
       "npm": "https://www.npmjs.com/package/@nooviai/n8n-nodes-noovichat"
     },
+    "npmScore": 18.443352,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -36383,6 +36361,43 @@
     "deprecated": null
   },
   {
+    "name": "@permitio/n8n-nodes-permitio",
+    "description": "n8n node for Permit.io authorization service",
+    "version": "0.2.3",
+    "date": "2025-12-07T08:37:43.660Z",
+    "keywords": [
+      "n8n-community-node-package"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://github.com/permitio/n8n-nodes-permitio",
+      "repository": "git+https://github.com/permitio/n8n-nodes-permitio.git",
+      "bugs": "https://github.com/permitio/n8n-nodes-permitio/issues",
+      "npm": "https://www.npmjs.com/package/@permitio/n8n-nodes-permitio"
+    },
+    "npmScore": 10.465303,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Permit/Permit.node.js",
+        "displayName": "Permit",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Permit"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/permitio/n8n-nodes-permitio.git",
+    "homepage": "https://github.com/permitio/n8n-nodes-permitio",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "@peterhelge/n8n-nodes-fortnox",
     "description": "n8n community node for the Fortnox accounting/invoicing API",
     "version": "0.3.0",
@@ -38383,6 +38398,43 @@
     "deprecated": null
   },
   {
+    "name": "@qontext/n8n-nodes-qontext",
+    "description": "Retrieve and ingest context to and from Qontext vaults",
+    "version": "0.1.5",
+    "date": "2026-03-30T07:46:39.134Z",
+    "keywords": [
+      "n8n-community-node-package"
+    ],
+    "publisher": "valeska_pachelbel",
+    "links": {
+      "homepage": "https://github.com/qontext-ai/n8n-nodes-qontext",
+      "repository": "git+https://github.com/qontext-ai/n8n-nodes-qontext.git",
+      "bugs": "https://github.com/qontext-ai/n8n-nodes-qontext/issues",
+      "npm": "https://www.npmjs.com/package/@qontext/n8n-nodes-qontext"
+    },
+    "npmScore": 10.75396,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Qontext/Qontext.node.js",
+        "displayName": "Qontext",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Qontext"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/qontext-ai/n8n-nodes-qontext.git",
+    "homepage": "https://github.com/qontext-ai/n8n-nodes-qontext",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "@quercle/n8n-nodes-quercle",
     "description": "n8n nodes for Quercle AI-powered web search and fetch API",
     "version": "1.0.0",
@@ -38892,6 +38944,52 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/razorpay/n8n-nodes-razorpay.git",
     "homepage": "https://github.com/razorpay/n8n-nodes-razorpay#readme",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "@rderet/n8n-nodes-format-template",
+    "description": "n8n node for formatting and transforming data using customizable templates - supports phone numbers, text case, country codes, and more",
+    "version": "0.1.2",
+    "date": "2025-11-30T14:32:58.657Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "n8n-nodes",
+      "format",
+      "template",
+      "transformation",
+      "phone-formatting",
+      "text-case",
+      "country-codes",
+      "data-formatting"
+    ],
+    "publisher": "rderet",
+    "links": {
+      "homepage": "https://github.com/rldet9/n8n-nodes-format-template",
+      "repository": "git+https://github.com/rldet9/n8n-nodes-format-template.git",
+      "bugs": "https://github.com/rldet9/n8n-nodes-format-template/issues",
+      "npm": "https://www.npmjs.com/package/@rderet/n8n-nodes-format-template"
+    },
+    "npmScore": 11.8492365,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/FormatTemplate/FormatTemplate.node.js",
+        "displayName": "Format Template",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Format Template"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/rldet9/n8n-nodes-format-template.git",
+    "homepage": "https://github.com/rldet9/n8n-nodes-format-template",
     "license": "MIT",
     "deprecated": null
   },
@@ -39588,6 +39686,53 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/legenhand/n8n-nodes-instagram-api.git",
     "homepage": "https://github.com/legenhand/n8n-nodes-instagram-api",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "@rizkifirmansyah/n8n-nodes-threads-api",
+    "description": "n8n community node for the official Meta Threads API",
+    "version": "1.0.9",
+    "date": "2026-08-31T03:50:45.942Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "threads",
+      "meta",
+      "social-media",
+      "threads-api"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://github.com/legenhand/n8n-nodes-threads",
+      "repository": "git+https://github.com/legenhand/n8n-nodes-threads.git",
+      "bugs": "https://github.com/legenhand/n8n-nodes-threads/issues",
+      "npm": "https://www.npmjs.com/package/@rizkifirmansyah/n8n-nodes-threads-api"
+    },
+    "npmScore": 21.39218,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Threads/Threads.node.js",
+        "displayName": "Threads",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/Threads/ThreadsTrigger.node.js",
+        "displayName": "Threads Trigger",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Threads",
+      "Threads Trigger"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/legenhand/n8n-nodes-threads.git",
+    "homepage": "https://github.com/legenhand/n8n-nodes-threads",
     "license": "MIT",
     "deprecated": null
   },
@@ -47351,6 +47496,54 @@
     "deprecated": null
   },
   {
+    "name": "@tolgee/n8n-nodes-tolgee",
+    "description": "Tolgee translation management node for n8n",
+    "version": "0.1.9",
+    "date": "2025-10-19T17:46:39.365Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "tolgee",
+      "translation",
+      "i18n",
+      "internationalization",
+      "localization"
+    ],
+    "publisher": "jancizmar",
+    "links": {
+      "homepage": "https://github.com/tolgee/n8n-node-tolgee",
+      "repository": "git+https://github.com/tolgee/n8n-node-tolgee.git",
+      "bugs": "https://github.com/tolgee/n8n-node-tolgee/issues",
+      "npm": "https://www.npmjs.com/package/@tolgee/n8n-nodes-tolgee"
+    },
+    "npmScore": 10.627732,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Tolgee/Tolgee.node.js",
+        "displayName": "Tolgee",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/Tolgee/TolgeeTrigger.node.js",
+        "displayName": "Tolgee Trigger",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Tolgee",
+      "Tolgee Trigger"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/tolgee/n8n-node-tolgee.git",
+    "homepage": "https://github.com/tolgee/n8n-node-tolgee",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "@tom-schorn/n8n-nodes-paperless",
     "description": "N8N community node manage your documents with Paperless-ngx.",
     "version": "0.1.3",
@@ -47507,8 +47700,8 @@
   {
     "name": "@tpsdev-ai/n8n-nodes-flair",
     "description": "n8n community node — use Flair as your AI Agent's memory backend. Includes FlairChatMemory (Memory port) and FlairSearch (Tool port).",
-    "version": "0.50.0",
-    "date": "2026-08-26T00:34:20.987Z",
+    "version": "0.51.0",
+    "date": "2026-08-30T18:07:17.683Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -47525,7 +47718,7 @@
       "bugs": "https://github.com/tpsdev-ai/flair/issues",
       "npm": "https://www.npmjs.com/package/@tpsdev-ai/n8n-nodes-flair"
     },
-    "npmScore": 27.758797,
+    "npmScore": 25.764366,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -48746,44 +48939,6 @@
     "deprecated": null
   },
   {
-    "name": "@utopian-labs/n8n-nodes-utopianlabs",
-    "description": "Utopian Labs integration for n8n",
-    "version": "0.1.11",
-    "date": "2025-06-01T07:46:19.421Z",
-    "keywords": [
-      "n8n",
-      "n8n-community-node-package",
-      "utopianlabs",
-      "ai",
-      "research",
-      "sales"
-    ],
-    "publisher": "utopianlabs",
-    "links": {
-      "homepage": "https://www.utopianlabs.ai",
-      "repository": "git+https://github.com/utopianlabs/n8n-nodes-utopianlabs.git",
-      "bugs": "https://github.com/utopianlabs/n8n-nodes-utopianlabs/issues",
-      "npm": "https://www.npmjs.com/package/@utopian-labs/n8n-nodes-utopianlabs"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/UtopianLabs.node.js",
-        "displayName": "Utopian Labs",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Utopian Labs"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/utopianlabs/n8n-nodes-utopianlabs.git",
-    "homepage": "https://www.utopianlabs.ai",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "@vaiyen/n8n-nodes-ninjaone",
     "description": "n8n community node for NinjaOne RMM – full API coverage including organizations, devices, ticketing, users, groups, queries, management, backup, locations, custom fields, webhooks, knowledge base, document templates, and more.",
     "version": "1.4.2",
@@ -49280,46 +49435,6 @@
     "deprecated": null
   },
   {
-    "name": "@victorhalla/n8n-nodes-wwebjsapi",
-    "description": "n8n community node for WWebJS API (WhatsApp Web JS wrapper)",
-    "version": "1.1.3",
-    "date": "2026-02-23T14:04:27.604Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "whatsapp",
-      "wwebjs",
-      "automation"
-    ],
-    "publisher": "victorhalla",
-    "links": {
-      "homepage": "https://github.com/avoylenko/wwebjs-api",
-      "repository": "git+https://github.com/victor-halla/wwebjs-n8n.git",
-      "bugs": "https://github.com/victor-halla/wwebjs-n8n/issues",
-      "npm": "https://www.npmjs.com/package/@victorhalla/n8n-nodes-wwebjsapi"
-    },
-    "npmScore": 10.628051,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/WWebjsApi/WWebjsApi.node.js",
-        "displayName": "WWebJS API",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "WWebJS API"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/victor-halla/wwebjs-n8n.git",
-    "homepage": "https://github.com/avoylenko/wwebjs-api",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "@videodb/n8n-nodes-videodb",
     "description": "An n8n node for VideoDB",
     "version": "1.1.1",
@@ -49639,43 +49754,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/Waapi-Pro/n8n-nodes-waalaxy.git",
     "homepage": "https://github.com/Waapi-Pro/n8n-nodes-waalaxy",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "@waapi/n8n-nodes-waalaxy-tools",
-    "description": "This is an n8n community node. It lets you use Waalaxy Tools in your n8n workflows.",
-    "version": "1.1.3",
-    "date": "2026-04-29T10:14:18.283Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "GitHub Actions",
-    "links": {
-      "homepage": "https://github.com/Waapi-Pro/n8n-nodes-waalaxy-tools#readme",
-      "repository": "git+https://github.com/Waapi-Pro/n8n-nodes-waalaxy-tools.git",
-      "bugs": "https://github.com/Waapi-Pro/n8n-nodes-waalaxy-tools/issues",
-      "npm": "https://www.npmjs.com/package/@waapi/n8n-nodes-waalaxy-tools"
-    },
-    "npmScore": 10.628051,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/WaalaxyTools/WaalaxyTools.node.js",
-        "displayName": "Waalaxy Tools",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Waalaxy Tools"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/Waapi-Pro/n8n-nodes-waalaxy-tools.git",
-    "homepage": "https://github.com/Waapi-Pro/n8n-nodes-waalaxy-tools#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -52882,8 +52960,8 @@
   {
     "name": "@workbuddy/n8n-nodes-workbuddy-edge",
     "description": "n8n nodes for WorkBuddy - Field service management",
-    "version": "1.0.33",
-    "date": "2026-05-29T07:05:29.583Z",
+    "version": "1.0.34",
+    "date": "2026-08-31T00:00:48.897Z",
     "keywords": [
       "n8n-community-node-package"
     ],
@@ -52892,6 +52970,10 @@
       "homepage": "https://workbuddy.com",
       "npm": "https://www.npmjs.com/package/@workbuddy/n8n-nodes-workbuddy-edge"
     },
+    "npmScore": 14.014884,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -52919,8 +53001,8 @@
   {
     "name": "@workbuddy/n8n-nodes-workbuddy-vnext",
     "description": "n8n nodes for WorkBuddy - Field service management",
-    "version": "1.0.92",
-    "date": "2026-08-21T03:30:08.647Z",
+    "version": "1.0.94",
+    "date": "2026-08-31T06:07:49.268Z",
     "keywords": [
       "n8n-community-node-package"
     ],
@@ -52929,7 +53011,7 @@
       "homepage": "https://workbuddy.com",
       "npm": "https://www.npmjs.com/package/@workbuddy/n8n-nodes-workbuddy-vnext"
     },
-    "npmScore": 26.304201,
+    "npmScore": 25.327415,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -55282,37 +55364,6 @@
     "deprecated": null
   },
   {
-    "name": "@zurdai/n8n-nodes-padelapp",
-    "description": "n8n node for PadelApp logic",
-    "version": "0.6.4",
-    "date": "2025-12-06T14:27:59.935Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "zurdai",
-    "links": {
-      "homepage": "https://padelapp.ch",
-      "npm": "https://www.npmjs.com/package/@zurdai/n8n-nodes-padelapp"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/PadelApp/PadelApp.node.js",
-        "displayName": "Padel App",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Padel App"
-    ],
-    "metadataStatus": "ok",
-    "repository": null,
-    "homepage": "https://padelapp.ch",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "@zurdai/n8n-nodes-personalfinder",
     "description": "n8n node for Personal Finder API - Complete integration with filtered search for employers and job seekers, partial field updates",
     "version": "1.7.2",
@@ -56385,6 +56436,45 @@
     "metadataStatus": "ok",
     "repository": "https://github.com/n8n-nodes-97display.git",
     "homepage": "",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-99acres-listings",
+    "description": "This actor reads property search results and listing pages on 99acres. Records include listing titles, prices, locations, property types, bedrooms, area details, descriptions, and listing URLs when available.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:49:57.020Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/99acres-listings",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-99acres-listings"
+    },
+    "npmScore": 14.239955,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Apify99acresListings/Apify99acresListings.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/99acres-listings",
     "license": "MIT",
     "deprecated": null
   },
@@ -58924,50 +59014,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-agenta",
-    "description": "Agenta prompt management nodes for n8n",
-    "version": "0.2.1",
-    "date": "2025-10-17T10:33:31.176Z",
-    "keywords": [
-      "n8n",
-      "n8n-node",
-      "n8n-community-node-package",
-      "agenta",
-      "prompt-management",
-      "ai",
-      "llm",
-      "machine-learning"
-    ],
-    "publisher": "ehpyeon",
-    "links": {
-      "homepage": "https://github.com/agenta-ai/n8n-nodes-agenta",
-      "repository": "git+https://github.com/agenta-ai/n8n-nodes-agenta.git",
-      "bugs": "https://github.com/agenta-ai/n8n-nodes-agenta/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-agenta"
-    },
-    "npmScore": 10.533563,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Agenta/Agenta.node.js",
-        "displayName": "Agenta",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Agenta"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/agenta-ai/n8n-nodes-agenta.git",
-    "homepage": "https://github.com/agenta-ai/n8n-nodes-agenta",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-agentgen",
     "description": "n8n community node for AgentGen — HTML to PDF and Image generation",
     "version": "0.1.9",
@@ -61457,45 +61503,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-alicloud-oss",
-    "description": "Alicloud OSS node for n8n",
-    "version": "0.0.4",
-    "date": "2025-12-12T08:26:14.887Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "n8n-community-node",
-      "alicloud",
-      "Alicloud",
-      "oss",
-      "alicloud-oss"
-    ],
-    "publisher": "felixliuyj",
-    "links": {
-      "homepage": "https://github.com/felix-liuyj/n8n-nodes-alicloud-oss#readme",
-      "repository": "git+https://github.com/felix-liuyj/n8n-nodes-alicloud-oss.git",
-      "bugs": "https://github.com/felix-liuyj/n8n-nodes-alicloud-oss/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-alicloud-oss"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/AlicloudOss/AlicloudOss.node.js",
-        "displayName": "Alicloud OSS",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Alicloud OSS"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/felix-liuyj/n8n-nodes-alicloud-oss.git",
-    "homepage": "https://github.com/felix-liuyj/n8n-nodes-alicloud-oss#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-aliexpress-affiliate",
     "description": "n8n node for AliExpress Affiliate API",
     "version": "0.1.17",
@@ -61856,50 +61863,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/AllSign-io/n8n-nodes-allsign.git",
     "homepage": "https://allsign.io",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-alltoken",
-    "description": "n8n community node for AllToken — unified OpenAI-compatible AI API (chat, image, video)",
-    "version": "0.2.1",
-    "date": "2026-05-18T03:27:38.245Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "alltoken",
-      "ai",
-      "llm",
-      "openai"
-    ],
-    "publisher": "alltoken-ai",
-    "links": {
-      "homepage": "https://alltoken.ai",
-      "repository": "git+https://github.com/alltoken-ai/n8n-nodes-alltoken.git",
-      "bugs": "https://github.com/alltoken-ai/n8n-nodes-alltoken/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-alltoken"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/AllToken/AllToken.node.js",
-        "displayName": "AllToken",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/AllTokenChatModel/AllTokenChatModel.node.js",
-        "displayName": "AllToken Chat Model",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "AllToken",
-      "AllToken Chat Model"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/alltoken-ai/n8n-nodes-alltoken.git",
-    "homepage": "https://alltoken.ai",
     "license": "MIT",
     "deprecated": null
   },
@@ -64970,8 +64933,8 @@
   {
     "name": "n8n-nodes-app-review-monitor",
     "description": "n8n node to fetch and monitor App Store and Google Play reviews in one normalized stream, powered by the App Review Monitor Actor on Apify",
-    "version": "0.1.2",
-    "date": "2026-08-19T15:28:15.010Z",
+    "version": "0.1.3",
+    "date": "2026-08-31T08:59:57.776Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -64981,14 +64944,14 @@
       "review-monitoring",
       "apify"
     ],
-    "publisher": "moriofsyoge",
+    "publisher": "GitHub Actions",
     "links": {
       "homepage": "https://github.com/syogemori-art/n8n-nodes-app-review-monitor",
       "repository": "git+https://github.com/syogemori-art/n8n-nodes-app-review-monitor.git",
       "bugs": "https://github.com/syogemori-art/n8n-nodes-app-review-monitor/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-app-review-monitor"
     },
-    "npmScore": 18.242441,
+    "npmScore": 17.994062,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -67154,8 +67117,8 @@
   {
     "name": "n8n-nodes-auphonic",
     "description": "n8n community node for Auphonic: a trigger that starts a workflow when a production finishes processing, and an action to create and start new productions.",
-    "version": "0.1.1",
-    "date": "2026-07-27T15:27:12.076Z",
+    "version": "0.1.2",
+    "date": "2026-08-31T09:14:50.711Z",
     "keywords": [
       "n8n-community-node-package"
     ],
@@ -67166,6 +67129,10 @@
       "bugs": "https://github.com/auphonic/n8n-nodes-auphonic/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-auphonic"
     },
+    "npmScore": 11.787984,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -67635,8 +67602,8 @@
   {
     "name": "n8n-nodes-autotask",
     "description": "n8n node for Autotask PSA integration",
-    "version": "2.28.3",
-    "date": "2026-08-18T22:40:39.930Z",
+    "version": "2.29.1",
+    "date": "2026-08-30T11:17:26.395Z",
     "keywords": [
       "n8n-community-node-package",
       "autotask",
@@ -67651,7 +67618,7 @@
       "bugs": "https://github.com/msoukhomlinov/n8n-nodes-autotask/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-autotask"
     },
-    "npmScore": 25.77115,
+    "npmScore": 27.033125,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -71295,43 +71262,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-beyondpresence",
-    "description": "n8n node to call Beyond Presence's video agent services.",
-    "version": "0.4.0",
-    "date": "2025-06-03T15:55:34.076Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "nicolabeyondpresence",
-    "links": {
-      "homepage": "https://beyondpresence.ai/",
-      "repository": "git+https://github.com/bey-dev/n8n-nodes-beyondpresence.git",
-      "bugs": "https://github.com/bey-dev/n8n-nodes-beyondpresence/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-beyondpresence"
-    },
-    "npmScore": 10.628051,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/BeyondPresence/BeyondPresence.node.js",
-        "displayName": "Beyond Presence",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Beyond Presence"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/bey-dev/n8n-nodes-beyondpresence.git",
-    "homepage": "https://beyondpresence.ai/",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-bfa",
     "description": "n8n nodes integration for Backend for Agents (BFA) & IRC-A Protocol (Enterprise Edition)",
     "version": "1.1.7",
@@ -72601,6 +72531,45 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-bluesky-scraper",
+    "description": "Scrape Bluesky profiles, posts and author feeds via the fully open AT Protocol public API. No auth required. Extract posts with likes, reposts, replies, author info and timestamps. Pay per result.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:51:55.068Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/bluesky-scraper",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-bluesky-scraper"
+    },
+    "npmScore": 14.057579,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyBlueskyScraper/ApifyBlueskyScraper.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/bluesky-scraper",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-bolnaai",
     "description": "n8n community node for the Bolna Voice AI calling platform",
     "version": "1.0.0",
@@ -72829,6 +72798,45 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/Bolt-X/bds-core.git",
     "homepage": "https://github.com/Bolt-X/bds-core/tree/main/worker/node-raw/n8n-nodes-boltx-smtp",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-booking-camoufox-probe",
+    "description": "Internal diagnostic: renders a Booking.com search page with our in-house Camoufox on an Apify RESIDENTIAL exit to test whether it clears the AWS WAF mp_verify wall at $0. Dumps HTML to the key-value store. Not for publication.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:51:21.359Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/booking-camoufox-probe",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-booking-camoufox-probe"
+    },
+    "npmScore": 14.1097555,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyBookingCamoufoxProbe/ApifyBookingCamoufoxProbe.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/booking-camoufox-probe",
     "license": "MIT",
     "deprecated": null
   },
@@ -73977,44 +73985,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-bravesearch-advanced",
-    "description": "n8n community node package providing a LangChain tool for the Brave Search API.",
-    "version": "0.1.3",
-    "date": "2025-03-30T20:04:15.651Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "brave",
-      "search",
-      "ai",
-      "tool",
-      "langchain"
-    ],
-    "publisher": "optron",
-    "links": {
-      "homepage": "https://acceleate.com",
-      "repository": "git+https://github.com/Walid-Azur/n8n-nodes-bravesearch.git",
-      "bugs": "https://github.com/Walid-Azur/n8n-nodes-bravesearch/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-bravesearch-advanced"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/BraveSearch/ToolBraveSearch.node.js",
-        "displayName": "Web Search Tool (Brave)",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Web Search Tool (Brave)"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/Walid-Azur/n8n-nodes-bravesearch.git",
-    "homepage": "https://acceleate.com",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-breezy-hr",
     "description": "n8n community node for the Breezy HR recruiting/ATS API",
     "version": "0.1.0",
@@ -75115,6 +75085,45 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-bulk-email-verifier",
+    "description": "Validate a list of emails fast. Per address: syntax, MX/DNS check, disposable & role detection, free-provider flag, and a typo suggestion (gmial.com -> gmail.com). One clean record per email, de-duplicated. Pay per email.",
+    "version": "0.1.0",
+    "date": "2026-07-19T08:50:55.878Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/bulk-email-verifier",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-bulk-email-verifier"
+    },
+    "npmScore": 10.464033,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyBulkEmailVerifier/ApifyBulkEmailVerifier.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/bulk-email-verifier",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-bulkgate",
     "description": "BulkGate integration for n8n",
     "version": "0.1.18",
@@ -75161,9 +75170,9 @@
   },
   {
     "name": "n8n-nodes-bulkpublish",
-    "description": "n8n community node for BulkPublish — publish to 11 social media platforms from n8n workflows",
-    "version": "1.9.0",
-    "date": "2026-08-20T09:42:39.193Z",
+    "description": "n8n community node for BulkPublish — publish to 15 social media platforms from n8n workflows",
+    "version": "1.9.2",
+    "date": "2026-08-31T08:01:12.259Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n-nodes",
@@ -75188,7 +75197,7 @@
       "bugs": "https://github.com/azeemkafridi/n8n-nodes-bulkpublish/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-bulkpublish"
     },
-    "npmScore": 15.2794285,
+    "npmScore": 17.490898,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -75383,42 +75392,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/minhlucvan/n8n-nodes-bullmq.git",
     "homepage": "https://www.npmjs.com/package/n8n-nodes-bullmq",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-bullmq-keno",
-    "description": "Custom modern BullMQ nodes for n8n",
-    "version": "1.0.6",
-    "date": "2026-06-01T00:51:11.645Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "keno_lopes",
-    "links": {
-      "npm": "https://www.npmjs.com/package/n8n-nodes-bullmq-keno"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Bullmq/Bullmq.node.js",
-        "displayName": "BullMQ",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/Bullmq/BullmqTrigger.node.js",
-        "displayName": "BullMQ Trigger",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "BullMQ",
-      "BullMQ Trigger"
-    ],
-    "metadataStatus": "ok",
-    "repository": null,
-    "homepage": null,
     "license": "MIT",
     "deprecated": null
   },
@@ -76196,39 +76169,6 @@
     "repository": "git+https://github.com/mediabc/n8n-nodes-caldav-calendar.git",
     "homepage": "https://github.com/mediabc/n8n-nodes-caldav-calendar",
     "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-caldav-carddav",
-    "description": "CalDAV and CardDAV client",
-    "version": "0.4.3",
-    "date": "2025-07-04T22:41:12.186Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "slava_v",
-    "links": {
-      "homepage": "https://github.com/SlavaVlad/n8n-nodes-caldav-carddav",
-      "repository": "git+https://github.com/SlavaVlad/n8n-nodes-caldav-carddav.git",
-      "bugs": "https://github.com/SlavaVlad/n8n-nodes-caldav-carddav/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-caldav-carddav"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/CalDavCalendar/CalDavCalendar.node.js",
-        "displayName": "CalDav Calendar",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "CalDav Calendar"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/SlavaVlad/n8n-nodes-caldav-carddav.git",
-    "homepage": "https://github.com/SlavaVlad/n8n-nodes-caldav-carddav",
-    "license": "GPL-3.0-or-later",
     "deprecated": null
   },
   {
@@ -77855,46 +77795,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/wollemiahq/n8n-nodes-cavuno.git",
     "homepage": "https://cavuno.com",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-caymland",
-    "description": "A n8n node for Caymland M4",
-    "version": "1.0.8",
-    "date": "2025-06-01T14:55:46.391Z",
-    "keywords": [
-      "n8n-node-package",
-      "n8n-community-node-package"
-    ],
-    "publisher": "donluto",
-    "links": {
-      "homepage": "https://github.com/Lutishoski/caymland.n8n#readme",
-      "repository": "git+https://github.com/Lutishoski/caymland.n8n.git",
-      "bugs": "https://github.com/Lutishoski/caymland.n8n/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-caymland"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Caymland/Caymland.node.js",
-        "displayName": "Caymland",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/Caymland/CaymlandTrigger.node.js",
-        "displayName": "Caymland Trigger",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Caymland",
-      "Caymland Trigger"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/Lutishoski/caymland.n8n.git",
-    "homepage": "https://github.com/Lutishoski/caymland.n8n#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -80328,37 +80228,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/Gaelproodoos/n8n-nodes-claix.git",
     "homepage": "https://www.claix.dev",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-clarit-meilisearch",
-    "description": "Test",
-    "version": "0.1.9",
-    "date": "2026-03-08T12:49:32.431Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "pruteanualexandru",
-    "links": {
-      "homepage": "https://github.com/pruteanualex/meilisearch_n8n#readme",
-      "repository": "git+https://github.com/pruteanualex/meilisearch_n8n.git",
-      "bugs": "https://github.com/pruteanualex/meilisearch_n8n/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-clarit-meilisearch"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/ClaritMeilisearchdoc/ClaritMeilisearchdoc.node.js",
-        "displayName": null,
-        "verified": false
-      }
-    ],
-    "displayNames": [],
-    "metadataStatus": "no-display-name",
-    "repository": "git+https://github.com/pruteanualex/meilisearch_n8n.git",
-    "homepage": "https://github.com/pruteanualex/meilisearch_n8n#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -92202,6 +92071,46 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-delicia",
+    "description": "n8n community node for Delicia Restaurant Reservations API",
+    "version": "0.1.5",
+    "date": "2026-08-23T19:00:57.396Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "delicia",
+      "restaurant",
+      "reservations"
+    ],
+    "publisher": "echtjetztki",
+    "links": {
+      "homepage": "https://delicia.local",
+      "repository": "git+https://github.com/delicia/n8n-nodes-delicia.git",
+      "bugs": "https://github.com/delicia/n8n-nodes-delicia/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-delicia"
+    },
+    "npmScore": 19.852766,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Delicia/Delicia.node.js",
+        "displayName": "Delicia Reservations",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Delicia Reservations"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/delicia/n8n-nodes-delicia.git",
+    "homepage": "https://delicia.local",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-delightloop",
     "description": "n8n community nodes for Delightloop — manage contacts and campaigns",
     "version": "0.1.10",
@@ -93044,6 +92953,45 @@
     "metadataStatus": "ok",
     "repository": null,
     "homepage": "https://github.com/lythongac/n8n-nodes-deviantart",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-devto-scraper",
+    "description": "Scrape Dev.to articles by tag, author, keyword search, or top posts via the official Forem public API. No proxy, no auth. Returns title, tags, reactions, comments, reading time, author, published date, and optional body markdown. Pay per article.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:52:12.904Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/devto-scraper",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-devto-scraper"
+    },
+    "npmScore": 14.211188,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyDevtoScraper/ApifyDevtoScraper.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/devto-scraper",
     "license": "MIT",
     "deprecated": null
   },
@@ -99271,8 +99219,8 @@
   {
     "name": "n8n-nodes-edit-image-ultimate",
     "description": "Advanced image editing node for n8n — powered by Sharp (libvips). Rich text styling (opacity, weight, stroke, shadow, decoration, background with solid/frosted-glass fill, justify), gravity/box-anchor positioning, plus templates, watermarks, and 20+ image",
-    "version": "1.2.0",
-    "date": "2026-08-27T22:09:27.174Z",
+    "version": "1.3.0",
+    "date": "2026-08-30T14:49:47.990Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -99309,7 +99257,7 @@
       "bugs": "https://github.com/Abdullah-Sheikh-H/n8n-nodes-edit-image-ultimate/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-edit-image-ultimate"
     },
-    "npmScore": 18.070902,
+    "npmScore": 19.018383,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -101602,43 +101550,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/ashleygeorgeclarke/n8n-nodes-erply-api.git",
     "homepage": "https://github.com/ashleygeorgeclarke/n8n-nodes-erply-api#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-erpnext-accounting",
-    "description": "n8n community nodes for ERPNext/Frappe Accounting v15-v16.",
-    "version": "0.1.6",
-    "date": "2026-05-17T15:36:33.973Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "erpnext",
-      "frappe",
-      "accounting"
-    ],
-    "publisher": "GitHub Actions",
-    "links": {
-      "homepage": "https://github.com/n8n2erpnext/n8n-nodes-erpnext-accounting",
-      "repository": "git+https://github.com/n8n2erpnext/n8n-nodes-erpnext-accounting.git",
-      "bugs": "https://github.com/n8n2erpnext/n8n-nodes-erpnext-accounting/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-erpnext-accounting"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/ErpNextAccounting/ErpNextAccounting.node.js",
-        "displayName": "ERPNext Accounting",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "ERPNext Accounting"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/n8n2erpnext/n8n-nodes-erpnext-accounting.git",
-    "homepage": "https://github.com/n8n2erpnext/n8n-nodes-erpnext-accounting",
     "license": "MIT",
     "deprecated": null
   },
@@ -104387,6 +104298,54 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-faa-drone-airspace-checker",
+    "description": "n8n community node for the Apify FAA Drone Airspace Checker actor: batch lat/lon to FAA UAS airspace verdicts -- LAANC ceilings and availability, charted Class B/C/D/E surface areas, prohibited areas, national-defense TFR areas and special use airspace.",
+    "version": "1.0.0",
+    "date": "2026-08-10T05:16:32.020Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "n8n",
+      "apify",
+      "drone airspace",
+      "laanc",
+      "faa",
+      "part 107",
+      "uas",
+      "drone compliance",
+      "no-fly zone",
+      "airspace authorization"
+    ],
+    "publisher": "malonestar",
+    "links": {
+      "homepage": "https://apify.com/malonestar/faa-drone-airspace-checker",
+      "repository": "git+https://github.com/malonestar/n8n-nodes-faa-drone-airspace-checker.git",
+      "bugs": "https://github.com/malonestar/n8n-nodes-faa-drone-airspace-checker/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-faa-drone-airspace-checker"
+    },
+    "npmScore": 10.535806,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyFaaDroneAirspaceChecker/ApifyFaaDroneAirspaceChecker.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/malonestar/n8n-nodes-faa-drone-airspace-checker.git",
+    "homepage": "https://apify.com/malonestar/faa-drone-airspace-checker",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-faang-jobs-scraper",
     "description": "Search job listings from Meta, Amazon, Apple, Netflix, and Google careers sites. Apify-backed n8n community node, pay-per-event, usable as an AI agent tool.",
     "version": "0.1.0",
@@ -104554,6 +104513,45 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/ImranVibes/n8n-nodes-facebook-by-imran.git",
     "homepage": "https://github.com/ImranVibes/n8n-nodes-facebook-by-imran#readme",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-facebook-comments-scraper",
+    "description": "**Scrape Facebook post comments without login or API key.** Returns author, text, timestamps, and full reply threading in a clean flat schema. No browser or Playwright needed. Public posts, pages, and groups.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:51:04.900Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/facebook-comments-scraper",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-facebook-comments-scraper"
+    },
+    "npmScore": 13.780372,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyFacebookCommentsScraper/ApifyFacebookCommentsScraper.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/facebook-comments-scraper",
     "license": "MIT",
     "deprecated": null
   },
@@ -112484,39 +112482,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-generate-report",
-    "description": "Fill in DocX Template with Data from JSON object",
-    "version": "0.1.0",
-    "date": "2023-04-14T06:43:12.455Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "bramknuever",
-    "links": {
-      "homepage": "https://github.com/bramkn/n8n-nodes-generate-report.git",
-      "repository": "git+https://github.com/bramkn/n8n-nodes-generate-report.git",
-      "bugs": "https://github.com/bramkn/n8n-nodes-generate-report/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-generate-report"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/GenerateReport/GenerateReport.node.js",
-        "displayName": "Generate Report",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Generate Report"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/bramkn/n8n-nodes-generate-report.git",
-    "homepage": "https://github.com/bramkn/n8n-nodes-generate-report.git",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-generate-report-2",
     "description": "Generate DOCX and PDF reports from DOCX templates in n8n",
     "version": "0.2.0",
@@ -112746,8 +112711,8 @@
   {
     "name": "n8n-nodes-genius-referrals",
     "description": "n8n community node for the Genius Referrals API.",
-    "version": "0.1.4",
-    "date": "2026-08-21T02:29:02.654Z",
+    "version": "0.1.5",
+    "date": "2026-08-31T02:20:01.007Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -112761,7 +112726,7 @@
       "bugs": "https://github.com/GeniusReferrals/n8n-nodes-genius-referrals/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-genius-referrals"
     },
-    "npmScore": 19.829655,
+    "npmScore": 20.686005,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -119589,40 +119554,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-halo-psa",
-    "description": "n8n node for Halo PSA",
-    "version": "1.1.5",
-    "date": "2025-03-14T21:07:15.262Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "halo-psa"
-    ],
-    "publisher": "olaf11071107",
-    "links": {
-      "homepage": "https://n8n.io",
-      "repository": "git+https://github.com/olaf11071107/n8n-nodes-halo-psa.git",
-      "bugs": "https://github.com/olaf11071107/n8n-nodes-halo-psa/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-halo-psa"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/HaloPsa/HaloPsa.node.js",
-        "displayName": "Halo PSA",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Halo PSA"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/olaf11071107/n8n-nodes-halo-psa.git",
-    "homepage": "https://n8n.io",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-halopsacomplete",
     "description": "An n8n node to connect to HaloPSA API",
     "version": "5.5.0",
@@ -119877,6 +119808,53 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/Handit-AI/n8n-handit-nodes.git",
     "homepage": "https://handit.com",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-hash",
+    "description": "Hash text, files and JSON in n8n with algorithms the built-in Crypto node does not offer, including SHA1, BLAKE2, RIPEMD-160, SM3 and CRC32, plus base64url output and optional salt and pepper.",
+    "version": "0.1.2",
+    "date": "2026-08-30T18:14:14.956Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "hash",
+      "hashing",
+      "checksum",
+      "sha1",
+      "sha256",
+      "blake2",
+      "crc32",
+      "ripemd160",
+      "hmac",
+      "fingerprint"
+    ],
+    "publisher": "najielkotob",
+    "links": {
+      "homepage": "https://github.com/NajiElKotob/n8n-nodes-hash",
+      "repository": "git+https://github.com/NajiElKotob/n8n-nodes-hash.git",
+      "bugs": "https://github.com/NajiElKotob/n8n-nodes-hash/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-hash"
+    },
+    "npmScore": 13.853177,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Hash/Hash.node.js",
+        "displayName": "Hash",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Hash"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/NajiElKotob/n8n-nodes-hash.git",
+    "homepage": "https://github.com/NajiElKotob/n8n-nodes-hash",
     "license": "MIT",
     "deprecated": null
   },
@@ -120253,44 +120231,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/DanEvenSegler/n8n-nodes-headroom-token-optimizer.git",
     "homepage": "https://github.com/DanEvenSegler/n8n-nodes-headroom-token-optimizer#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-hebrew-calendar",
-    "description": "n8n community node for Hebrew Calendar operations - check if dates are Shabbat, holidays, or Chol Hamoed",
-    "version": "0.1.0",
-    "date": "2025-07-06T08:10:02.327Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "hebrew-calendar",
-      "jewish-calendar",
-      "shabbat",
-      "holidays",
-      "hebcal"
-    ],
-    "publisher": "ovadiab9",
-    "links": {
-      "homepage": "https://github.com/IDO/n8n-nodes-hebrew-calendar",
-      "repository": "git+https://github.com/IDO/n8n-nodes-hebrew-calendar.git",
-      "bugs": "https://github.com/IDO/n8n-nodes-hebrew-calendar/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-hebrew-calendar"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/HebrewCalendar/HebrewCalendar.node.js",
-        "displayName": "Hebrew Calendar",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Hebrew Calendar"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/IDO/n8n-nodes-hebrew-calendar.git",
-    "homepage": "https://github.com/IDO/n8n-nodes-hebrew-calendar",
     "license": "MIT",
     "deprecated": null
   },
@@ -124287,6 +124227,94 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-ifood-completo",
+    "description": "Nodes n8n modulares para Merchant API iFood: autenticação, lojas, eventos, pedidos, financeiro, catálogo, logística, shipping e avaliações.",
+    "version": "0.1.10",
+    "date": "2026-08-30T14:43:18.492Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "ifood",
+      "merchant-api",
+      "conciliacao",
+      "delivery"
+    ],
+    "publisher": "tamer_elmenoufi",
+    "links": {
+      "homepage": "https://merchant-api.ifood.com.br/",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-ifood-completo"
+    },
+    "npmScore": 20.797901,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "nodes/IfoodCompletoAuthentication/IfoodCompletoAuthentication.node.js",
+        "displayName": "iFood Authentication",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoMerchant/IfoodCompletoMerchant.node.js",
+        "displayName": "iFood Merchant",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoEvents/IfoodCompletoEvents.node.js",
+        "displayName": "iFood Events",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoOrder/IfoodCompletoOrder.node.js",
+        "displayName": "iFood Order",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoFinancial/IfoodCompletoFinancial.node.js",
+        "displayName": "iFood Financial",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoCatalog/IfoodCompletoCatalog.node.js",
+        "displayName": "iFood Catalog",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoLogistics/IfoodCompletoLogistics.node.js",
+        "displayName": "iFood Logistics",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoShipping/IfoodCompletoShipping.node.js",
+        "displayName": "iFood Shipping",
+        "verified": true
+      },
+      {
+        "path": "nodes/IfoodCompletoReview/IfoodCompletoReview.node.js",
+        "displayName": "iFood Review",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "iFood Authentication",
+      "iFood Merchant",
+      "iFood Events",
+      "iFood Order",
+      "iFood Financial",
+      "iFood Catalog",
+      "iFood Logistics",
+      "iFood Shipping",
+      "iFood Review"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://merchant-api.ifood.com.br/",
+    "license": "UNLICENSED",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-iiu-agent-api",
     "description": "n8n community nodes for IIU Agent WhatsApp API Gateway",
     "version": "1.0.2",
@@ -124958,6 +124986,46 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/DaWe35/n8n-nodes-imagerouter.git",
     "homepage": "https://imagerouter.io",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-imaginepdf",
+    "description": "n8n community node to generate PDFs from your ImaginePDF designs.",
+    "version": "0.1.3",
+    "date": "2026-08-24T05:23:44.481Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "imaginepdf",
+      "pdf",
+      "pdf-generation"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://imaginepdf.com",
+      "repository": "git+https://github.com/imaginepdf/n8n-nodes-imaginepdf.git",
+      "bugs": "https://github.com/imaginepdf/n8n-nodes-imaginepdf/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-imaginepdf"
+    },
+    "npmScore": 18.900185,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ImaginePdf/ImaginePdf.node.js",
+        "displayName": "ImaginePDF",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "ImaginePDF"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/imaginepdf/n8n-nodes-imaginepdf.git",
+    "homepage": "https://imaginepdf.com",
     "license": "MIT",
     "deprecated": null
   },
@@ -132550,41 +132618,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-kariyer-net-scraper",
-    "description": "Scrapes structured job listing data from Kariyer.net search results.",
-    "version": "0.1.0",
-    "date": "2026-07-25T11:51:23.132Z",
-    "keywords": [
-      "apify",
-      "n8n",
-      "n8n-community-node-package",
-      "n8n-nodes",
-      "scraping"
-    ],
-    "publisher": "vitbond",
-    "links": {
-      "homepage": "https://apify.com/bovi/kariyer-net-scraper",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-kariyer-net-scraper"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/ApifyKariyerNetScraper/ApifyKariyerNetScraper.node.js",
-        "displayName": "Apify API key connection",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Apify API key connection"
-    ],
-    "metadataStatus": "ok",
-    "repository": null,
-    "homepage": "https://apify.com/bovi/kariyer-net-scraper",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-kash",
     "description": "n8n community node for Kash file storage - upload, download, search, and manage files",
     "version": "0.2.0",
@@ -135584,8 +135617,8 @@
   {
     "name": "n8n-nodes-kordoc",
     "description": "n8n community node for converting HWP, HWPX, PDF, and Office documents to Markdown with KorDoc",
-    "version": "0.1.23",
-    "date": "2026-08-28T07:21:03.525Z",
+    "version": "0.1.24",
+    "date": "2026-08-31T01:57:38.125Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -135601,7 +135634,7 @@
       "bugs": "https://github.com/chowhi123/n8n-nodes-kordoc/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-kordoc"
     },
-    "npmScore": 24.168734,
+    "npmScore": 23.57755,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -138900,8 +138933,8 @@
   {
     "name": "n8n-nodes-lenz",
     "description": "Fact-check claims and catch AI hallucinations with Lenz - verified, sourced verdicts inside your n8n workflows.",
-    "version": "0.2.1",
-    "date": "2026-08-22T17:03:47.965Z",
+    "version": "0.3.0",
+    "date": "2026-08-30T17:24:26.962Z",
     "keywords": [
       "n8n-community-node-package"
     ],
@@ -138912,7 +138945,7 @@
       "bugs": "https://github.com/lenzhq/n8n-nodes-lenz/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-lenz"
     },
-    "npmScore": 18.89802,
+    "npmScore": 19.181738,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -139961,18 +139994,22 @@
   {
     "name": "n8n-nodes-linkup-so",
     "description": "n8n node for Linkup API - Web search and content fetching for AI applications",
-    "version": "0.4.0",
-    "date": "2026-05-10T09:21:31.963Z",
+    "version": "0.5.0",
+    "date": "2026-08-30T15:24:33.050Z",
     "keywords": [
       "n8n-community-node-package"
     ],
-    "publisher": "romainjeff",
+    "publisher": "GitHub Actions",
     "links": {
       "homepage": "https://github.com/romainjeff/n8n-nodes-linkup#readme",
       "repository": "git+https://github.com/RomainJeff/n8n-nodes-linkup.git",
       "bugs": "https://github.com/RomainJeff/n8n-nodes-linkup/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-linkup-so"
     },
+    "npmScore": 13.927832,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -142352,6 +142389,50 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-macadress",
+    "description": "n8n community node for macadress.com: enrich a MAC address with its IEEE-registered vendor, an inferred device category, virtualization / special-use classification and MAC-randomization confidence.",
+    "version": "0.2.1",
+    "date": "2026-08-30T19:17:52.123Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "macadress",
+      "mac-address",
+      "oui",
+      "mac-vendor",
+      "device-fingerprint",
+      "enrichment"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://github.com/sapisos/n8n-nodes-macadress",
+      "repository": "git+https://github.com/sapisos/n8n-nodes-macadress.git",
+      "bugs": "https://github.com/sapisos/n8n-nodes-macadress/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-macadress"
+    },
+    "npmScore": 14.014884,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Macadress/Macadress.node.js",
+        "displayName": "macadress.com",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "macadress.com"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/sapisos/n8n-nodes-macadress.git",
+    "homepage": "https://github.com/sapisos/n8n-nodes-macadress",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-machador",
     "description": "n8n community node for Machador AI - Chat Model Integration for AI Workflows",
     "version": "1.0.1",
@@ -144142,6 +144223,45 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-mastodon-scraper",
+    "description": "Scrape any Mastodon instance: user posts, hashtag timelines, and search results. No login required. Returns post text, engagement, media, link cards, and author profiles. Pay per result.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:52:28.669Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/mastodon-scraper",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-mastodon-scraper"
+    },
+    "npmScore": 14.262999,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyMastodonScraper/ApifyMastodonScraper.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/mastodon-scraper",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-masumi-payment",
     "description": "Masumi Payment nodes for n8n - webhook trigger, processor, and respond handler",
     "version": "1.0.1",
@@ -144590,6 +144710,44 @@
     ],
     "displayNames": [
       "MBKChat"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": null,
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-mco",
+    "description": "Community node n8n para a API externa da Miró Connect One (multiatendimento WhatsApp e outros canais)",
+    "version": "0.1.5",
+    "date": "2026-07-05T16:33:31.486Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "mco",
+      "whatsapp",
+      "multiatendimento"
+    ],
+    "publisher": "adilsonmiro",
+    "links": {
+      "npm": "https://www.npmjs.com/package/n8n-nodes-mco"
+    },
+    "npmScore": 10.44023,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Mco/Mco.node.js",
+        "displayName": "Miró Connect One",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Miró Connect One"
     ],
     "metadataStatus": "ok",
     "repository": null,
@@ -146147,43 +146305,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-melhor-envio",
-    "description": "n8n node for Melhor Envio - agregador de fretes brasileiro",
-    "version": "0.1.4",
-    "date": "2026-04-13T01:18:43.062Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "melhor-envio",
-      "shipping",
-      "brasil",
-      "frete"
-    ],
-    "publisher": "leovbranco",
-    "links": {
-      "homepage": "https://github.com/leovbranco/n8n-nodes-melhor-envio",
-      "repository": "git+https://github.com/leovbranco/n8n-nodes-melhor-envio.git",
-      "bugs": "https://github.com/leovbranco/n8n-nodes-melhor-envio/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-melhor-envio"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/MelhorEnvio/MelhorEnvio.node.js",
-        "displayName": "Melhor Envio",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Melhor Envio"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/leovbranco/n8n-nodes-melhor-envio.git",
-    "homepage": "https://github.com/leovbranco/n8n-nodes-melhor-envio",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-melipayamak",
     "description": "n8n node for MeliPayamak SMS service",
     "version": "0.1.5",
@@ -146669,49 +146790,6 @@
     "metadataStatus": "no-display-name",
     "repository": "git+https://github.com/seu-usuario/n8n-nodes-mercadopago.git",
     "homepage": "https://github.com/seu-usuario/n8n-nodes-mercadopago#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-mercateer",
-    "description": "n8n community node for Mercateer, the AI front-office for trades and home-services: calls, quotes, appointments, omnichannel inbox.",
-    "version": "0.1.2",
-    "date": "2026-07-04T12:17:50.314Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "mercateer",
-      "receptionist",
-      "trades",
-      "home-services"
-    ],
-    "publisher": "linh1211",
-    "links": {
-      "homepage": "https://mercateer.com/integrations/n8n",
-      "repository": "git+https://github.com/ShortGenius/n8n-nodes-mercateer.git",
-      "bugs": "https://github.com/ShortGenius/n8n-nodes-mercateer/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-mercateer"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Mercateer/Mercateer.node.js",
-        "displayName": "Mercateer",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/MercateerTrigger/MercateerTrigger.node.js",
-        "displayName": "Mercateer Trigger",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Mercateer",
-      "Mercateer Trigger"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/ShortGenius/n8n-nodes-mercateer.git",
-    "homepage": "https://mercateer.com/integrations/n8n",
     "license": "MIT",
     "deprecated": null
   },
@@ -151542,8 +151620,8 @@
   {
     "name": "n8n-nodes-myob",
     "description": "Simple n8n node to create sales orders in MYOB Business API with multiple line items",
-    "version": "0.5.29",
-    "date": "2025-09-02T10:15:10.363Z",
+    "version": "0.5.30",
+    "date": "2026-08-30T12:25:47.498Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -151557,6 +151635,10 @@
       "repository": "",
       "npm": "https://www.npmjs.com/package/n8n-nodes-myob"
     },
+    "npmScore": 15.985416,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -152339,8 +152421,8 @@
   {
     "name": "n8n-nodes-narrareach",
     "description": "Schedule and manage Narrareach articles and Notes from n8n.",
-    "version": "0.1.8",
-    "date": "2026-08-27T21:26:52.634Z",
+    "version": "0.1.9",
+    "date": "2026-08-31T01:20:03.256Z",
     "keywords": [
       "n8n-community-node-package",
       "narrareach",
@@ -152356,7 +152438,7 @@
       "bugs": "https://github.com/iancarson/n8n-nodes-narrareach/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-narrareach"
     },
-    "npmScore": 21.397303,
+    "npmScore": 21.587643,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -153964,42 +154046,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-netxms",
-    "description": "n8n community node for NetXMS network monitoring and management",
-    "version": "0.1.5",
-    "date": "2026-05-28T20:20:49.913Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "netxms",
-      "network-monitoring",
-      "monitoring"
-    ],
-    "publisher": "GitHub Actions",
-    "links": {
-      "homepage": "https://github.com/kboykov/n8n-nodes-netxms",
-      "repository": "git+https://github.com/kboykov/n8n-nodes-netxms.git",
-      "bugs": "https://github.com/kboykov/n8n-nodes-netxms/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-netxms"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/NetXms/NetXms.node.js",
-        "displayName": "NetXMS",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "NetXMS"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/kboykov/n8n-nodes-netxms.git",
-    "homepage": "https://github.com/kboykov/n8n-nodes-netxms",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-neura-ianustec",
     "description": "n8n Community Node for NEURA | IANUSTEC AI - LangChain compatible Chat Model and Knowledge RAG Tool",
     "version": "0.7.1",
@@ -154374,6 +154420,149 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/rootint/n8n-nodes-nexara.git",
     "homepage": "https://docs.nexara.ru",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-nexgendata",
+    "description": "n8n community nodes for the NexGenData Apify actor fleet — email discovery, validation, company enrichment, and more.",
+    "version": "0.1.2",
+    "date": "2026-06-07T17:21:46.219Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "apify",
+      "nexgendata",
+      "email-finder",
+      "email-validator",
+      "company-enrichment",
+      "lead-generation",
+      "scraping",
+      "page-speed",
+      "lighthouse",
+      "core-web-vitals",
+      "tech-stack",
+      "wappalyzer",
+      "google-maps",
+      "local-leads",
+      "linkedin",
+      "b2b",
+      "yelp",
+      "google-search",
+      "serp",
+      "redfin",
+      "real-estate"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://github.com/TheNextGenNexus/n8n-nodes-nexgendata",
+      "repository": "git+https://github.com/TheNextGenNexus/n8n-nodes-nexgendata.git",
+      "bugs": "https://github.com/TheNextGenNexus/n8n-nodes-nexgendata/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-nexgendata"
+    },
+    "npmScore": 10.478184,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/NexGenDataEmailFinder/NexGenDataEmailFinder.node.js",
+        "displayName": "NexGenData Email Finder",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataEmailValidator/NexGenDataEmailValidator.node.js",
+        "displayName": "NexGenData Email Validator",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataCompanyEnrichment/NexGenDataCompanyEnrichment.node.js",
+        "displayName": "NexGenData Company Enrichment",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataPageSpeedAnalyzer/NexGenDataPageSpeedAnalyzer.node.js",
+        "displayName": "NexGenData Page Speed Analyzer",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataTechStackDetector/NexGenDataTechStackDetector.node.js",
+        "displayName": "NexGenData Tech Stack Detector",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataGoogleMapsLeadScraper/NexGenDataGoogleMapsLeadScraper.node.js",
+        "displayName": "NexGenData Google Maps Lead Scraper",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataLinkedInJobsScraper/NexGenDataLinkedInJobsScraper.node.js",
+        "displayName": "NexGenData LinkedIn Jobs Scraper",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataB2BLeadsFinder/NexGenDataB2BLeadsFinder.node.js",
+        "displayName": "NexGenData B2B Leads Finder",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataLeadListEnricher/NexGenDataLeadListEnricher.node.js",
+        "displayName": "NexGenData Lead List Enricher",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataContactInfoScraper/NexGenDataContactInfoScraper.node.js",
+        "displayName": "NexGenData Contact Info Scraper",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataYelpBusinessScraper/NexGenDataYelpBusinessScraper.node.js",
+        "displayName": "NexGenData Yelp Business Scraper",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataGoogleSearchScraper/NexGenDataGoogleSearchScraper.node.js",
+        "displayName": "NexGenData Google Search Scraper",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataRedfinPropertyScraper/NexGenDataRedfinPropertyScraper.node.js",
+        "displayName": "NexGenData Redfin Property Scraper",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataWebsiteEmailExtractor/NexGenDataWebsiteEmailExtractor.node.js",
+        "displayName": "NexGenData Website Email Extractor",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/NexGenDataEmailVerification/NexGenDataEmailVerification.node.js",
+        "displayName": "NexGenData Email Verification",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "NexGenData Email Finder",
+      "NexGenData Email Validator",
+      "NexGenData Company Enrichment",
+      "NexGenData Page Speed Analyzer",
+      "NexGenData Tech Stack Detector",
+      "NexGenData Google Maps Lead Scraper",
+      "NexGenData LinkedIn Jobs Scraper",
+      "NexGenData B2B Leads Finder",
+      "NexGenData Lead List Enricher",
+      "NexGenData Contact Info Scraper",
+      "NexGenData Yelp Business Scraper",
+      "NexGenData Google Search Scraper",
+      "NexGenData Redfin Property Scraper",
+      "NexGenData Website Email Extractor",
+      "NexGenData Email Verification"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/TheNextGenNexus/n8n-nodes-nexgendata.git",
+    "homepage": "https://github.com/TheNextGenNexus/n8n-nodes-nexgendata",
     "license": "MIT",
     "deprecated": null
   },
@@ -157861,43 +158050,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-nvidia-nim-chat",
-    "description": "NVIDIA NIM Chat Model for n8n",
-    "version": "0.2.14",
-    "date": "2026-05-11T03:54:29.870Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "shibakar",
-    "links": {
-      "homepage": "https://github.com/Shiba-Kar/n8n-nodes-nvidia-nim-chat#readme",
-      "repository": "git+https://github.com/Shiba-Kar/n8n-nodes-nvidia-nim-chat.git",
-      "bugs": "https://github.com/Shiba-Kar/n8n-nodes-nvidia-nim-chat/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-nvidia-nim-chat"
-    },
-    "npmScore": 10.770035,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/LmChatNvidiaNim/LmChatNvidiaNim.node.js",
-        "displayName": "NVIDIA NIM Chat Model",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "NVIDIA NIM Chat Model"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/Shiba-Kar/n8n-nodes-nvidia-nim-chat.git",
-    "homepage": "https://github.com/Shiba-Kar/n8n-nodes-nvidia-nim-chat#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-nvidia-nim-whisper-v2",
     "description": "n8n community node for NVIDIA NIM Whisper Large V3 – speech recognition and translation via Riva gRPC API",
     "version": "0.1.3",
@@ -159679,6 +159831,49 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/ForstnerSoftwareSolutions/n8n-nodes-one-hub.git",
     "homepage": "https://one-hub.at",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-onebot-api",
+    "description": "OneBot node for n8n workflow, now you can send message to your QQ friend or group. This version includes optimized group and private chat operations and enhanced permission grading. OneBot 节点用于 n8n 工作流，现在您可以向您的 QQ 朋友或群组发送消息。此版本包括优化的群聊和私聊操作以及增强的权限分级。",
+    "version": "2.4.2",
+    "date": "2025-06-09T02:05:10.042Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "onebot",
+      "qq",
+      "bot",
+      "automation",
+      "messaging",
+      "qq-group-management"
+    ],
+    "publisher": "myfinal",
+    "links": {
+      "homepage": "https://github.com/MY-Final/n8n-nodes-onebot",
+      "repository": "git+https://github.com/MY-Final/n8n-nodes-onebot.git",
+      "bugs": "https://github.com/MY-Final/n8n-nodes-onebot/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-onebot-api"
+    },
+    "npmScore": 10.531402,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/OneBot/OneBot.node.js",
+        "displayName": "OneBot-api",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "OneBot-api"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/MY-Final/n8n-nodes-onebot.git",
+    "homepage": "https://github.com/MY-Final/n8n-nodes-onebot",
     "license": "MIT",
     "deprecated": null
   },
@@ -162276,39 +162471,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-openserp",
-    "description": "n8n nodes for OpenSERP search engine integration",
-    "version": "1.0.9",
-    "date": "2025-12-07T17:10:17.327Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "sergeevnpm",
-    "links": {
-      "homepage": "https://github.com/sergeevgit1/openserp",
-      "repository": "git+https://github.com/sergeevgit1/openserp.git",
-      "bugs": "https://github.com/sergeevgit1/openserp/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-openserp"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/OpenSERP/OpenSERP.node.js",
-        "displayName": "OpenSERP",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "OpenSERP"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/sergeevgit1/openserp.git",
-    "homepage": "https://github.com/sergeevgit1/openserp",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-opensolar",
     "description": "n8n community node for OpenSolar",
     "version": "0.1.2",
@@ -163022,6 +163184,54 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/jonasnaves/n8n-nodes-orbitx.git",
     "homepage": "https://github.com/jonasnaves/n8n-nodes-orbitx",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-orboto",
+    "description": "n8n community nodes for orboto - automate tickets, milestones, projects, docs and more from your workflows",
+    "version": "1.0.1",
+    "date": "2026-08-30T11:15:45.001Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "orboto",
+      "project-management",
+      "tickets",
+      "automation"
+    ],
+    "publisher": "schemann",
+    "links": {
+      "homepage": "https://github.com/orboto/n8n-nodes-orboto#readme",
+      "repository": "git+https://github.com/orboto/n8n-nodes-orboto.git",
+      "bugs": "https://github.com/orboto/n8n-nodes-orboto/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-orboto"
+    },
+    "npmScore": 12.853565,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/orboto/orboto.node.js",
+        "displayName": "orboto",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/orboto/orbotoTrigger.node.js",
+        "displayName": "orboto Trigger",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "orboto",
+      "orboto Trigger"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/orboto/n8n-nodes-orboto.git",
+    "homepage": "https://github.com/orboto/n8n-nodes-orboto#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -167364,8 +167574,8 @@
   {
     "name": "n8n-nodes-pdfmint",
     "description": "Turn HTML, Markdown or a URL into a PDF and get the file back on the same node. No template editor, no template IDs, no self-hosted container.",
-    "version": "0.4.3",
-    "date": "2026-08-30T07:24:46.831Z",
+    "version": "0.4.4",
+    "date": "2026-08-30T17:29:08.370Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -167383,7 +167593,7 @@
       "bugs": "https://github.com/fstandhartinger/n8n-nodes-pdfmint/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-pdfmint"
     },
-    "npmScore": 20.204727,
+    "npmScore": 20.136839,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -168313,55 +168523,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/petersonsenadevs/n8n-nodes-omniwallet.git",
     "homepage": "https://github.com/petersonsenadevs/n8n-nodes-omniwallet#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-pewpros",
-    "description": "n8n community node for the Pewpros CRM, events, and learning platform",
-    "version": "0.4.0",
-    "date": "2026-07-12T17:48:45.801Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "cloudbedrock",
-    "links": {
-      "homepage": "https://pewpros.com",
-      "repository": "git+https://github.com/CloudBedrock/n8n-nodes-pewpros.git",
-      "bugs": "https://github.com/CloudBedrock/n8n-nodes-pewpros/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-pewpros"
-    },
-    "npmScore": 10.668896,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Pewpros/Pewpros.node.js",
-        "displayName": "Pewpros",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/Pewpros/PewprosPollTrigger.node.js",
-        "displayName": "Pewpros Poll Trigger",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/Pewpros/PewprosTrigger.node.js",
-        "displayName": "Pewpros Trigger",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Pewpros",
-      "Pewpros Poll Trigger",
-      "Pewpros Trigger"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/CloudBedrock/n8n-nodes-pewpros.git",
-    "homepage": "https://pewpros.com",
     "license": "MIT",
     "deprecated": null
   },
@@ -170097,6 +170258,54 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/Pisama-AI/n8n-nodes-pisama.git",
     "homepage": "https://pisama.ai",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-pitch",
+    "description": "n8n community node for Pitch — create presentations from templates with variables, read deck content as Markdown, manage folders, sharing links and engagement analytics, and expose it all as AI Agent tools",
+    "version": "1.0.0",
+    "date": "2026-08-24T09:29:41.221Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "pitch",
+      "presentations",
+      "slides",
+      "deck",
+      "templates",
+      "variables",
+      "sharing",
+      "engagement",
+      "analytics",
+      "automation",
+      "ai-agent"
+    ],
+    "publisher": "bennotix",
+    "links": {
+      "homepage": "https://github.com/BenNotix/n8n-nodes-pitch",
+      "repository": "git+https://github.com/BenNotix/n8n-nodes-pitch.git",
+      "bugs": "https://github.com/BenNotix/n8n-nodes-pitch/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-pitch"
+    },
+    "npmScore": 14.128428,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Pitch/Pitch.node.js",
+        "displayName": "Pitch",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Pitch"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/BenNotix/n8n-nodes-pitch.git",
+    "homepage": "https://github.com/BenNotix/n8n-nodes-pitch",
     "license": "MIT",
     "deprecated": null
   },
@@ -173714,6 +173923,48 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-prh",
+    "description": "n8n community node for the Finnish Patent and Registration Office (PRH) Digital Financial Statement (XBRL) open data API",
+    "version": "0.5.4",
+    "date": "2026-08-30T20:28:13.102Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "prh",
+      "xbrl",
+      "finland",
+      "financial-statements",
+      "trade-register"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://github.com/MychelGarzon/n8n-nodes-prh",
+      "repository": "git+https://github.com/MychelGarzon/n8n-nodes-prh.git",
+      "bugs": "https://github.com/MychelGarzon/n8n-nodes-prh/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-prh"
+    },
+    "npmScore": 13.64029,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Prh/Prh.node.js",
+        "displayName": "PRH Financial Statements",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "PRH Financial Statements"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/MychelGarzon/n8n-nodes-prh.git",
+    "homepage": "https://github.com/MychelGarzon/n8n-nodes-prh",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-priority",
     "description": "n8n community node for Priority REST (OData) API with comprehensive documentation and examples",
     "version": "0.3.6",
@@ -174318,6 +174569,45 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/checkhc/n8n-nodes-proofofauthenticity.git",
     "homepage": "https://www.checkhc.net",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-propertyguru-scraper",
+    "description": "Scrape PropertyGuru.com.sg property listings by district (D01-D28), sale or rent. Returns price, price/psf, bedrooms, bathrooms, floor area, tenure, nearby MRT, agent and agency, posted date, images. Works out of the box, pay per listing.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:50:30.321Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/propertyguru-scraper",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-propertyguru-scraper"
+    },
+    "npmScore": 14.525692,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyPropertyguruScraper/ApifyPropertyguruScraper.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/propertyguru-scraper",
     "license": "MIT",
     "deprecated": null
   },
@@ -176768,6 +177058,48 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/yurisilvapro/n8n-nodes-quepasa-api-yurisilva_pro.git",
     "homepage": "https://github.com/yurisilvapro/n8n-nodes-quepasa-api-yurisilva_pro",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-querit",
+    "description": "n8n community node for Querit web search and page content fetching",
+    "version": "0.1.1",
+    "date": "2026-08-24T02:54:02.183Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "querit",
+      "web-search",
+      "content-extraction",
+      "ai-tools"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://github.com/querit-ai/querit-plugins/tree/main/n8n-nodes-querit#readme",
+      "repository": "git+https://github.com/querit-ai/querit-plugins.git",
+      "bugs": "https://github.com/querit-ai/querit-plugins/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-querit"
+    },
+    "npmScore": 16.929787,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Querit/Querit.node.js",
+        "displayName": "Querit",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Querit"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/querit-ai/querit-plugins.git",
+    "homepage": "https://github.com/querit-ai/querit-plugins/tree/main/n8n-nodes-querit#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -182266,52 +182598,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-rssmedia",
-    "description": "An n8n community node for reading RSS feeds and extracting media content with advanced filtering options",
-    "version": "1.0.1",
-    "date": "2025-07-29T19:04:19.634Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "rss",
-      "media",
-      "feed",
-      "xml",
-      "podcast",
-      "news",
-      "content",
-      "automation"
-    ],
-    "publisher": "abdessamadsouilem",
-    "links": {
-      "homepage": "https://github.com/abdessamadsouilem/n8n-nodes-rssmedia",
-      "repository": "git+https://github.com/abdessamadsouilem/n8n-nodes-rssmedia.git",
-      "bugs": "https://github.com/abdessamadsouilem/n8n-nodes-rssmedia/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-rssmedia"
-    },
-    "npmScore": 10.598767,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/RssMedia/RssMedia.node.js",
-        "displayName": "RSS Media Reader",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "RSS Media Reader"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/abdessamadsouilem/n8n-nodes-rssmedia.git",
-    "homepage": "https://github.com/abdessamadsouilem/n8n-nodes-rssmedia",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-rtkqvnmzpl",
     "description": "n8n community node package",
     "version": "0.1.9",
@@ -185114,50 +185400,6 @@
     "metadataStatus": "ok",
     "repository": null,
     "homepage": null,
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-scorechain",
-    "description": "n8n community node for Scorechain Risk Scoring API — analyse crypto addresses and transactions on 20+ blockchains",
-    "version": "1.0.3",
-    "date": "2026-06-29T05:58:43.939Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "scorechain",
-      "crypto",
-      "blockchain",
-      "risk",
-      "aml",
-      "compliance",
-      "scoring"
-    ],
-    "publisher": "GitHub Actions",
-    "links": {
-      "homepage": "https://scorechain.com",
-      "repository": "git+https://github.com/scorechain/n8n-nodes-scorechain.git",
-      "bugs": "https://github.com/scorechain/n8n-nodes-scorechain/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-scorechain"
-    },
-    "npmScore": 10.695177,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Scorechain/Scorechain.node.js",
-        "displayName": "Scorechain",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Scorechain"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/scorechain/n8n-nodes-scorechain.git",
-    "homepage": "https://scorechain.com",
     "license": "MIT",
     "deprecated": null
   },
@@ -193153,48 +193395,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-sms-sender",
-    "description": "n8n community node to send SMS via MessageMedia",
-    "version": "1.0.36",
-    "date": "2026-01-13T14:29:16.874Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n-community-node",
-      "n8n-nodes",
-      "n8n",
-      "sms",
-      "messagemedia"
-    ],
-    "publisher": "daley28",
-    "links": {
-      "homepage": "https://github.com",
-      "repository": "git+https://github.com/",
-      "bugs": "https://github.com",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-sms-sender"
-    },
-    "npmScore": 10.695177,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/SmsSender/SmsSender.node.js",
-        "displayName": "MessageMedia SMS Sender",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "MessageMedia SMS Sender"
-    ],
-    "metadataStatus": "ok",
-    "repository": null,
-    "homepage": null,
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-smsenmasse",
     "description": "n8n community node for SMS en Masse — send SMS campaigns and manage your account.",
     "version": "1.0.10",
@@ -195667,41 +195867,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-sqldatabase",
-    "description": "An n8n community node to execute sql statements against a database using a provided JDBC driver",
-    "version": "0.2.6",
-    "date": "2025-12-11T01:28:42.020Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "jmaurer1994",
-    "links": {
-      "homepage": "https://github.com/jmaurer1994/n8n-nodes-sqldatabase#readme",
-      "repository": "git+https://github.com/jmaurer1994/n8n-nodes-sqldatabase.git",
-      "bugs": "https://github.com/jmaurer1994/n8n-nodes-sqldatabase/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-sqldatabase"
-    },
-    "npmScore": 10.695177,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/SqlDatabase/SqlDatabase.node.js",
-        "displayName": null,
-        "verified": false
-      }
-    ],
-    "displayNames": [],
-    "metadataStatus": "no-display-name",
-    "repository": "git+https://github.com/jmaurer1994/n8n-nodes-sqldatabase.git",
-    "homepage": "https://github.com/jmaurer1994/n8n-nodes-sqldatabase#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-sqlite",
     "description": "Custom n8n node module for sqlite database",
     "version": "0.1.14",
@@ -196082,6 +196247,45 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/zubial/n8n-nodes-ssl-checker.git",
     "homepage": "http://www.zubial.net",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-stack-exchange-scraper",
+    "description": "Scrape questions, answers, and users from Stack Overflow and all 170+ Stack Exchange sites via the official public API. No auth needed. Filter by tags, search queries, or question IDs. Pay per result.",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:51:37.155Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/stack-exchange-scraper",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-stack-exchange-scraper"
+    },
+    "npmScore": 14.086913,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyStackExchangeScraper/ApifyStackExchangeScraper.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/stack-exchange-scraper",
     "license": "MIT",
     "deprecated": null
   },
@@ -196812,6 +197016,57 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-stoa",
+    "description": "Legal AI for legal professionals: answers legal questions and manages documents using up-to-date legal sources.",
+    "version": "2.0.1",
+    "date": "2026-08-23T15:51:05.292Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "stoa",
+      "legal-ai",
+      "legaltech",
+      "law",
+      "legal-research",
+      "legal-automation",
+      "document-automation"
+    ],
+    "publisher": "GitHub Actions",
+    "links": {
+      "homepage": "https://www.stoa.legal/",
+      "repository": "git+https://github.com/devndeploy/n8n-nodes-stoa.git",
+      "bugs": "https://github.com/devndeploy/n8n-nodes-stoa/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-stoa"
+    },
+    "npmScore": 14.99496,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Stoa/Stoa.node.js",
+        "displayName": "Stoa",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/Stoa/LmChatStoa.node.js",
+        "displayName": "Stoa Chat Model",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Stoa",
+      "Stoa Chat Model"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/devndeploy/n8n-nodes-stoa.git",
+    "homepage": "https://www.stoa.legal/",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-stockx-scraper",
     "description": "Search StockX product listings and market data (lowest ask, highest bid, last sale, per-size pricing). Apify-backed n8n community node, pay-per-event, usable as an AI agent tool.",
     "version": "0.1.0",
@@ -197271,52 +197526,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-studiomeyer-memory",
-    "description": "n8n community node for StudioMeyer Memory — long-term AI memory with knowledge graph, semantic search, entity tracking, and session continuity. 56 tools via MCP (incl. interactive 3D knowledge graph visualization, all on the Free plan). Drop-in memory lay",
-    "version": "0.1.4",
-    "date": "2026-06-21T16:43:07.084Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "ai",
-      "memory",
-      "ai-agent",
-      "ai-memory",
-      "mcp",
-      "knowledge-graph",
-      "long-term-memory",
-      "studiomeyer"
-    ],
-    "publisher": "studiomeyer-io",
-    "links": {
-      "homepage": "https://github.com/studiomeyer-io/n8n-nodes-studiomeyer-memory#readme",
-      "repository": "git+https://github.com/studiomeyer-io/n8n-nodes-studiomeyer-memory.git",
-      "bugs": "https://github.com/studiomeyer-io/n8n-nodes-studiomeyer-memory/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-studiomeyer-memory"
-    },
-    "npmScore": 10.742074,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/StudioMeyerMemory/StudioMeyerMemory.node.js",
-        "displayName": "StudioMeyer Memory",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "StudioMeyer Memory"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/studiomeyer-io/n8n-nodes-studiomeyer-memory.git",
-    "homepage": "https://github.com/studiomeyer-io/n8n-nodes-studiomeyer-memory#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-submitrax",
     "description": "n8n community node for SubmitraX — manage forms, submissions, workspaces, exports, and members via the SubmitraX API",
     "version": "1.4.4",
@@ -197358,8 +197567,8 @@
   {
     "name": "n8n-nodes-subscriby",
     "description": "n8n community node for Subscriby — monetise Telegram communities via subscriptions, access codes, and webhook events.",
-    "version": "1.4.0",
-    "date": "2026-08-26T18:45:31.166Z",
+    "version": "2.0.0",
+    "date": "2026-08-30T23:48:16.553Z",
     "keywords": [
       "n8n-community-node",
       "n8n-community-node-package",
@@ -197375,7 +197584,7 @@
       "bugs": "https://github.com/envigoinnovations/subscriby-n8n/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-subscriby"
     },
-    "npmScore": 21.398355,
+    "npmScore": 21.490084,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -199106,6 +199315,64 @@
     "metadataError": "TimeoutError: The read operation timed out"
   },
   {
+    "name": "n8n-nodes-syncaty-salla",
+    "description": "n8n community node for Salla e-commerce via Syncaty SaaS - Manage multiple Salla stores with customer analytics, RFM segmentation, and centralized OAuth2 token management",
+    "version": "1.2.0",
+    "date": "2025-12-14T11:11:16.679Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "salla",
+      "syncaty",
+      "e-commerce",
+      "oauth2",
+      "automation",
+      "saudi-arabia",
+      "middle-east",
+      "multi-store"
+    ],
+    "publisher": "syncaty",
+    "links": {
+      "homepage": "https://syncaty.com",
+      "repository": "git+https://github.com/syncaty/n8n-nodes-syncaty-salla.git",
+      "bugs": "https://github.com/syncaty/n8n-nodes-syncaty-salla/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-syncaty-salla"
+    },
+    "npmScore": 10.90386,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/SyncatySalla/SyncatySalla.node.js",
+        "displayName": "Syncaty Salla",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/SyncatySalla/SyncatySallaTrigger.node.js",
+        "displayName": "Syncaty Salla Trigger",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/SyncatySalla/SyncatySallaWebhook.node.js",
+        "displayName": "Syncaty Salla Webhook",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Syncaty Salla",
+      "Syncaty Salla Trigger",
+      "Syncaty Salla Webhook"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/syncaty/n8n-nodes-syncaty-salla.git",
+    "homepage": "https://syncaty.com",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-syncmate",
     "description": "Send WhatsApp messages or media using SyncMate Assistro API.",
     "version": "1.1.4",
@@ -200166,8 +200433,8 @@
   {
     "name": "n8n-nodes-talordata-serp",
     "description": "n8n community node for Talordata SERP API.",
-    "version": "0.1.11",
-    "date": "2026-08-24T07:12:57.497Z",
+    "version": "0.1.12",
+    "date": "2026-08-31T06:37:46.514Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -200181,7 +200448,7 @@
       "bugs": "https://github.com/Talordata/n8n-nodes-talordata-serp/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-talordata-serp"
     },
-    "npmScore": 17.849573,
+    "npmScore": 18.74884,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -204569,45 +204836,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-ticketmaster",
-    "description": "Ticketmaster custom node for n8n (Discovery API integration)",
-    "version": "0.0.1",
-    "date": "2025-12-07T19:12:54.574Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "ticketmaster",
-      "discovery-api",
-      "tickets",
-      "entertainment",
-      "events"
-    ],
-    "publisher": "hansdoe",
-    "links": {
-      "homepage": "https://github.com/hansdoebel/n8n-nodes-ticketmaster#readme",
-      "repository": "git+https://github.com/hansdoebel/n8n-nodes-ticketmaster.git",
-      "bugs": "https://github.com/hansdoebel/n8n-nodes-ticketmaster/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-ticketmaster"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Ticketmaster/Ticketmaster.node.js",
-        "displayName": "Ticketmaster",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Ticketmaster"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/hansdoebel/n8n-nodes-ticketmaster.git",
-    "homepage": "https://github.com/hansdoebel/n8n-nodes-ticketmaster#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-ticketzero",
     "description": "n8n community node for TicketZero: GDPR-native customer messaging & helpdesk.",
     "version": "0.4.2",
@@ -205057,6 +205285,45 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/bsormagec/n8n-nodes-tiktok.git",
     "homepage": "https://github.com/bsormagec",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-tiktok-ads-library-scraper",
+    "description": "Scrape TikTok's Commercial Content Library via the official open.tiktokapis.com API. Search ads by keyword or advertiser business ID across EU/EEA/UK regions. Returns creatives, video URLs, reach buckets, targeting, and advertiser metadata. Official API =",
+    "version": "0.1.0",
+    "date": "2026-08-24T05:50:48.263Z",
+    "keywords": [
+      "apify",
+      "n8n",
+      "n8n-community-node-package",
+      "n8n-nodes",
+      "scraping"
+    ],
+    "publisher": "vitbond",
+    "links": {
+      "homepage": "https://apify.com/bovi/tiktok-ads-library-scraper",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-tiktok-ads-library-scraper"
+    },
+    "npmScore": 13.723402,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ApifyTiktokAdsLibraryScraper/ApifyTiktokAdsLibraryScraper.node.js",
+        "displayName": "Apify API key connection",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Apify API key connection"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": "https://apify.com/bovi/tiktok-ads-library-scraper",
     "license": "MIT",
     "deprecated": null
   },
@@ -207426,8 +207693,8 @@
   {
     "name": "n8n-nodes-transcribe-audio",
     "description": "Perform local speech-to-text on audio files in n8n using Whisper and a portable WebAssembly runtime.",
-    "version": "0.2.1",
-    "date": "2026-08-23T10:01:04.504Z",
+    "version": "0.2.2",
+    "date": "2026-08-31T09:09:58.178Z",
     "keywords": [
       "n8n-community-node-package",
       "transcribe audio",
@@ -207451,7 +207718,7 @@
       "bugs": "https://github.com/dioveath/n8n-nodes-transcribe-audio/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-transcribe-audio"
     },
-    "npmScore": 34.98046,
+    "npmScore": 34.641163,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -208104,6 +208371,48 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/rvmey/n8n-nodes-triggercmd.git",
     "homepage": "http://triggercmd.com",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-trigguard",
+    "description": "n8n community node: authorize workflow steps via TrigGuard execution gateway (POST /execute)",
+    "version": "0.2.0",
+    "date": "2026-08-23T19:14:21.063Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "trigguard",
+      "ai-governance",
+      "execution",
+      "authorization"
+    ],
+    "publisher": "trigguardai",
+    "links": {
+      "homepage": "https://github.com/TrigGuard-AI/TrigGuard#readme",
+      "repository": "git+https://github.com/TrigGuard-AI/TrigGuard.git",
+      "bugs": "https://github.com/TrigGuard-AI/TrigGuard/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-trigguard"
+    },
+    "npmScore": 14.362559,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/TrigGuard/TrigGuard.node.js",
+        "displayName": "TrigGuard Authorize",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "TrigGuard Authorize"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/TrigGuard-AI/TrigGuard.git",
+    "homepage": "https://github.com/TrigGuard-AI/TrigGuard#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -210116,30 +210425,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-twitter-scraper-henrry",
-    "description": "Consume Twitter without their API",
-    "version": "0.1.9",
-    "date": "2025-05-14T09:14:06.717Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "teemobink",
-    "links": {
-      "homepage": "https://github.com/AlejandroAkbal/n8n-nodes-twitter-scraper",
-      "repository": "git+https://github.com/AlejandroAkbal/n8n-nodes-twitter-scraper.git",
-      "bugs": "https://github.com/AlejandroAkbal/n8n-nodes-twitter-scraper/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-twitter-scraper-henrry"
-    },
-    "npmScore": 10.792828,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "metadataStatus": "error",
-    "metadataError": "ValueError: Remote file is too large"
-  },
-  {
     "name": "n8n-nodes-twitter-uploader",
     "description": "Twitter media upload nodes for n8n",
     "version": "0.1.79",
@@ -211758,69 +212043,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-uno-q",
-    "description": "n8n community nodes for the Arduino UNO Q — read sensors, drive GPIO, react to MCU events, and expose MCU methods as AI Agent tools.",
-    "version": "0.4.0",
-    "date": "2026-04-26T12:03:50.303Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "arduino",
-      "arduino-uno-q",
-      "uno-q",
-      "mcu",
-      "iot",
-      "gpio",
-      "i2c",
-      "ai-agent",
-      "tools-agent",
-      "messagepack-rpc",
-      "arduino-router"
-    ],
-    "publisher": "linucs",
-    "links": {
-      "homepage": "https://github.com/raas-impact/n8n-uno-q#readme",
-      "repository": "git+https://github.com/raas-impact/n8n-uno-q.git",
-      "bugs": "https://github.com/raas-impact/n8n-uno-q/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-uno-q"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/UnoQCall/UnoQCall.node.js",
-        "displayName": "Arduino UNO Q Call",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/UnoQTrigger/UnoQTrigger.node.js",
-        "displayName": "Arduino UNO Q Trigger",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/UnoQRespond/UnoQRespond.node.js",
-        "displayName": "Arduino UNO Q Respond",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/UnoQTool/UnoQTool.node.js",
-        "displayName": "Arduino UNO Q Method",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Arduino UNO Q Call",
-      "Arduino UNO Q Trigger",
-      "Arduino UNO Q Respond",
-      "Arduino UNO Q Method"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/raas-impact/n8n-uno-q.git",
-    "homepage": "https://github.com/raas-impact/n8n-uno-q#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-unocrm",
     "description": "n8n community node — UnoCRM integration. Manage leads, people, conversations, messages and activities.",
     "version": "1.0.13",
@@ -212257,8 +212479,8 @@
   {
     "name": "n8n-nodes-upload-post",
     "description": "n8n community node for Upload Post",
-    "version": "0.1.56",
-    "date": "2026-07-28T22:59:11.158Z",
+    "version": "0.2.0",
+    "date": "2026-08-31T07:21:32.644Z",
     "keywords": [
       "n8n-community-node-package",
       "upload-post",
@@ -212271,6 +212493,10 @@
       "bugs": "https://github.com/Upload-Post/n8n-nodes-upload-post/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-upload-post"
     },
+    "npmScore": 31.16012,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -214240,6 +214466,51 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-verificaremails",
+    "description": "Official n8n community node for VerificarEmails.com",
+    "version": "1.0.17",
+    "date": "2025-10-19T14:02:42.103Z",
+    "keywords": [
+      "address",
+      "email",
+      "n8n",
+      "n8n-community-node",
+      "n8n-community-node-package",
+      "name",
+      "phone",
+      "validation",
+      "verificaremails"
+    ],
+    "publisher": "verificaremails",
+    "links": {
+      "homepage": "https://www.verificaremails.com/",
+      "repository": "git+https://github.com/apousb/verificaremails-n8n-community-node.git",
+      "bugs": "https://github.com/apousb/verificaremails-n8n-community-node/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-verificaremails"
+    },
+    "npmScore": 10.562761,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/Verificaremails/Verificaremails.node.js",
+        "displayName": "VerificarEmails",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "VerificarEmails"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/apousb/verificaremails-n8n-community-node.git",
+    "homepage": "https://www.verificaremails.com/",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-verifiemail",
     "description": "n8n node for VerifiEmail API - Powerful Email validation API",
     "version": "1.3.2",
@@ -215211,48 +215482,6 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/sinzed/vidopi-n8n.git",
     "homepage": "https://github.com/sinzed/vidopi-n8n#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-viffly",
-    "description": "Professional n8n community node for Viffly AI video, image, thumbnail, reel, and media automation",
-    "version": "0.1.0",
-    "date": "2026-07-27T19:11:11.125Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "n8n",
-      "viffly",
-      "ai-video",
-      "video-automation",
-      "content-creation"
-    ],
-    "publisher": "viffly",
-    "links": {
-      "homepage": "https://viffly.app/developer/docs",
-      "repository": "git+https://github.com/shadegrownsl-afk/n8n-nodes-viffly.git",
-      "bugs": "https://github.com/shadegrownsl-afk/n8n-nodes-viffly/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-viffly"
-    },
-    "npmScore": 10.695177,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/Viffly/Viffly.node.js",
-        "displayName": "Viffly",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "Viffly"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/shadegrownsl-afk/n8n-nodes-viffly.git",
-    "homepage": "https://viffly.app/developer/docs",
     "license": "MIT",
     "deprecated": null
   },
@@ -217342,6 +217571,46 @@
     "deprecated": null
   },
   {
+    "name": "n8n-nodes-waha-api",
+    "description": "WhatsApp node for n8n using Waha API",
+    "version": "1.0.0",
+    "date": "2026-05-10T23:12:12.899Z",
+    "keywords": [
+      "n8n-community-node-package"
+    ],
+    "publisher": "nilsontorres",
+    "links": {
+      "npm": "https://www.npmjs.com/package/n8n-nodes-waha-api"
+    },
+    "npmScore": 10.51184,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/WhatsApp/WhatsApp.node.js",
+        "displayName": "WhatsApp",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/WhatsApp/WhatsAppTrigger.node.js",
+        "displayName": "WhatsApp Trigger",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "WhatsApp",
+      "WhatsApp Trigger"
+    ],
+    "metadataStatus": "ok",
+    "repository": null,
+    "homepage": null,
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
     "name": "n8n-nodes-waha-split",
     "description": "n8n to connect with WAHA (Whatsapp HTTP API)",
     "version": "2025.1226.12",
@@ -218963,8 +219232,8 @@
   {
     "name": "n8n-nodes-wazend2",
     "description": "n8n nodes for Wazend (WhatsApp HTTP API)",
-    "version": "2025.2.29",
-    "date": "2026-08-29T12:15:59.145Z",
+    "version": "2025.2.30",
+    "date": "2026-08-30T11:14:03.651Z",
     "keywords": [
       "n8n-community-node-package"
     ],
@@ -218975,7 +219244,7 @@
       "bugs": "https://github.com/ronnaldrangel/wazend2-n8n-nodes/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-wazend2"
     },
-    "npmScore": 23.566679,
+    "npmScore": 23.790146,
     "npmPopularity": 1,
     "npmQuality": 1,
     "npmMaintenance": 1,
@@ -219253,8 +219522,8 @@
   {
     "name": "n8n-nodes-webcrawlerapi",
     "description": "n8n node for WebCrawler API integration - a website to markdown API for LLM and RAG",
-    "version": "0.3.7",
-    "date": "2026-06-05T08:31:31.337Z",
+    "version": "0.3.8",
+    "date": "2026-08-30T10:13:24.895Z",
     "keywords": [
       "n8n-community-node-package",
       "n8n",
@@ -219272,6 +219541,10 @@
       "bugs": "https://github.com/WebCrawlerAPI/n8n-node-webcrawlerapi/issues",
       "npm": "https://www.npmjs.com/package/n8n-nodes-webcrawlerapi"
     },
+    "npmScore": 15.285273,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
     "type": "community",
     "official": false,
     "nodes": [
@@ -221957,49 +222230,6 @@
     "deprecated": null
   },
   {
-    "name": "n8n-nodes-whatsappoutreach",
-    "description": "WhatsApp Outreach by Boost.space",
-    "version": "0.1.7",
-    "date": "2026-02-04T08:28:12.662Z",
-    "keywords": [
-      "n8n-community-node-package"
-    ],
-    "publisher": "apps_makeitfuture",
-    "links": {
-      "homepage": "https://github.com/makeitfutureDev/n8n-nodes-whatsappoutreach#readme",
-      "repository": "git+https://github.com/makeitfutureDev/n8n-nodes-whatsappoutreach.git",
-      "bugs": "https://github.com/makeitfutureDev/n8n-nodes-whatsappoutreach/issues",
-      "npm": "https://www.npmjs.com/package/n8n-nodes-whatsappoutreach"
-    },
-    "npmScore": 10.635235,
-    "npmPopularity": 1,
-    "npmQuality": 1,
-    "npmMaintenance": 1,
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/WhatsappOutreach/WhatsappOutreach.node.js",
-        "displayName": "WhatsApp Outreach by Boost.space",
-        "verified": true
-      },
-      {
-        "path": "dist/nodes/WhatsappOutreach/WhatsappOutreachTrigger.node.js",
-        "displayName": "WhatsApp Outreach by Boost.space Trigger",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "WhatsApp Outreach by Boost.space",
-      "WhatsApp Outreach by Boost.space Trigger"
-    ],
-    "metadataStatus": "ok",
-    "repository": "git+https://github.com/makeitfutureDev/n8n-nodes-whatsappoutreach.git",
-    "homepage": "https://github.com/makeitfutureDev/n8n-nodes-whatsappoutreach#readme",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
     "name": "n8n-nodes-whatweb",
     "description": "Nodo n8n experto y usable como AI tool para ejecutar WhatWeb dentro de Docker Kali.",
     "version": "1.0.32",
@@ -222099,39 +222329,6 @@
     "metadataStatus": "ok",
     "repository": "",
     "homepage": "",
-    "license": "MIT",
-    "deprecated": null
-  },
-  {
-    "name": "n8n-nodes-while-loop",
-    "description": "Simple while-loop control node for n8n with counter or expression conditions",
-    "version": "0.1.5",
-    "date": "2026-01-31T01:38:43.023Z",
-    "keywords": [
-      "n8n-community-node-package",
-      "loop",
-      "control",
-      "while"
-    ],
-    "publisher": "orchidkid",
-    "links": {
-      "npm": "https://www.npmjs.com/package/n8n-nodes-while-loop"
-    },
-    "type": "community",
-    "official": false,
-    "nodes": [
-      {
-        "path": "dist/nodes/WhileLoop/WhileLoop.node.js",
-        "displayName": "While Loop",
-        "verified": true
-      }
-    ],
-    "displayNames": [
-      "While Loop"
-    ],
-    "metadataStatus": "ok",
-    "repository": null,
-    "homepage": null,
     "license": "MIT",
     "deprecated": null
   },
@@ -225172,6 +225369,49 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/pemontto/n8n-nodes-yaml.git",
     "homepage": "https://github.com/pemontto/n8n-nodes-yaml",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-yandex-disk",
+    "description": "n8n nodes for Yandex Disk",
+    "version": "1.0.0",
+    "date": "2026-02-01T09:31:35.267Z",
+    "keywords": [
+      "n8n-community-node-package"
+    ],
+    "publisher": "nikolay.matrosov",
+    "links": {
+      "homepage": "https://github.com/nikolaymatrosov/n8n-nodes-yandex-disk#readme",
+      "repository": "git+https://github.com/nikolaymatrosov/n8n-nodes-yandex-disk.git",
+      "bugs": "https://github.com/nikolaymatrosov/n8n-nodes-yandex-disk/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-yandex-disk"
+    },
+    "npmScore": 11.379978,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/YandexDisk/YandexDisk.node.js",
+        "displayName": "Yandex Disk",
+        "verified": true
+      },
+      {
+        "path": "dist/nodes/YandexDisk/YandexDiskTrigger.node.js",
+        "displayName": "Yandex Disk Trigger",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Yandex Disk",
+      "Yandex Disk Trigger"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/nikolaymatrosov/n8n-nodes-yandex-disk.git",
+    "homepage": "https://github.com/nikolaymatrosov/n8n-nodes-yandex-disk#readme",
     "license": "MIT",
     "deprecated": null
   },
@@ -230262,6 +230502,48 @@
     "metadataStatus": "ok",
     "repository": "git+https://github.com/edgeuno/n8n-nodes-zoho-desk.git",
     "homepage": "https://github.com/edgeuno/n8n-nodes-zoho-desk#readme",
+    "license": "MIT",
+    "deprecated": null
+  },
+  {
+    "name": "n8n-nodes-zoho-expense-by-datingscout",
+    "description": "n8n community node for Zoho Expense API - Full implementation with all features",
+    "version": "1.2.2",
+    "date": "2026-01-18T20:06:08.676Z",
+    "keywords": [
+      "n8n-community-node-package",
+      "n8n",
+      "zoho",
+      "zoho expense",
+      "expense management",
+      "expense tracking"
+    ],
+    "publisher": "cplrepo",
+    "links": {
+      "homepage": "https://github.com/datingscout/n8n-nodes-zoho-expense-by-datingscout",
+      "repository": "git+https://github.com/datingscout/n8n-nodes-zoho-expense-by-datingscout.git",
+      "bugs": "https://github.com/datingscout/n8n-nodes-zoho-expense-by-datingscout/issues",
+      "npm": "https://www.npmjs.com/package/n8n-nodes-zoho-expense-by-datingscout"
+    },
+    "npmScore": 10.423252,
+    "npmPopularity": 1,
+    "npmQuality": 1,
+    "npmMaintenance": 1,
+    "type": "community",
+    "official": false,
+    "nodes": [
+      {
+        "path": "dist/nodes/ZohoExpense/ZohoExpense.node.js",
+        "displayName": "Zoho Expense",
+        "verified": true
+      }
+    ],
+    "displayNames": [
+      "Zoho Expense"
+    ],
+    "metadataStatus": "ok",
+    "repository": "git+https://github.com/datingscout/n8n-nodes-zoho-expense-by-datingscout.git",
+    "homepage": "https://github.com/datingscout/n8n-nodes-zoho-expense-by-datingscout",
     "license": "MIT",
     "deprecated": null
   },
