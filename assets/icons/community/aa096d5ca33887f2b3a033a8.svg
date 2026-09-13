@@ -1,0 +1,84 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" fill="none">
+<ns0:defs>
+  
+  <ns0:radialGradient id="bg" cx="50%" cy="50%" r="50%">
+    <ns0:stop offset="0%" stop-color="#161d2e" />
+    <ns0:stop offset="100%" stop-color="#070a10" />
+  </ns0:radialGradient>
+  
+  <ns0:linearGradient id="flowH" x1="396" y1="540" x2="684" y2="540" gradientUnits="userSpaceOnUse">
+    <ns0:stop offset="0%" stop-color="#06b6d4" />
+    <ns0:stop offset="100%" stop-color="#8b5cf6" />
+  </ns0:linearGradient>
+  
+  <ns0:linearGradient id="flowV" x1="684" y1="540" x2="828" y2="864" gradientUnits="userSpaceOnUse">
+    <ns0:stop offset="0%" stop-color="#8b5cf6" />
+    <ns0:stop offset="100%" stop-color="#10b981" />
+  </ns0:linearGradient>
+  
+  <ns0:filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+    <ns0:feGaussianBlur stdDeviation="36" result="blur" />
+    <ns0:feMerge><ns0:feMergeNode in="blur" /><ns0:feMergeNode in="SourceGraphic" /></ns0:feMerge>
+  </ns0:filter>
+</ns0:defs>
+
+
+<ns0:circle cx="540" cy="540" r="540" fill="url(#bg)" />
+
+<ns0:circle cx="540" cy="540" r="539" stroke="#1a2d4a" stroke-width="1.5" fill="none" />
+
+
+<ns0:g stroke="#4a90c4" stroke-width="18" opacity="0.9">
+  
+  <ns0:line x1="252" y1="216" x2="540" y2="216" />
+  <ns0:line x1="540" y1="216" x2="828" y2="216" />
+  
+  <ns0:line x1="108" y1="540" x2="396" y2="540" />
+  <ns0:line x1="684" y1="540" x2="972" y2="540" />
+  
+  <ns0:line x1="252" y1="864" x2="540" y2="864" />
+  <ns0:line x1="540" y1="864" x2="828" y2="864" />
+  
+  <ns0:line x1="252" y1="216" x2="108" y2="540" />
+  <ns0:line x1="540" y1="216" x2="684" y2="540" />
+  <ns0:line x1="828" y1="216" x2="684" y2="540" />
+  <ns0:line x1="828" y1="216" x2="972" y2="540" />
+  
+  <ns0:line x1="108" y1="540" x2="252" y2="864" />
+  <ns0:line x1="396" y1="540" x2="540" y2="864" />
+  <ns0:line x1="684" y1="540" x2="540" y2="864" />
+  <ns0:line x1="972" y1="540" x2="828" y2="864" />
+</ns0:g>
+
+
+
+<ns0:line x1="252" y1="216" x2="396" y2="540" stroke="#06b6d4" stroke-width="60" stroke-linecap="round" />
+
+<ns0:line x1="396" y1="540" x2="684" y2="540" stroke="url(#flowH)" stroke-width="60" stroke-linecap="round" />
+
+<ns0:line x1="684" y1="540" x2="828" y2="864" stroke="url(#flowV)" stroke-width="60" stroke-linecap="round" />
+
+
+<ns0:g fill="#1a3d5c" stroke="#4a90c4" stroke-width="14">
+  <ns0:circle cx="540" cy="216" r="36" />
+  <ns0:circle cx="828" cy="216" r="36" />
+  <ns0:circle cx="108" cy="540" r="36" />
+  <ns0:circle cx="972" cy="540" r="36" />
+  <ns0:circle cx="252" cy="864" r="36" />
+  <ns0:circle cx="540" cy="864" r="36" />
+</ns0:g>
+
+
+
+<ns0:circle cx="252" cy="216" r="52" fill="#06b6d4" filter="url(#glow)" />
+<ns0:circle cx="252" cy="216" r="22" fill="#cffafe" />
+
+<ns0:circle cx="396" cy="540" r="46" fill="#22d3ee" filter="url(#glow)" />
+<ns0:circle cx="396" cy="540" r="18" fill="#cffafe" />
+
+<ns0:circle cx="684" cy="540" r="70" fill="#8b5cf6" filter="url(#glow)" />
+<ns0:circle cx="684" cy="540" r="28" fill="#ede9fe" />
+
+<ns0:circle cx="828" cy="864" r="52" fill="#10b981" filter="url(#glow)" />
+<ns0:circle cx="828" cy="864" r="22" fill="#d1fae5" />
+</ns0:svg>
