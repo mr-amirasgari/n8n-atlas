@@ -1,0 +1,26 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <ns0:defs>
+    <ns0:linearGradient id="redgres_redis" x1="12" y1="10" x2="52" y2="34" gradientUnits="userSpaceOnUse">
+      <ns0:stop stop-color="#FF4D4D" />
+      <ns0:stop offset="1" stop-color="#D82C20" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="redgres_postgres" x1="12" y1="27" x2="52" y2="51" gradientUnits="userSpaceOnUse">
+      <ns0:stop stop-color="#3B82F6" />
+      <ns0:stop offset="1" stop-color="#1D4ED8" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  
+  <ns0:g id="l2-postgres">
+    <ns0:path d="M14 36 C14 30.5 22.059 27 32 27 C41.941 27 50 30.5 50 36 V42 C50 47.5 41.941 51 32 51 C22.059 51 14 47.5 14 42 Z" fill="url(#redgres_postgres)" />
+    <ns0:ellipse cx="32" cy="36" rx="18" ry="7" fill="#60A5FA" fill-opacity="0.9" />
+    <ns0:ellipse cx="32" cy="35" rx="15" ry="5" fill="#93C5FD" fill-opacity="0.4" />
+  </ns0:g>
+
+  
+  <ns0:g id="l1-redis">
+    <ns0:path d="M14 19 C14 13.5 22.059 10 32 10 C41.941 10 50 13.5 50 19 V25 C50 30.5 41.941 34 32 34 C22.059 34 14 30.5 14 25 Z" fill="url(#redgres_redis)" />
+    <ns0:ellipse cx="32" cy="19" rx="18" ry="7" fill="#FF6B6B" />
+    <ns0:ellipse cx="32" cy="18" rx="15" ry="5" fill="#FFA4A4" fill-opacity="0.6" />
+  </ns0:g>
+</ns0:svg>
