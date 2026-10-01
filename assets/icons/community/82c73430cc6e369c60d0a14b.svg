@@ -1,0 +1,18 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <ns0:defs>
+    <ns0:linearGradient id="ng-ring" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0" stop-color="#1E88F5" />
+      <ns0:stop offset="0.55" stop-color="#7B4DF0" />
+      <ns0:stop offset="1" stop-color="#F0288C" />
+    </ns0:linearGradient>
+    <ns0:clipPath id="ng-inside"><ns0:circle cx="58" cy="68" r="31" /></ns0:clipPath>
+  </ns0:defs>
+  <ns0:path d="M84 42 L108 18" stroke="#1E88F5" stroke-width="10" stroke-linecap="round" />
+  <ns0:path d="M90 12 H116 V38 Z" fill="#1E88F5" />
+  <ns0:path d="M34 92 L14 112 M12 94 L32 114" stroke="#F0288C" stroke-width="10" stroke-linecap="round" />
+  <ns0:circle cx="58" cy="68" r="36" fill="none" stroke="url(#ng-ring)" stroke-width="11" />
+  <ns0:g clip-path="url(#ng-inside)">
+    <ns0:path fill="#1E88F5" d="M58 40 C44 40 37 50 38 60 L33 68 L38 70 L37 77 C37 83 43 85 49 84 L50 100 L60 100 L60 40 Z" />
+    <ns0:path fill="#F0288C" d="M60 46 C73 46 81 55 80 64 L85 71 L80 73 L80 79 C80 85 74 87 68 86 L67 100 L57 100 L55 72 C53 60 55 50 60 46 Z" />
+  </ns0:g>
+</ns0:svg>
