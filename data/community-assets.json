@@ -50,6 +50,20 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@19americano/n8n-nodes-google-news-decoder",
+    "version": "1.0.1",
+    "nodePath": "dist/nodes/GoogleNewsDecode/GoogleNewsDecode.node.js",
+    "displayName": "Google News Decode",
+    "icon": {
+      "light": "assets/icons/community/30fa4e8facdc82cb013b4e34.svg"
+    },
+    "categories": [
+      "Data & Storage"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@1kdanny/n8n-nodes-firecrawl",
     "version": "1.0.2",
     "nodePath": "dist/nodes/Firecrawl.node.js",
@@ -226,6 +240,37 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "@7plx/n8n-nodes-goodday",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/GoodDay/GoodDay.node.js",
+    "displayName": "GoodDay",
+    "icon": {
+      "light": "assets/icons/community/487bf62e1c86e15dfb24f7c8.svg",
+      "dark": "assets/icons/community/487bf62e1c86e15dfb24f7c8.svg"
+    },
+    "categories": [
+      "Project Management"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@7plx/n8n-nodes-goodday",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/GoodDayTrigger/GoodDayTrigger.node.js",
+    "displayName": "GoodDay Trigger",
+    "icon": {
+      "light": "assets/icons/community/487bf62e1c86e15dfb24f7c8.svg",
+      "dark": "assets/icons/community/487bf62e1c86e15dfb24f7c8.svg"
+    },
+    "categories": [
+      "Project Management",
+      "Trigger"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "@7plx/n8n-nodes-granola",
@@ -503,6 +548,78 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@adam-fisher/n8n-nodes-tag-media",
+    "version": "1.0.1",
+    "nodePath": "dist/nodes/ReadFileTags/ReadFileTags.node.js",
+    "displayName": "Read File Tags",
+    "icon": {
+      "light": "assets/icons/community/f7382971c277416392a1f5ed.svg"
+    },
+    "categories": [
+      "Core Nodes"
+    ],
+    "subcategories": {
+      "Core Nodes": [
+        "Data Transformation"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@adam-fisher/n8n-nodes-tag-media",
+    "version": "1.0.1",
+    "nodePath": "dist/nodes/TagAudioFile/TagAudioFile.node.js",
+    "displayName": "Tag Audio File",
+    "icon": {
+      "light": "assets/icons/community/f7382971c277416392a1f5ed.svg"
+    },
+    "categories": [
+      "Core Nodes"
+    ],
+    "subcategories": {
+      "Core Nodes": [
+        "Data Transformation"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@adam-fisher/n8n-nodes-tag-media",
+    "version": "1.0.1",
+    "nodePath": "dist/nodes/TagMediaFile/TagMediaFile.node.js",
+    "displayName": "Tag Media File",
+    "icon": {
+      "light": "assets/icons/community/f7382971c277416392a1f5ed.svg"
+    },
+    "categories": [
+      "Core Nodes"
+    ],
+    "subcategories": {
+      "Core Nodes": [
+        "Data Transformation"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@adam-fisher/n8n-nodes-tag-media",
+    "version": "1.0.1",
+    "nodePath": "dist/nodes/TagOfficeDocument/TagOfficeDocument.node.js",
+    "displayName": "Tag Office Document",
+    "icon": {
+      "light": "assets/icons/community/f7382971c277416392a1f5ed.svg"
+    },
+    "categories": [
+      "Core Nodes"
+    ],
+    "subcategories": {
+      "Core Nodes": [
+        "Data Transformation"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
     "package": "@adamhancock/n8n-nodes-msp-ai",
     "version": "0.1.18",
     "nodePath": "dist/nodes/ConnectWiseManage/ConnectWiseManage.node.js",
@@ -548,6 +665,68 @@
     },
     "categories": [],
     "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@adamianps/n8n-nodes-gigachat",
+    "version": "2.2.0",
+    "nodePath": "dist/nodes/GigaChat/GigaChat.node.js",
+    "displayName": "GigaChat AI",
+    "icon": {
+      "light": "assets/icons/community/14589a645bf0a81044e15246.svg"
+    },
+    "categories": [
+      "AI",
+      "Chat"
+    ],
+    "subcategories": {
+      "AI": [
+        "Chains",
+        "Root Nodes"
+      ],
+      "Chat": [
+        "Conversational Agents"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@adamianps/n8n-nodes-gigachat",
+    "version": "2.2.0",
+    "nodePath": "dist/nodes/EmGigaChat/EmGigaChat.node.js",
+    "displayName": "GigaChat Embeddings",
+    "icon": {
+      "light": "assets/icons/community/14589a645bf0a81044e15246.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Embeddings"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@adamianps/n8n-nodes-gigachat",
+    "version": "2.2.0",
+    "nodePath": "dist/nodes/LmGigaChat/LmGigaChat.node.js",
+    "displayName": "GigaChat Model",
+    "icon": {
+      "light": "assets/icons/community/14589a645bf0a81044e15246.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Language Models"
+      ],
+      "Language Models": [
+        "Text Completion Models"
+      ]
+    },
     "assetStatus": "ok"
   },
   {
@@ -692,6 +871,22 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "@adhirajhangal/n8n-nodes-vapi",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/Vapi/Vapi.node.js",
+    "displayName": "Vapi",
+    "icon": {
+      "light": "assets/icons/community/f9c077ec51ab408124dd0a33.svg",
+      "dark": "assets/icons/community/e5e1dc172d091313b0ba9380.svg"
+    },
+    "categories": [
+      "AI",
+      "Communication"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "@admin_programini/n8n-nodes-monitorix360",
@@ -1052,21 +1247,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@ahmed-kamal/n8n-nodes-evolution-api",
-    "version": "1.0.5",
-    "nodePath": "dist/nodes/EvolutionApi/EvolutionApi.node.js",
-    "displayName": "Evolution API",
-    "icon": {
-      "light": "assets/icons/community/4fc9a73b9f2d704399bbb119.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@ai-growth/n8n-nodes-wordpress",
     "version": "0.7.0",
     "nodePath": "dist/nodes/AIGrowthWordPress.js",
@@ -1345,6 +1525,66 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@aiospe/n8n-nodes-playwright",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/PlaywrightExtract/PlaywrightExtract.node.js",
+    "displayName": "Extracción Playwright",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "@aiospe/n8n-nodes-playwright",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/PlaywrightNavigation/PlaywrightNavigation.node.js",
+    "displayName": "Navegación de Playwright",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "@aiospe/n8n-nodes-playwright",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/PlaywrightBrowser/PlaywrightBrowser.node.js",
+    "displayName": "Playwright Browser",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "@aiospe/n8n-nodes-playwright",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/PlaywrightExecute/PlaywrightExecute.node.js",
+    "displayName": "Playwright Execute",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "@aiospe/n8n-nodes-playwright",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/PlaywrightScreenshot/PlaywrightScreenshot.node.js",
+    "displayName": "Playwright Screenshot",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "@aiospe/n8n-nodes-playwright",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/PlaywrightStep/PlaywrightStep.node.js",
+    "displayName": "Playwright Step",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
     "package": "@aipowergrid/n8n-nodes-aipg",
     "version": "0.1.3",
     "nodePath": "dist/nodes/AiPowerGrid/AiPowerGrid.node.js",
@@ -1438,6 +1678,21 @@
       "light": "assets/icons/community/ebbef2513d5d7b2b81b1dee3.svg"
     },
     "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@akirose/n8n-nodes-bizbox",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/Bizbox/Bizbox.node.js",
+    "displayName": "Bizbox",
+    "icon": {
+      "light": "assets/icons/community/93c6711cf63efafeac56a971.svg"
+    },
+    "categories": [
+      "Communication",
+      "Development"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -1767,6 +2022,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@alex_rexby/n8n-nodes-telegram-mtproto",
+    "version": "0.2.0",
+    "nodePath": "dist/nodes/Telegram/TelegramTrigger.node.js",
+    "displayName": "Telegram MTProto Trigger",
+    "icon": {
+      "light": "assets/icons/community/6897f75540b3102c726c6368.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@alex_rexby/n8n-nodes-vk",
     "version": "0.4.21",
     "nodePath": "dist/nodes/Vk/Vk.node.js",
@@ -2074,6 +2341,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@andybass/n8n-nodes-md-to-docs-enhanced",
+    "version": "0.5.5",
+    "nodePath": "dist/nodes/MarkdownToGoogleDocs/MarkdownToGoogleDocsEnhanced.node.js",
+    "displayName": "Markdown to Google Docs Enhanced",
+    "icon": {
+      "light": "assets/icons/community/5bea51f7862d18bf871b578c.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@andyshinn/n8n-nodes-meshcore-ts",
     "version": "0.1.0",
     "nodePath": "dist/nodes/MeshCore/MeshCore.node.js",
@@ -2271,6 +2550,33 @@
         "Tools"
       ]
     },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@aorizondo/n8n-nodes-evolution",
+    "version": "1.9.57",
+    "nodePath": "dist/nodes/EvolutionApi/EvolutionApiV2.node.js",
+    "displayName": "New Evolution API",
+    "icon": {
+      "light": "assets/icons/community/4fc9a73b9f2d704399bbb119.svg"
+    },
+    "categories": [
+      "Communication",
+      "Marketing & Growth"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@aorizondo/n8n-nodes-evolution",
+    "version": "1.9.57",
+    "nodePath": "dist/nodes/EvolutionApi/EvolutionApiTrigger.node.js",
+    "displayName": "New Evolution API Trigger",
+    "icon": {
+      "light": "assets/icons/community/4fc9a73b9f2d704399bbb119.svg"
+    },
+    "categories": [],
+    "subcategories": {},
     "assetStatus": "ok"
   },
   {
@@ -4544,6 +4850,16 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@bauer-group/n8n-nodes-http-throttled-request",
+    "version": "0.3.6",
+    "nodePath": "dist/nodes/HttpRequest/HttpRequestThrottled.node.js",
+    "displayName": "HTTP Request (Throttled)",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
     "package": "@bautran1911/n8n-nodes-zalo-oa",
     "version": "1.0.19",
     "nodePath": "dist/nodes/ZaloOa/ZaloOa.node.js",
@@ -4588,6 +4904,22 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "@bedrijfsdatanl/n8n-nodes-bedrijfsdata",
+    "version": "0.1.9",
+    "nodePath": "dist/nodes/Bedrijfsdata/Bedrijfsdata.node.js",
+    "displayName": "Bedrijfsdata",
+    "icon": {
+      "light": "assets/icons/community/87b3cffebdff599475fcc765.svg"
+    },
+    "categories": [
+      "Marketing",
+      "Sales",
+      "Data & Storage"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "@bedrijfsdatanl/n8n-nodes-prospectpro",
@@ -4900,6 +5232,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@bergetai/n8n-nodes-berget-ai-agent",
+    "version": "1.1.0",
+    "nodePath": "dist/nodes/BergetAiAgent/BergetAiAgent.node.js",
+    "displayName": "Berget AI Agent",
+    "icon": {
+      "light": "assets/icons/community/a1a00054e7e6e5a8f09e9569.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@bergetai/n8n-nodes-berget-ai-chat",
     "version": "1.1.0",
     "nodePath": "dist/nodes/BergetAiChat/BergetAiChat.node.js",
@@ -4940,6 +5284,18 @@
     "displayName": "Berget AI Speech",
     "icon": {
       "light": "assets/icons/community/a1a00054e7e6e5a8f09e9569.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@berriai/n8n-nodes-litellm",
+    "version": "0.1.1",
+    "nodePath": "dist/nodes/LiteLLM/LiteLlmChatModel.node.js",
+    "displayName": "LiteLLM Chat Model",
+    "icon": {
+      "light": "assets/icons/community/8bc5ec0185dce2edf3edc25b.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -5039,18 +5395,6 @@
     "categories": [
       "Development"
     ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@bilalmubarik/n8n-nodes-claudecode",
-    "version": "0.2.2",
-    "nodePath": "dist/nodes/ClaudeCode/ClaudeCode.node.js",
-    "displayName": "Claude Code",
-    "icon": {
-      "light": "assets/icons/community/89bb606549417777d4f7540f.svg"
-    },
-    "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -5423,6 +5767,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@blackcess/n8n-nodes-innate-google-places",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/GooglePlacesSearch/GooglePlacesSearch.node.js",
+    "displayName": "Google Places Search",
+    "icon": {
+      "light": "assets/icons/community/387040367e687b6195501e6b.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@blackswampai/n8n-nodes-emdash",
     "version": "0.1.4",
     "nodePath": "dist/nodes/EmDash/Emdash.node.js",
@@ -5679,6 +6035,18 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "@blockchainhq-xyz/n8n-nodes-pocket-client",
+    "version": "1.0.2",
+    "nodePath": "dist/nodes/PocketNodeClient/PocketNodeClient.node.js",
+    "displayName": "Pocket Node Client",
+    "icon": {
+      "light": "assets/icons/community/0796922b710f5a109de3d11a.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "@blockchainhq-xyz/n8n-nodes-solana-x402",
@@ -6299,6 +6667,16 @@
     ],
     "subcategories": {},
     "assetStatus": "ok"
+  },
+  {
+    "package": "@buywhere/n8n-nodes-mcp",
+    "version": "0.1.1",
+    "nodePath": "dist/BuyWhere.node.js",
+    "displayName": "BuyWhere",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
   },
   {
     "package": "@bymcs/n8n-nodes-caniaswebservice",
@@ -7279,6 +7657,34 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@chariow/n8n-nodes-chariow",
+    "version": "0.0.7",
+    "nodePath": "dist/nodes/Chariow/Chariow.node.js",
+    "displayName": "Chariow",
+    "icon": {
+      "light": "assets/icons/community/3592bb26feb779904dae5086.svg"
+    },
+    "categories": [
+      "Sales"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@chariow/n8n-nodes-chariow",
+    "version": "0.0.7",
+    "nodePath": "dist/nodes/Chariow/ChariowTrigger.node.js",
+    "displayName": "Chariow Trigger",
+    "icon": {
+      "light": "assets/icons/community/3592bb26feb779904dae5086.svg"
+    },
+    "categories": [
+      "Sales"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@chatarchitect/n8n-nodes-chatarchitectcom-for-whatsapp",
     "version": "0.0.34",
     "nodePath": "dist/nodes/ChatArchitectWhatsApp/ChatArchitectWhatsApp.node.js",
@@ -7423,7 +7829,7 @@
   },
   {
     "package": "@chirpie/n8n-nodes-chirpie",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "nodePath": "dist/nodes/Chirpie/Chirpie.node.js",
     "displayName": "Chirpie",
     "icon": {
@@ -9058,18 +9464,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@cryptodevops/n8n-nodes-google-places",
-    "version": "1.2.1",
-    "nodePath": "dist/nodes/GooglePlaces/GooglePlaces.node.js",
-    "displayName": "Google Places",
-    "icon": {
-      "light": "assets/icons/community/2290420d919cb5b66cf2b480.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@cryptodevops/n8n-nodes-quicknode",
     "version": "1.0.1",
     "nodePath": "dist/nodes/QuickNode/QuickNode.node.js",
@@ -9479,30 +9873,6 @@
     },
     "categories": [
       "Productivity"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@danhlan/n8n-nodes-lark-base",
-    "version": "0.2.5",
-    "nodePath": "dist/nodes/LarkBase/LarkBase.node.js",
-    "displayName": "Lark Base",
-    "icon": {},
-    "categories": [
-      "Data & Storage"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@danhlan/n8n-nodes-lark-base",
-    "version": "0.2.5",
-    "nodePath": "dist/nodes/LarkBase/LarkBaseV2.node.js",
-    "displayName": "Lark Base V2",
-    "icon": {},
-    "categories": [
-      "Data & Storage"
     ],
     "subcategories": {},
     "assetStatus": "ok"
@@ -12200,18 +12570,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@gaffa-dev/n8n-nodes-gaffa",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/Gaffa/Gaffa.node.js",
-    "displayName": "Gaffa",
-    "icon": {
-      "light": "assets/icons/community/9ac774f596fe59db5612553c.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@galileo1234/n8n-nodes-sapb1",
     "version": "1.0.10",
     "nodePath": "dist/nodes/SapB1ServiceLayer/SapB1ServiceLayer.node.js",
@@ -13812,18 +14170,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@icecyber/n8n-nodes-kie-ai",
-    "version": "0.3.8",
-    "nodePath": "dist/nodes/KieAi/KieAi.node.js",
-    "displayName": "Kie.ai",
-    "icon": {
-      "light": "assets/icons/community/aa38eb3bc54a1d372c571516.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@idekavan/n8n-nodes-idekavan-sms",
     "version": "0.1.0",
     "nodePath": "dist/nodes/IdekavanSms/IdekavanSms.node.js",
@@ -14153,6 +14499,21 @@
         "Other Tools"
       ]
     },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@invowerk-dev/n8n-nodes-invowerk",
+    "version": "1.0.3",
+    "nodePath": "dist/nodes/Invowerk/Invowerk.node.js",
+    "displayName": "invowerk",
+    "icon": {
+      "light": "assets/icons/community/6164b138e57743de86ce1cee.svg",
+      "dark": "assets/icons/community/6164b138e57743de86ce1cee.svg"
+    },
+    "categories": [
+      "Utility"
+    ],
+    "subcategories": {},
     "assetStatus": "ok"
   },
   {
@@ -14830,6 +15191,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@joshuanode/n8n-nodes-addigy",
+    "version": "0.0.7",
+    "nodePath": "dist/nodes/Addigy/Addigy.node.js",
+    "displayName": "Addigy",
+    "icon": {
+      "light": "assets/icons/community/3041b51dc711e5dcda954119.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@joshuanode/n8n-nodes-cipp",
     "version": "0.1.6",
     "nodePath": "dist/nodes/Cipp/CippApp.node.js",
@@ -15216,6 +15589,22 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "@katara-ai/n8n-nodes-katara",
+    "version": "0.1.12",
+    "nodePath": "dist/nodes/Katara/Katara.node.js",
+    "displayName": "Katara",
+    "icon": {
+      "light": "assets/icons/community/eb8516ccd921c7b829931793.svg",
+      "dark": "assets/icons/community/eb8516ccd921c7b829931793.svg"
+    },
+    "categories": [
+      "Productivity",
+      "Data & Storage"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "@kdctek/n8n-nodes-metaqtapchat",
@@ -18677,6 +19066,28 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@miskokodi/n8n-nodes-kie-ai",
+    "version": "0.1.4",
+    "nodePath": "dist/nodes/LmChatKieAi/LmChatKieAi.node.js",
+    "displayName": "KIE.ai Chat Model",
+    "icon": {
+      "light": "assets/icons/community/2ab0f3679f703980e6ee0902.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Language Models",
+        "Root Nodes"
+      ],
+      "Language Models": [
+        "Chat Models (Recommended)"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
     "package": "@mivalabs/n8n-nodes-miva",
     "version": "1.0.7",
     "nodePath": "dist/nodes/Miva/Miva.node.js",
@@ -18992,7 +19403,7 @@
   },
   {
     "package": "@munin92/n8n-nodes-scalable-capital",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "nodePath": "dist/nodes/ScalableCapital/ScalableCapital.node.js",
     "displayName": "Scalable Capital",
     "icon": {
@@ -21350,6 +21761,20 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@ovehbe/n8n-nodes-ads-conversions",
+    "version": "0.1.9",
+    "nodePath": "dist/nodes/AdsConversions/AdsConversions.node.js",
+    "displayName": "Ads Conversions",
+    "icon": {
+      "light": "assets/icons/community/98a2c70e8bef023610a381bd.svg"
+    },
+    "categories": [
+      "Marketing & Growth"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@overbi/n8n-nodes-contit",
     "version": "0.22.12",
     "nodePath": "dist/nodes/ContitApi.node.js",
@@ -22133,6 +22558,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@pokash/n8n-nodes-minio",
+    "version": "1.2.0",
+    "nodePath": "dist/nodes/Minio/Minio.node.js",
+    "displayName": "MinIO",
+    "icon": {
+      "light": "assets/icons/community/a27c9b586d898b5f5a619b12.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "@pokash/n8n-nodes-optima-rest-api",
     "version": "1.11.0",
     "nodePath": "dist/nodes/OptimaRestApi/OptimaRestApi.node.js",
@@ -22237,6 +22674,22 @@
         "Chat Models (Recommended)"
       ]
     },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@port-labs/n8n-nodes-portio-experimental",
+    "version": "1.0.0",
+    "nodePath": "nodes/PortApiAI/PortApiAi.node.js",
+    "displayName": "Port API AI",
+    "icon": {
+      "light": "assets/icons/community/3b30a5def3f914ee52b506c7.svg",
+      "dark": "assets/icons/community/225397ff19980b2e5c5c557e.svg"
+    },
+    "categories": [
+      "Development",
+      "Data & Storage"
+    ],
+    "subcategories": {},
     "assetStatus": "ok"
   },
   {
@@ -23470,33 +23923,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@rjsebening/n8n-nodes-digistore24",
-    "version": "0.2.0",
-    "nodePath": "dist/nodes/Digistore24/Digistore24.node.js",
-    "displayName": "Digistore24",
-    "icon": {
-      "light": "assets/icons/community/30df712273434cd72e7492d8.svg"
-    },
-    "categories": [
-      "Marketing & Content",
-      "Communication"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@rjsebening/n8n-nodes-digistore24",
-    "version": "0.2.0",
-    "nodePath": "dist/nodes/Digistore24/Digistore24Trigger.node.js",
-    "displayName": "Digistore24 IPN Trigger",
-    "icon": {
-      "light": "assets/icons/community/30df712273434cd72e7492d8.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@rjsebening/n8n-nodes-easybill-api",
     "version": "1.0.0",
     "nodePath": "dist/nodes/EasybillApi/EasybillApi.node.js",
@@ -23880,7 +24306,7 @@
   },
   {
     "package": "@roxyapi/n8n-nodes-roxyapi",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "nodePath": "dist/nodes/RoxyApi/RoxyApi.node.js",
     "displayName": "RoxyAPI",
     "icon": {
@@ -23933,16 +24359,6 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
-  },
-  {
-    "package": "@rudsys/n8n-nodes-sqlite3",
-    "version": "0.1.18",
-    "nodePath": "dist/nodes/SqliteSsh/SqliteSsh.node.js",
-    "displayName": "SQLite SSH",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
   },
   {
     "package": "@runpod/n8n-nodes",
@@ -24347,18 +24763,6 @@
       "Data & Storage",
       "Development"
     ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@scopebound/n8n-nodes-scopebound",
-    "version": "0.1.0-preview.9",
-    "nodePath": "dist/nodes/Scopebound/Scopebound.node.js",
-    "displayName": "Scopebound Scope Check",
-    "icon": {
-      "light": "assets/icons/community/f1250a1c5bd2acd5236511bf.svg"
-    },
-    "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -25044,6 +25448,36 @@
     "assetStatus": "ok"
   },
   {
+    "package": "@singlefax/n8n-nodes-singlefax",
+    "version": "0.1.4",
+    "nodePath": "dist/nodes/SingleFax/SingleFax.node.js",
+    "displayName": "SingleFax",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "@singlefax/n8n-nodes-singlefax",
+    "version": "0.1.4",
+    "nodePath": "dist/nodes/SingleFaxDelivered/SingleFaxDelivered.node.js",
+    "displayName": "SingleFax Fax Delivered",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "@singlefax/n8n-nodes-singlefax",
+    "version": "0.1.4",
+    "nodePath": "dist/nodes/SingleFaxReceived/SingleFaxReceived.node.js",
+    "displayName": "SingleFax Received Fax",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
     "package": "@sirmrmarty/n8n-nodes-tmux-orchestrator",
     "version": "0.3.9",
     "nodePath": "dist/nodes/TmuxProjectOrchestrator/TmuxProjectOrchestrator.node.js",
@@ -25496,32 +25930,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@snapi-ca/n8n-nodes-snapi",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/Snapi/Snapi.node.js",
-    "displayName": "Snapi",
-    "icon": {
-      "light": "assets/icons/community/05a7dbcae2c906e0366116b7.svg",
-      "dark": "assets/icons/community/131655088a4c5ff19a1c54ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@snapi-ca/n8n-nodes-snapi",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/SnapiTrigger/SnapiTrigger.node.js",
-    "displayName": "Snapi Trigger",
-    "icon": {
-      "light": "assets/icons/community/05a7dbcae2c906e0366116b7.svg",
-      "dark": "assets/icons/community/131655088a4c5ff19a1c54ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@soc2start/n8n-nodes-soc2start",
     "version": "0.193.0",
     "nodePath": "dist/nodes/SOC2Start/Soc2start.node.js",
@@ -25836,6 +26244,18 @@
     "displayName": "Stackby Trigger",
     "icon": {
       "light": "assets/icons/community/d3a0c4a48302aadb7b3539b3.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@stackflo-labs/n8n-nodes-retainr",
+    "version": "0.4.1",
+    "nodePath": "dist/nodes/Retainr/Retainr.node.js",
+    "displayName": "Retainr",
+    "icon": {
+      "light": "assets/icons/community/8d3c83f8ef5d24a458c92375.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -26197,53 +26617,6 @@
       "Transform"
     ],
     "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@surreal7/n8n-nodes-mem0",
-    "version": "1.3.7",
-    "nodePath": "dist/nodes/Mem0/Mem0.node.js",
-    "displayName": "Mem0",
-    "icon": {
-      "light": "assets/icons/community/8be178b7332604fce5539b7c.svg"
-    },
-    "categories": [
-      "AI",
-      "Memory"
-    ],
-    "subcategories": {
-      "AI": [
-        "Memory",
-        "Agents & LLMs"
-      ],
-      "Memory": [
-        "AI Memory",
-        "Persistent Storage"
-      ]
-    },
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@surreal7/n8n-nodes-mem0",
-    "version": "1.3.7",
-    "nodePath": "dist/nodes/Mem0/Mem0Memory.node.js",
-    "displayName": "Mem0 Memory",
-    "icon": {
-      "light": "assets/icons/community/8be178b7332604fce5539b7c.svg"
-    },
-    "categories": [
-      "AI",
-      "Memory"
-    ],
-    "subcategories": {
-      "AI": [
-        "Memory",
-        "Agents & LLMs"
-      ],
-      "Memory": [
-        "AI Memory"
-      ]
-    },
     "assetStatus": "ok"
   },
   {
@@ -26862,9 +27235,25 @@
   },
   {
     "package": "@taurussoftware/n8n-nodes-collmex",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "nodePath": "dist/nodes/Collmex/Collmex.node.js",
     "displayName": "Collmex",
+    "icon": {
+      "light": "assets/icons/community/2db47c2f425b3136bee2a390.svg",
+      "dark": "assets/icons/community/4d7f3e6151104909a4d567c1.svg"
+    },
+    "categories": [
+      "Finance & Accounting",
+      "Sales"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "@taurussoftware/n8n-nodes-collmex",
+    "version": "0.3.0",
+    "nodePath": "dist/nodes/CollmexTrigger/CollmexTrigger.node.js",
+    "displayName": "Collmex Trigger",
     "icon": {
       "light": "assets/icons/community/2db47c2f425b3136bee2a390.svg",
       "dark": "assets/icons/community/4d7f3e6151104909a4d567c1.svg"
@@ -27317,30 +27706,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@thinkliveid/n8n-nodes-waswuz",
-    "version": "1.1.9",
-    "nodePath": "dist/nodes/OpenClawWebhook/OpenClawWebhook.node.js",
-    "displayName": "OpenClaw Webhook",
-    "icon": {
-      "light": "assets/icons/community/812b28eba5c4f11fb15594ff.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@thinkliveid/n8n-nodes-waswuz",
-    "version": "1.1.9",
-    "nodePath": "dist/nodes/WaswuzPlatform/WaswuzPlatform.node.js",
-    "displayName": "Operation",
-    "icon": {
-      "light": "assets/icons/community/e90a8a8bd213d0a6b5a7be41.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@thomlov81/n8n-nodes-esogr-custom",
     "version": "0.1.18",
     "nodePath": "dist/nodes/InputValidator/InputValidator.node.js",
@@ -27361,18 +27726,6 @@
       "light": "assets/icons/community/99afe62a64d7737fe94fac7e.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@tiagopigatto/n8n-nodes-json-text-splitter",
-    "version": "0.2.4",
-    "nodePath": "dist/nodes/JsonTextSplitter/JsonTextSplitter.node.js",
-    "displayName": "JSON Text Splitter",
-    "icon": {},
-    "categories": [
-      "Miscellaneous"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -28519,18 +28872,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "@utopian-labs/n8n-nodes-utopianlabs",
-    "version": "0.1.11",
-    "nodePath": "dist/nodes/UtopianLabs.node.js",
-    "displayName": "Utopian Labs",
-    "icon": {
-      "light": "assets/icons/community/a59b48f5cdea810148acb04b.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "@vaiyen/n8n-nodes-ninjaone",
     "version": "1.4.2",
     "nodePath": "dist/nodes/NinjaOne/NinjaOne.node.js",
@@ -29542,20 +29883,6 @@
       "light": "assets/icons/community/e7435ac49eefcedc876ec623.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "@wekall/n8n-nodes-vicky",
-    "version": "0.1.6",
-    "nodePath": "dist/nodes/vicky/Vicky.node.js",
-    "displayName": "Vicky",
-    "icon": {
-      "light": "assets/icons/community/c3e5dfda23575114d9db48f9.svg"
-    },
-    "categories": [
-      "Communication"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -34520,7 +34847,7 @@
   },
   {
     "package": "@workbuddy/n8n-nodes-workbuddy-vnext",
-    "version": "1.0.129",
+    "version": "1.0.135",
     "nodePath": "dist/nodes/WorkBuddy/WorkBuddy.node.js",
     "displayName": "WorkBuddy",
     "icon": {},
@@ -34530,7 +34857,7 @@
   },
   {
     "package": "@workbuddy/n8n-nodes-workbuddy-vnext",
-    "version": "1.0.129",
+    "version": "1.0.135",
     "nodePath": "dist/nodes/WorkBuddy/WorkBuddyTrigger.node.js",
     "displayName": "WorkBuddy Trigger",
     "icon": {},
@@ -34686,7 +35013,7 @@
   },
   {
     "package": "@xberg-io/n8n-nodes-xberg",
-    "version": "1.3.3",
+    "version": "1.3.4",
     "nodePath": "dist/nodes/Xberg/Xberg.node.js",
     "displayName": "Xberg",
     "icon": {
@@ -36099,25 +36426,6 @@
       "light": "assets/icons/community/4b007503d10fd4461bcb7257.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-99acres-listings",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/Apify99acresListings/Apify99acresListings.node.js",
-    "displayName": "Apify API key connection",
-    "icon": {
-      "light": "assets/icons/community/4e30ef18cc5a5900ba1fcf0c.svg"
-    },
-    "categories": [
-      "Development",
-      "Marketing & Content",
-      "Sales",
-      "Analytics",
-      "Utility",
-      "Data & Storage"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -37689,6 +37997,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-agentraas",
+    "version": "0.1.3",
+    "nodePath": "dist/nodes/AgentRaaS/AgentRaaS.node.js",
+    "displayName": "AgentRaaS",
+    "icon": {
+      "light": "assets/icons/community/2a9b29a89e65ab70650d2459.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-agents-sdk",
     "version": "0.5.1",
     "nodePath": "dist/nodes/M365AgentTrigger/M365AgentTrigger.node.js",
@@ -38213,7 +38533,7 @@
   },
   {
     "package": "n8n-nodes-aimfox",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "nodePath": "dist/nodes/Aimfox/Aimfox.node.js",
     "displayName": "Aimfox",
     "icon": {
@@ -38227,7 +38547,7 @@
   },
   {
     "package": "n8n-nodes-aimfox",
-    "version": "1.0.19",
+    "version": "1.0.20",
     "nodePath": "dist/nodes/AimfoxTrigger/AimfoxTrigger.node.js",
     "displayName": "Aimfox Trigger",
     "icon": {
@@ -38755,6 +39075,19 @@
     "icon": {
       "light": "assets/icons/community/91940d3471f3e1662a32b330.svg",
       "dark": "assets/icons/community/91940d3471f3e1662a32b330.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-algenta",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/Algenta/Algenta.node.js",
+    "displayName": "Algenta",
+    "icon": {
+      "light": "assets/icons/community/d266f7d10c68f63762541cbf.svg",
+      "dark": "assets/icons/community/3c6371665c0910e438e09dc6.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -39308,6 +39641,38 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-anybio",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/AnyBioGovern/AnyBioGovern.node.js",
+    "displayName": "AnyBio Govern",
+    "icon": {
+      "light": "assets/icons/community/efe464a7989a7f04981654da.svg",
+      "dark": "assets/icons/community/02b8b2162dfb2f50dfd239c9.svg"
+    },
+    "categories": [
+      "Development",
+      "Utility"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-anybio",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/AnyBioGovernTrigger/AnyBioGovernTrigger.node.js",
+    "displayName": "AnyBio Govern Trigger",
+    "icon": {
+      "light": "assets/icons/community/efe464a7989a7f04981654da.svg",
+      "dark": "assets/icons/community/02b8b2162dfb2f50dfd239c9.svg"
+    },
+    "categories": [
+      "Development",
+      "Utility"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-anymize",
     "version": "1.1.10",
     "nodePath": "dist/nodes/Anymize/AnymizeNode.node.js",
@@ -39493,6 +39858,18 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "n8n-nodes-apaleo",
+    "version": "0.3.1",
+    "nodePath": "dist/nodes/ApaleoAPI/ApaleoApi.node.js",
+    "displayName": "Apaleo",
+    "icon": {
+      "light": "assets/icons/community/9d86fd4343c16ed71aa877e7.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "n8n-nodes-apaleo-hotel",
@@ -41163,8 +41540,44 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-atproto",
+    "version": "0.2.3",
+    "nodePath": "dist/nodes/Atproto/Atproto.node.js",
+    "displayName": "AT Protocol",
+    "icon": {
+      "light": "assets/icons/community/923c19621b877a628e6da399.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-atproto",
+    "version": "0.2.3",
+    "nodePath": "dist/nodes/Atproto/AtprotoTrigger.node.js",
+    "displayName": "AT Protocol Jetstream Trigger",
+    "icon": {
+      "light": "assets/icons/community/923c19621b877a628e6da399.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-atproto",
+    "version": "0.2.3",
+    "nodePath": "dist/nodes/Bluesky/AtprotoBluesky.node.js",
+    "displayName": "Bluesky",
+    "icon": {
+      "light": "assets/icons/community/923c19621b877a628e6da399.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-atria",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "nodePath": "dist/nodes/Atria/Atria.node.js",
     "displayName": "Atria",
     "icon": {
@@ -41177,7 +41590,7 @@
   },
   {
     "package": "n8n-nodes-atria",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "nodePath": "dist/nodes/AtriaTrigger/AtriaTrigger.node.js",
     "displayName": "Atria Trigger",
     "icon": {
@@ -41675,6 +42088,21 @@
       "light": "assets/icons/community/215804b075175792762430f8.svg"
     },
     "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-autype",
+    "version": "1.0.5",
+    "nodePath": "dist/nodes/Autype/Autype.node.js",
+    "displayName": "Autype",
+    "icon": {
+      "light": "assets/icons/community/b19f80ff0b777cd1f3b62b4a.svg"
+    },
+    "categories": [
+      "Productivity",
+      "Development"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -42723,32 +43151,6 @@
     "displayName": "BaseVN - App Request Trigger",
     "icon": {
       "light": "assets/icons/community/ed93467ce8257de8c3bf54f1.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-basevn-service",
-    "version": "0.1.11",
-    "nodePath": "dist/nodes/ServiceManagement/ServiceManagement.node.js",
-    "displayName": "BaseVN - App Service",
-    "icon": {
-      "light": "assets/icons/community/83f4f98adf67a62167be6220.svg"
-    },
-    "categories": [
-      "Integration"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-basevn-service",
-    "version": "0.1.11",
-    "nodePath": "dist/nodes/ServiceManagement/ServiceManagementTrigger.node.js",
-    "displayName": "BaseVN - App Service Trigger",
-    "icon": {
-      "light": "assets/icons/community/83f4f98adf67a62167be6220.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -44605,11 +45007,11 @@
   },
   {
     "package": "n8n-nodes-brixfit",
-    "version": "1.3.4",
+    "version": "1.4.1",
     "nodePath": "dist/nodes/Brixfit/Brixfit.node.js",
     "displayName": "Brixfit",
     "icon": {
-      "light": "assets/icons/community/7fc8b9c402d586a1b087022d.png"
+      "light": "assets/icons/community/9b434ed8e6a41869f4e06549.png"
     },
     "categories": [
       "CRM"
@@ -44623,11 +45025,11 @@
   },
   {
     "package": "n8n-nodes-brixfit",
-    "version": "1.3.4",
+    "version": "1.4.1",
     "nodePath": "dist/nodes/Brixfit/BrixfitTrigger.node.js",
     "displayName": "Brixfit Trigger",
     "icon": {
-      "light": "assets/icons/community/7fc8b9c402d586a1b087022d.png"
+      "light": "assets/icons/community/9b434ed8e6a41869f4e06549.png"
     },
     "categories": [
       "CRM"
@@ -45193,30 +45595,6 @@
   {
     "package": "n8n-nodes-bullmq",
     "version": "0.5.9",
-    "nodePath": "dist/nodes/Bullmq/BullmqTrigger.node.js",
-    "displayName": "BullMQ Trigger",
-    "icon": {
-      "light": "assets/icons/community/5e747a5daf7fcf9de17e03bd.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-bullmq-keno",
-    "version": "1.0.6",
-    "nodePath": "dist/nodes/Bullmq/Bullmq.node.js",
-    "displayName": "BullMQ",
-    "icon": {
-      "light": "assets/icons/community/5e747a5daf7fcf9de17e03bd.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-bullmq-keno",
-    "version": "1.0.6",
     "nodePath": "dist/nodes/Bullmq/BullmqTrigger.node.js",
     "displayName": "BullMQ Trigger",
     "icon": {
@@ -46667,7 +47045,7 @@
   },
   {
     "package": "n8n-nodes-chatagent",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "nodePath": "dist/nodes/ChatAgent/ChatAgent.node.js",
     "displayName": "ChatAgent",
     "icon": {
@@ -46683,7 +47061,7 @@
   },
   {
     "package": "n8n-nodes-chatagent",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "nodePath": "dist/nodes/ChatAgentConversationHistory/ChatAgentConversationHistory.node.js",
     "displayName": "ChatAgent Conversation History",
     "icon": {
@@ -46699,7 +47077,7 @@
   },
   {
     "package": "n8n-nodes-chatagent",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "nodePath": "dist/nodes/ChatAgentSearchCustomer/ChatAgentSearchCustomer.node.js",
     "displayName": "ChatAgent Search Customer",
     "icon": {
@@ -46715,7 +47093,7 @@
   },
   {
     "package": "n8n-nodes-chatagent",
-    "version": "0.2.0",
+    "version": "1.0.0",
     "nodePath": "dist/nodes/ChatAgentSendMessage/ChatAgentSendMessage.node.js",
     "displayName": "ChatAgent Send Message",
     "icon": {
@@ -53587,18 +53965,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-custom-ai-agent",
-    "version": "1.0.5",
-    "nodePath": "dist/nodes/CustomAiAgent/CustomAiAgent.node.js",
-    "displayName": "Custom LLM",
-    "icon": {
-      "light": "assets/icons/community/f1d08f911aac9a8cff44f177.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-custom-ia",
     "version": "0.2.0",
     "nodePath": "dist/nodes/CustomAiChatModel/CustomAiChatModel.node.js",
@@ -54138,13 +54504,15 @@
   },
   {
     "package": "n8n-nodes-databar",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "nodePath": "dist/nodes/Databar/Databar.node.js",
     "displayName": "Databar",
     "icon": {
       "light": "assets/icons/community/2d775968fe4af16eed0b22e2.svg"
     },
-    "categories": [],
+    "categories": [
+      "Data & Storage"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -54623,6 +54991,18 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
+  },
+  {
+    "package": "n8n-nodes-dataverse",
+    "version": "0.1.23",
+    "nodePath": "dist/nodes/Dataverse.node.js",
+    "displayName": "Dataverse",
+    "icon": {
+      "light": "assets/icons/community/da2b69e2f9542e947b4c5cb9.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
   },
   {
     "package": "n8n-nodes-datawrapper",
@@ -55829,23 +56209,14 @@
     "assetStatus": "no-assets"
   },
   {
-    "package": "n8n-nodes-devto-scraper",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/ApifyDevtoScraper/ApifyDevtoScraper.node.js",
-    "displayName": "Apify API key connection",
-    "icon": {
-      "light": "assets/icons/community/4e30ef18cc5a5900ba1fcf0c.svg"
-    },
-    "categories": [
-      "Development",
-      "Marketing & Content",
-      "Sales",
-      "Analytics",
-      "Utility",
-      "Data & Storage"
-    ],
+    "package": "n8n-nodes-devbase-super",
+    "version": "1.0.13",
+    "nodePath": "dist/nodes/DevbaseSuperTool/DevbaseSuperTool.node.js",
+    "displayName": "Devbase Super Tool",
+    "icon": {},
+    "categories": [],
     "subcategories": {},
-    "assetStatus": "ok"
+    "assetStatus": "no-assets"
   },
   {
     "package": "n8n-nodes-dex",
@@ -57993,7 +58364,7 @@
   },
   {
     "package": "n8n-nodes-dohoo",
-    "version": "0.2.5",
+    "version": "0.2.6",
     "nodePath": "dist/nodes/Dohoo/Dohoo.node.js",
     "displayName": "DOHOO",
     "icon": {
@@ -58065,6 +58436,21 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-domain",
+    "version": "0.1.8",
+    "nodePath": "dist/nodes/DomainLookup/DomainLookup.node.js",
+    "displayName": "Domain Lookup",
+    "icon": {
+      "light": "assets/icons/community/184fceb82084eeb5cffee7b0.svg",
+      "dark": "assets/icons/community/184fceb82084eeb5cffee7b0.svg"
+    },
+    "categories": [
+      "Utility"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-domainkits",
     "version": "0.4.1",
     "nodePath": "dist/nodes/DomainKits/DomainKits.node.js",
@@ -58111,6 +58497,30 @@
     "displayName": "DoNotify",
     "icon": {
       "light": "assets/icons/community/9e22eb8d57d07021847e7009.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-dontwaste",
+    "version": "1.0.0",
+    "nodePath": "dist/nodes/DontWaste/DontWaste.node.js",
+    "displayName": "DontWaste",
+    "icon": {
+      "light": "assets/icons/community/a4d4056f1159b0b0bdc91de2.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-dontwaste",
+    "version": "1.0.0",
+    "nodePath": "dist/nodes/DontWaste/DontWasteTrigger.node.js",
+    "displayName": "DontWaste Trigger",
+    "icon": {
+      "light": "assets/icons/community/a4d4056f1159b0b0bdc91de2.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -58968,21 +59378,6 @@
     },
     "categories": [
       "Miscellaneous"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ejentum",
-    "version": "0.2.1",
-    "nodePath": "dist/nodes/Ejentum/Ejentum.node.js",
-    "displayName": "Ejentum",
-    "icon": {
-      "light": "assets/icons/community/c1d74aa64e4b8442565eccbb.svg"
-    },
-    "categories": [
-      "AI",
-      "Utility"
     ],
     "subcategories": {},
     "assetStatus": "ok"
@@ -60312,6 +60707,30 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-evolution-v2",
+    "version": "1.0.14",
+    "nodePath": "dist/nodes/WhatsApp/WhatsApp.node.js",
+    "displayName": "WhatsApp",
+    "icon": {
+      "light": "assets/icons/community/36901de8c6f7c120340f0cde.png"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-evolution-v2",
+    "version": "1.0.14",
+    "nodePath": "dist/nodes/WhatsApp/WhatsAppTrigger.node.js",
+    "displayName": "WhatsApp Trigger",
+    "icon": {
+      "light": "assets/icons/community/36901de8c6f7c120340f0cde.png"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-evolution-v2-english",
     "version": "1.0.0",
     "nodePath": "dist/nodes/WhatsApp/WhatsApp.node.js",
@@ -60428,18 +60847,6 @@
     "displayName": "Excel API",
     "icon": {
       "light": "assets/icons/community/bf5d3c7dd7047d2d7693915e.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-excel-csv-processor",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/ExcelProcessor/ExcelProcessor.node.js",
-    "displayName": "Excel/CSV Processor (csv-parse)",
-    "icon": {
-      "light": "assets/icons/community/305a0a07a5f021ccafbe5bcb.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -61813,27 +62220,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-ferentin",
-    "version": "1.2.2",
-    "nodePath": "dist/nodes/Ferentin/FerentinChatModel.node.js",
-    "displayName": "Ferentin Chat Model",
-    "icon": {
-      "light": "assets/icons/community/a010a1ed3d85f1ebcae07681.svg"
-    },
-    "categories": [
-      "AI"
-    ],
-    "subcategories": {
-      "AI": [
-        "Language Models"
-      ],
-      "Language Models": [
-        "Chat Models (Recommended)"
-      ]
-    },
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-festivalapi",
     "version": "1.0.8",
     "nodePath": "dist/nodes/FestivalAPI/FestivalApi.node.js",
@@ -62026,7 +62412,7 @@
   },
   {
     "package": "n8n-nodes-figranium",
-    "version": "0.7.3",
+    "version": "0.7.4",
     "nodePath": "dist/nodes/Figranium/Figranium.node.js",
     "displayName": "Figranium",
     "icon": {
@@ -62250,18 +62636,6 @@
     "displayName": "Fineguide",
     "icon": {
       "light": "assets/icons/community/cb5b2d982ef89a60f7ed300a.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-fineract",
-    "version": "0.1.11",
-    "nodePath": "dist/nodes/Fineract/Fineract.node.js",
-    "displayName": "Fineract",
-    "icon": {
-      "light": "assets/icons/community/3c8d5c355ae8e1221d41edd7.png"
     },
     "categories": [],
     "subcategories": {},
@@ -62734,6 +63108,78 @@
     "icon": {
       "light": "assets/icons/community/e8ff08e51c09edf0f88ed547.svg",
       "dark": "assets/icons/community/e8ff08e51c09edf0f88ed547.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-firmaradar",
+    "version": "0.7.0",
+    "nodePath": "dist/nodes/Firmaradar/FirmaradarTrigger.node.js",
+    "displayName": "Firmaradar Trigger",
+    "icon": {
+      "light": "assets/icons/community/29f265ceec45d8ebee50bc6f.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-firmaradar",
+    "version": "0.7.0",
+    "nodePath": "dist/nodes/Firmaradar/FirmaradarBransje.node.js",
+    "displayName": "Firmaradar — Bransje og overvåkning",
+    "icon": {
+      "light": "assets/icons/community/29f265ceec45d8ebee50bc6f.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-firmaradar",
+    "version": "0.7.0",
+    "nodePath": "dist/nodes/Firmaradar/FirmaradarKyc.node.js",
+    "displayName": "Firmaradar — KYC og AML",
+    "icon": {
+      "light": "assets/icons/community/29f265ceec45d8ebee50bc6f.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-firmaradar",
+    "version": "0.7.0",
+    "nodePath": "dist/nodes/Firmaradar/FirmaradarOffentlig.node.js",
+    "displayName": "Firmaradar — Offentlige data",
+    "icon": {
+      "light": "assets/icons/community/29f265ceec45d8ebee50bc6f.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-firmaradar",
+    "version": "0.7.0",
+    "nodePath": "dist/nodes/Firmaradar/FirmaradarPerson.node.js",
+    "displayName": "Firmaradar — Person",
+    "icon": {
+      "light": "assets/icons/community/29f265ceec45d8ebee50bc6f.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-firmaradar",
+    "version": "0.7.0",
+    "nodePath": "dist/nodes/Firmaradar/FirmaradarCompany.node.js",
+    "displayName": "Firmaradar — Selskap",
+    "icon": {
+      "light": "assets/icons/community/29f265ceec45d8ebee50bc6f.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -63523,32 +63969,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-fopost",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/FoPost/FoPost.node.js",
-    "displayName": "FoPost",
-    "icon": {
-      "light": "assets/icons/community/6ca422ff4a53469741c94cf6.svg",
-      "dark": "assets/icons/community/1af45668916e52195d57b48d.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-fopost",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/FoPostTrigger/FoPostTrigger.node.js",
-    "displayName": "FoPost Trigger",
-    "icon": {
-      "light": "assets/icons/community/6ca422ff4a53469741c94cf6.svg",
-      "dark": "assets/icons/community/1af45668916e52195d57b48d.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-forestadmin",
     "version": "0.1.14",
     "nodePath": "dist/nodes/ForestAdmin/ForestAdmin.node.js",
@@ -63701,7 +64121,7 @@
   },
   {
     "package": "n8n-nodes-formfeed",
-    "version": "0.3.11",
+    "version": "0.3.12",
     "nodePath": "dist/nodes/Formfeed/Formfeed.node.js",
     "displayName": "Formfeed",
     "icon": {
@@ -63713,7 +64133,7 @@
   },
   {
     "package": "n8n-nodes-formfeed",
-    "version": "0.3.11",
+    "version": "0.3.12",
     "nodePath": "dist/nodes/Formfeed/FormfeedTrigger.node.js",
     "displayName": "Formfeed Trigger",
     "icon": {
@@ -64438,6 +64858,20 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-future-pdf-lib",
+    "version": "1.0.15",
+    "nodePath": "dist/nodes/FuturepdfLib/FuturepdfLib.node.js",
+    "displayName": "PDF-LIB",
+    "icon": {
+      "light": "assets/icons/community/59cc9af05b6783abc6cf24fc.svg"
+    },
+    "categories": [
+      "Core Nodes"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-fyo",
     "version": "0.6.3",
     "nodePath": "dist/nodes/Fyo/Fyo.node.js",
@@ -64668,21 +65102,6 @@
       "light": "assets/icons/community/a6c3790aa369c652dc7e858d.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-gbplabs-chat-buffer",
-    "version": "1.0.13",
-    "nodePath": "dist/nodes/ChatBuffer/nodes/ChatBuffer/ChatBuffer.node.js",
-    "displayName": "Chat Buffer",
-    "icon": {
-      "light": "assets/icons/community/a9de5791f5ecc934123c0a28.svg",
-      "dark": "assets/icons/community/a9de5791f5ecc934123c0a28.svg"
-    },
-    "categories": [
-      "Utility"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -65297,6 +65716,22 @@
     },
     "categories": [
       "Finance & Accounting"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-getyoutubetranscript",
+    "version": "0.1.5",
+    "nodePath": "dist/nodes/GetYouTubeTranscript/GetYouTubeTranscript.node.js",
+    "displayName": "GetYouTubeTranscript",
+    "icon": {
+      "light": "assets/icons/community/f21fdc898451cf3563d1a1d6.svg",
+      "dark": "assets/icons/community/f21fdc898451cf3563d1a1d6.svg"
+    },
+    "categories": [
+      "Data & Storage",
+      "Development"
     ],
     "subcategories": {},
     "assetStatus": "ok"
@@ -66269,14 +66704,17 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-google-form-auth",
-    "version": "1.0.5",
-    "nodePath": "dist/nodes/GoogleFormAuth/GoogleFormAuth.node.js",
-    "displayName": "Google Form Auth",
+    "package": "n8n-nodes-google-flights-api",
+    "version": "0.1.1",
+    "nodePath": "dist/nodes/ApifyGoogleFlights/ApifyGoogleFlights.node.js",
+    "displayName": "Apify API key connection",
     "icon": {
-      "light": "assets/icons/community/ace0edb218977fb39cd69b17.svg"
+      "light": "assets/icons/community/c9255a9b9e253f0881c3f2ad.svg"
     },
-    "categories": [],
+    "categories": [
+      "Data & Storage",
+      "Analytics"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -66637,18 +67075,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-googlesearch",
-    "version": "0.2.4",
-    "nodePath": "dist/nodes/GoogleSearch/GoogleSearch.node.js",
-    "displayName": "Google Search",
-    "icon": {
-      "light": "assets/icons/community/1d074721fb2ef14bca2f203c.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-gosms",
     "version": "0.1.0",
     "nodePath": "dist/nodes/GoSms/GoSms.node.js",
@@ -66994,6 +67420,42 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-greenapi",
+    "version": "0.1.8",
+    "nodePath": "dist/nodes/Greenapi/Greenapi.node.js",
+    "displayName": "GREEN-API for WhatsApp",
+    "icon": {
+      "light": "assets/icons/community/bf5688d1c143a0c8a6c3c3fa.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-greenapi",
+    "version": "0.1.8",
+    "nodePath": "dist/nodes/Greenapi/GreenapiPartner.node.js",
+    "displayName": "GREEN-API Partner",
+    "icon": {
+      "light": "assets/icons/community/bf5688d1c143a0c8a6c3c3fa.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-greenapi",
+    "version": "0.1.8",
+    "nodePath": "dist/nodes/Greenapi/GreenapiTrigger.node.js",
+    "displayName": "GREEN-API Trigger",
+    "icon": {
+      "light": "assets/icons/community/bf5688d1c143a0c8a6c3c3fa.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-greenbubble",
     "version": "0.2.1",
     "nodePath": "dist/nodes/Greenbubble/Greenbubble.node.js",
@@ -67225,12 +67687,12 @@
   },
   {
     "package": "n8n-nodes-gtm-api",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "nodePath": "dist/nodes/GtmApi/GtmApi.node.js",
     "displayName": "gtm-api",
     "icon": {
-      "light": "assets/icons/community/62a02f41b368873be4cbfc1d.svg",
-      "dark": "assets/icons/community/ea077f0aee3832c135cf5832.svg"
+      "light": "assets/icons/community/831d1bdf722fe6b0b2f85ead.svg",
+      "dark": "assets/icons/community/831d1bdf722fe6b0b2f85ead.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -67238,12 +67700,12 @@
   },
   {
     "package": "n8n-nodes-gtm-api",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "nodePath": "dist/nodes/GtmApiTrigger/GtmApiTrigger.node.js",
     "displayName": "gtm-api Trigger",
     "icon": {
-      "light": "assets/icons/community/62a02f41b368873be4cbfc1d.svg",
-      "dark": "assets/icons/community/ea077f0aee3832c135cf5832.svg"
+      "light": "assets/icons/community/831d1bdf722fe6b0b2f85ead.svg",
+      "dark": "assets/icons/community/831d1bdf722fe6b0b2f85ead.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -67554,6 +68016,18 @@
     "icon": {
       "light": "assets/icons/community/589dc5ae51ca1ecf159e149c.svg",
       "dark": "assets/icons/community/589dc5ae51ca1ecf159e149c.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-halu",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/Halu/Halu.node.js",
+    "displayName": "Komplex AI Hallucination Detector",
+    "icon": {
+      "light": "assets/icons/community/f9161b98f7de00b21f2fc634.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -68044,6 +68518,18 @@
     "displayName": "WebUntis Trigger",
     "icon": {
       "light": "assets/icons/community/5250e41c92fc102666985084.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-henrks-webscraping",
+    "version": "1.0.4",
+    "nodePath": "dist/nodes/WebScraping/HenrksWebScraping.node.js",
+    "displayName": "Web Scraping",
+    "icon": {
+      "light": "assets/icons/community/59a5becb4bec3d2489e90027.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -71173,21 +71659,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-image-to-pdf",
-    "version": "1.0.2",
-    "nodePath": "dist/nodes/ImageToPdf/ImageToPdf.node.js",
-    "displayName": "Image to PDF",
-    "icon": {
-      "light": "assets/icons/community/aa6abc1eaee5b3e2ef72c5d9.svg",
-      "dark": "assets/icons/community/1b1e9fa9ab26fdfd0f50732f.svg"
-    },
-    "categories": [
-      "Utility"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-image-to-video",
     "version": "0.1.9",
     "nodePath": "dist/nodes/ImageToVideo/ImageToVideo.node.js",
@@ -71731,6 +72202,36 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-inflow-crm",
+    "version": "1.1.0",
+    "nodePath": "dist/nodes/InflowCrm.node.js",
+    "displayName": "Inflow CRM",
+    "icon": {
+      "light": "assets/icons/community/6caafc8e67943e298d323cb1.png"
+    },
+    "categories": [
+      "CRM",
+      "Sales & Marketing"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-inflow-crm",
+    "version": "1.1.0",
+    "nodePath": "dist/nodes/InflowCrmTriggers.node.js",
+    "displayName": "Inflow CRM Trigger",
+    "icon": {
+      "light": "assets/icons/community/6caafc8e67943e298d323cb1.png"
+    },
+    "categories": [
+      "CRM",
+      "Sales & Marketing"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-influencer-hero",
     "version": "0.1.4",
     "nodePath": "dist/nodes/InfluencerHero/InfluencerHero.node.js",
@@ -72091,6 +72592,23 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-insightsocial",
+    "version": "0.1.3",
+    "nodePath": "dist/nodes/InsightSocial/InsightSocial.node.js",
+    "displayName": "InsightSocial",
+    "icon": {
+      "light": "assets/icons/community/f0e2a5b2109118d39234052f.svg",
+      "dark": "assets/icons/community/f0e2a5b2109118d39234052f.svg"
+    },
+    "categories": [
+      "Data & Storage",
+      "Marketing & Content",
+      "Sales"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-insolvenzbekanntmachungen",
     "version": "1.0.0",
     "nodePath": "dist/nodes/Insolvenzbekanntmachungen/Insolvenzbekanntmachungen.node.js",
@@ -72108,86 +72626,6 @@
     ],
     "subcategories": {},
     "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramCommentReply.node.js",
-    "displayName": "Instagram Comment Reply",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramReels.node.js",
-    "displayName": "Instagram Create Media",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramCreatePublishMedia.node.js",
-    "displayName": "Instagram Create/Publish Media",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramPublish.node.js",
-    "displayName": "Instagram Publish Media",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramSendImage.node.js",
-    "displayName": "Instagram Send Image/GIF",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramSendMedia.node.js",
-    "displayName": "Instagram Send Media",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramSendMessage.node.js",
-    "displayName": "Instagram Send Message",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-instagram-api",
-    "version": "0.1.10",
-    "nodePath": "dist/nodes/InstagramSendQuickReplies.node.js",
-    "displayName": "Instagram Send Quick Replies",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
   },
   {
     "package": "n8n-nodes-instagram-automation-pro",
@@ -72586,6 +73024,20 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-iointelligence",
+    "version": "0.4.0",
+    "nodePath": "dist/nodes/LmChatIoIntelligence/LmChatIoIntelligence.node.js",
+    "displayName": "IO Intelligence Chat Model",
+    "icon": {
+      "light": "assets/icons/community/3dfe95dd43071df0320933c6.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-ionos",
     "version": "1.21.0",
     "nodePath": "dist/nodes/Ionos/LmChatIonos.node.js",
@@ -72969,38 +73421,6 @@
       "light": "assets/icons/community/9f1020b1a93c8bc34a0034c9.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-iteras",
-    "version": "0.3.3",
-    "nodePath": "dist/nodes/Iteras/Iteras/Iteras.node.js",
-    "displayName": "Iteras",
-    "icon": {
-      "light": "assets/icons/community/7506da347447ff9988fc7690.svg",
-      "dark": "assets/icons/community/84a15755af5cf7532e027857.svg"
-    },
-    "categories": [
-      "Sales",
-      "Marketing"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-iteras",
-    "version": "0.3.3",
-    "nodePath": "dist/nodes/Iteras/IterasTrigger/IterasTrigger.node.js",
-    "displayName": "Iteras Trigger",
-    "icon": {
-      "light": "assets/icons/community/7506da347447ff9988fc7690.svg",
-      "dark": "assets/icons/community/84a15755af5cf7532e027857.svg"
-    },
-    "categories": [
-      "Sales",
-      "Marketing"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -75324,6 +75744,54 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-js-vector-store",
+    "version": "1.4.0",
+    "nodePath": "dist/nodes/DocumentStore/DocumentStore.node.js",
+    "displayName": "Document Store",
+    "icon": {
+      "light": "assets/icons/community/0f04b15fcbbd50096246f39a.svg",
+      "dark": "assets/icons/community/07f9fda281be4849566796bb.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-js-vector-store",
+    "version": "1.4.0",
+    "nodePath": "dist/nodes/VectorStore/VectorStore.node.js",
+    "displayName": "Vector Store",
+    "icon": {
+      "light": "assets/icons/community/0f04b15fcbbd50096246f39a.svg",
+      "dark": "assets/icons/community/07f9fda281be4849566796bb.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-js-vector-store",
+    "version": "1.4.0",
+    "nodePath": "dist/nodes/VectorStoreMemory/VectorStoreMemory.node.js",
+    "displayName": "Vector Store Memory",
+    "icon": {
+      "light": "assets/icons/community/0f04b15fcbbd50096246f39a.svg",
+      "dark": "assets/icons/community/07f9fda281be4849566796bb.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Memory"
+      ],
+      "Memory": [
+        "Other memories"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-jscanify",
     "version": "0.5.1",
     "nodePath": "dist/nodes/JScanify/JScanify.node.js",
@@ -77522,6 +77990,26 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-klaaro",
+    "version": "0.1.5",
+    "nodePath": "dist/nodes/Klaaro/Klaaro.node.js",
+    "displayName": "Klaaro",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
+    "package": "n8n-nodes-klaaro",
+    "version": "0.1.5",
+    "nodePath": "dist/nodes/KlaaroTrigger/KlaaroTrigger.node.js",
+    "displayName": "Klaaro Trigger",
+    "icon": {},
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "no-assets"
+  },
+  {
     "package": "n8n-nodes-klaviyo-api",
     "version": "0.1.2",
     "nodePath": "dist/nodes/Klaviyo/Klaviyo.node.js",
@@ -77972,18 +78460,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-kommocrm-bycloudbird",
-    "version": "0.1.6",
-    "nodePath": "dist/nodes/KommoByCloudBird/KommoByCloudBird.node.js",
-    "displayName": "Kommo por CloudBird",
-    "icon": {
-      "light": "assets/icons/community/855c6ba8832d02bc726bfe25.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-kontroapi",
     "version": "0.8.0",
     "nodePath": "dist/SendMessage.js",
@@ -78005,7 +78481,7 @@
   },
   {
     "package": "n8n-nodes-kordoc",
-    "version": "0.1.42",
+    "version": "0.1.43",
     "nodePath": "dist/nodes/KorDoc/KorDoc.node.js",
     "displayName": "KorDoc Parser",
     "icon": {
@@ -79665,21 +80141,6 @@
       "light": "assets/icons/community/c01b4b599fd52feddcd11598.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-linktwin",
-    "version": "1.0.8",
-    "nodePath": "dist/nodes/LinkTwin/LinkTwin.node.js",
-    "displayName": "LinkTwin - Deep Linking & URL Shortener",
-    "icon": {
-      "light": "assets/icons/community/74565f27baf6fa665121105b.svg"
-    },
-    "categories": [
-      "Marketing",
-      "Analytics"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -81755,6 +82216,21 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-mallabe-websites",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/MallabeWebsites/MallabeWebsites.node.js",
+    "displayName": "Mallabe Websites",
+    "icon": {
+      "light": "assets/icons/community/0311603643f9070f884425be.svg"
+    },
+    "categories": [
+      "Websites",
+      "Utilities"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-managelm",
     "version": "1.0.3",
     "nodePath": "dist/nodes/ManageLm/ManageLm.node.js",
@@ -82852,6 +83328,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-melhor-envio",
+    "version": "0.1.4",
+    "nodePath": "dist/nodes/MelhorEnvio/MelhorEnvio.node.js",
+    "displayName": "Melhor Envio",
+    "icon": {
+      "light": "assets/icons/community/24528a52e0d2691e31313b33.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-melipayamak",
     "version": "0.1.5",
     "nodePath": "dist/nodes/MeliPayamak/MeliPayamak.node.js",
@@ -82975,7 +83463,7 @@
   },
   {
     "package": "n8n-nodes-memori-community",
-    "version": "0.3.3",
+    "version": "0.3.4",
     "nodePath": "dist/nodes/LmChatMemori/LmChatMemori.node.js",
     "displayName": "Memori Chat Model",
     "icon": {
@@ -83175,7 +83663,7 @@
   },
   {
     "package": "n8n-nodes-meower",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "nodePath": "dist/nodes/Meower/Meower.node.js",
     "displayName": "Meower",
     "icon": {
@@ -83815,19 +84303,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-mightycall",
-    "version": "1.0.2",
-    "nodePath": "dist/nodes/MightyCall.node.js",
-    "displayName": "MightyCall",
-    "icon": {
-      "light": "assets/icons/community/0fc17cc7f8a376ee9eb823a0.svg",
-      "dark": "assets/icons/community/0fc17cc7f8a376ee9eb823a0.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-mihu",
     "version": "0.1.17",
     "nodePath": "dist/nodes/Mihu/Mihu.node.js",
@@ -84392,6 +84867,22 @@
       "light": "assets/icons/community/a60c10b556093f954d55ba13.svg"
     },
     "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-mjml",
+    "version": "0.1.4",
+    "nodePath": "dist/nodes/Mjml/Mjml.node.js",
+    "displayName": "MJML",
+    "icon": {
+      "light": "assets/icons/community/762a2333075aaee180036a64.svg"
+    },
+    "categories": [
+      "Communication",
+      "Marketing & Content",
+      "Utility"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -85385,48 +85876,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-mtproto-scanner",
-    "version": "1.0.9",
-    "nodePath": "dist/nodes/Example/Example.node.js",
-    "displayName": "Example",
-    "icon": {
-      "light": "assets/icons/community/f0ee71fe9a79ea55e512634f.svg",
-      "dark": "assets/icons/community/675264a8ce888a7eadac3b64.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-mtproto-scanner",
-    "version": "1.0.9",
-    "nodePath": "dist/nodes/GithubIssues/GithubIssues.node.js",
-    "displayName": "GitHub Issues",
-    "icon": {
-      "light": "assets/icons/community/2bd691b9bdf43641d9f8f472.svg",
-      "dark": "assets/icons/community/625f44a08a872a70b14ffccc.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-mtproto-scanner",
-    "version": "1.0.9",
-    "nodePath": "dist/nodes/MtptTrigger/MtptTrigger.node.js",
-    "displayName": "MTPT Trigger",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
     "package": "n8n-nodes-muapi",
     "version": "1.1.0",
     "nodePath": "dist/nodes/MuapiPredictor/MuapiPredictor.node.js",
@@ -85700,33 +86149,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-myparcelasia",
-    "version": "1.6.3",
-    "nodePath": "dist/nodes/App/App.node.js",
-    "displayName": "Myparcelasia",
-    "icon": {
-      "light": "assets/icons/community/595a77df90fdc5e88b0a0bb1.svg"
-    },
-    "categories": [
-      "Communication",
-      "Development"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-mypet-analytics",
-    "version": "1.0.14",
-    "nodePath": "dist/nodes/MyPetAnalytics/MyPetAnalytics.node.js",
-    "displayName": "MyPet Analytics",
-    "icon": {
-      "light": "assets/icons/community/0298b8284f75ac8e7654b617.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-mypet-stocks",
     "version": "1.6.6",
     "nodePath": "dist/nodes/MyPetStocks/MyPetStocks.node.js",
@@ -85769,21 +86191,6 @@
       "light": "assets/icons/community/89507b8d7950431db1b6064a.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-mysql-trigger-advanced",
-    "version": "1.0.3",
-    "nodePath": "dist/nodes/MySqlProTrigger/MySqlProTrigger.node.js",
-    "displayName": "MySQL Pro Trigger",
-    "icon": {
-      "light": "assets/icons/community/cfe3b8595488fb985a6b8dc0.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -86229,6 +86636,20 @@
       "dark": "assets/icons/community/0f641bc3ac72302f362e0502.svg"
     },
     "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-nc-calendar",
+    "version": "0.1.60",
+    "nodePath": "dist/nodes/NextcloudCalendar/NextcloudCalendar.node.js",
+    "displayName": "Nextcloud Calendar",
+    "icon": {
+      "light": "assets/icons/community/3b66d35432c5274bee66adef.svg"
+    },
+    "categories": [
+      "Productivity"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -89758,6 +90179,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-nvidia-nim-chat",
+    "version": "0.2.14",
+    "nodePath": "dist/nodes/LmChatNvidiaNim/LmChatNvidiaNim.node.js",
+    "displayName": "NVIDIA NIM Chat Model",
+    "icon": {
+      "light": "assets/icons/community/440da7e2fdf1f9a5b2495823.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-nvidia-nim-whisper-v2",
     "version": "0.1.3",
     "nodePath": "dist/nodes/NvidiaNimWhisper/NvidiaNimWhisper.node.js",
@@ -90106,16 +90539,6 @@
     ],
     "subcategories": {},
     "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ohlcv-metatrader",
-    "version": "1.0.0",
-    "nodePath": "nodes/GetOhlcv/GetOhlcv.node.js",
-    "displayName": "Get OHLCV (Crypto + MetaTrader)",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
   },
   {
     "package": "n8n-nodes-oidc-login",
@@ -90771,82 +91194,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-openapi-notes",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/Example/Example.node.js",
-    "displayName": "Example Toto",
-    "icon": {
-      "light": "assets/icons/community/fee8dd2175a6a20ed0291233.svg",
-      "dark": "assets/icons/community/5ec27d60c4ec3c733f2d7f62.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-openapi-notes",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/generated/Notebooks/Notebooks.node.js",
-    "displayName": "Notebooks /notebooks",
-    "icon": {
-      "light": "assets/icons/community/c6002f667cb0ec36eea11d33.svg",
-      "dark": "assets/icons/community/1bced3654ea832c1e121e1f4.svg"
-    },
-    "categories": [
-      "Development"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-openapi-notes",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/generated/NotebooksId/NotebooksId.node.js",
-    "displayName": "Notebooks /notebooks/{id}",
-    "icon": {
-      "light": "assets/icons/community/c6002f667cb0ec36eea11d33.svg",
-      "dark": "assets/icons/community/1bced3654ea832c1e121e1f4.svg"
-    },
-    "categories": [
-      "Development"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-openapi-notes",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/generated/Notes/Notes.node.js",
-    "displayName": "Notes /notes",
-    "icon": {
-      "light": "assets/icons/community/c6002f667cb0ec36eea11d33.svg",
-      "dark": "assets/icons/community/1bced3654ea832c1e121e1f4.svg"
-    },
-    "categories": [
-      "Development"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-openapi-notes",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/generated/NotesId/NotesId.node.js",
-    "displayName": "Notes /notes/{id}",
-    "icon": {
-      "light": "assets/icons/community/c6002f667cb0ec36eea11d33.svg",
-      "dark": "assets/icons/community/1bced3654ea832c1e121e1f4.svg"
-    },
-    "categories": [
-      "Development"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-openbox-hook",
     "version": "0.4.4",
     "nodePath": "dist/nodes/OpenBoxAgent/OpenBoxAgent.node.js",
@@ -91056,7 +91403,7 @@
   },
   {
     "package": "n8n-nodes-openpgp",
-    "version": "0.2.17",
+    "version": "0.2.19",
     "nodePath": "dist/nodes/OpenPgp/OpenPgp.node.js",
     "displayName": "OpenPGP",
     "icon": {
@@ -92070,7 +92417,7 @@
   },
   {
     "package": "n8n-nodes-orbitpage",
-    "version": "0.2.1",
+    "version": "0.3.1",
     "nodePath": "dist/nodes/OrbitPage/OrbitPage.node.js",
     "displayName": "OrbitPage",
     "icon": {
@@ -92083,7 +92430,7 @@
   },
   {
     "package": "n8n-nodes-orbitpage",
-    "version": "0.2.1",
+    "version": "0.3.1",
     "nodePath": "dist/nodes/OrbitPageTrigger/OrbitPageTrigger.node.js",
     "displayName": "OrbitPage Trigger",
     "icon": {
@@ -92101,30 +92448,6 @@
     "displayName": "OrbitX",
     "icon": {
       "light": "assets/icons/community/74b6669f878bffba7c79c5be.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-orboto",
-    "version": "1.0.1",
-    "nodePath": "dist/nodes/orboto/orboto.node.js",
-    "displayName": "orboto",
-    "icon": {
-      "light": "assets/icons/community/c9064a4d3b4a28b9be152485.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-orboto",
-    "version": "1.0.1",
-    "nodePath": "dist/nodes/orboto/orbotoTrigger.node.js",
-    "displayName": "orboto Trigger",
-    "icon": {
-      "light": "assets/icons/community/c9064a4d3b4a28b9be152485.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -93778,6 +94101,21 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-paperminder",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/PaperMinder/PaperMinder.node.js",
+    "displayName": "PaperMinder",
+    "icon": {
+      "light": "assets/icons/community/1e777f0fdb79b00917e9906d.svg",
+      "dark": "assets/icons/community/d530badec66131ce6a662740.svg"
+    },
+    "categories": [
+      "Utility"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-paperpony",
     "version": "0.2.1",
     "nodePath": "dist/nodes/PaperPony/PaperPony.node.js",
@@ -94086,18 +94424,6 @@
     "displayName": "PassQR",
     "icon": {
       "light": "assets/icons/community/4ce4ecc474895462acf711e0.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-paubox",
-    "version": "1.0.4",
-    "nodePath": "dist/nodes/Paubox/Paubox.node.js",
-    "displayName": "Paubox",
-    "icon": {
-      "light": "assets/icons/community/a3864dd4eb5bf3ec721792d9.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -95907,16 +96233,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-pinterest-tu-dong",
-    "version": "1.1.7",
-    "nodePath": "dist/nodes/Pinterest/Pinterest.node.js",
-    "displayName": "Pinterest (Cookie)",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
     "package": "n8n-nodes-pipecorn",
     "version": "0.1.1",
     "nodePath": "dist/nodes/Pipecorn/Pipecorn.node.js",
@@ -96524,7 +96840,7 @@
   },
   {
     "package": "n8n-nodes-plug-database",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "nodePath": "dist/nodes/PlugAiHub/PlugAiHub.node.js",
     "displayName": "Plug AI Hub",
     "icon": {
@@ -96537,7 +96853,7 @@
   },
   {
     "package": "n8n-nodes-plug-database",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "nodePath": "dist/nodes/PlugDatabase/PlugDatabase.node.js",
     "displayName": "Plug Database",
     "icon": {
@@ -96550,7 +96866,7 @@
   },
   {
     "package": "n8n-nodes-plug-database",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "nodePath": "dist/nodes/PluraAiAutomationsTrigger/PluraAiAutomationsTrigger.node.js",
     "displayName": "Plug Database Plura.ai Automations Trigger",
     "icon": {
@@ -96563,7 +96879,7 @@
   },
   {
     "package": "n8n-nodes-plug-database",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "nodePath": "dist/nodes/PlugMcpServer/PlugMcpServer.node.js",
     "displayName": "Plug MCP Server",
     "icon": {
@@ -96688,7 +97004,7 @@
   },
   {
     "package": "n8n-nodes-pocketbase",
-    "version": "2.3.50",
+    "version": "2.3.51",
     "nodePath": "dist/nodes/PocketbaseTrigger/PocketbaseTrigger.node.js",
     "displayName": "Pocketbase (Beta) Trigger",
     "icon": {
@@ -96704,7 +97020,7 @@
   },
   {
     "package": "n8n-nodes-pocketbase",
-    "version": "2.3.50",
+    "version": "2.3.51",
     "nodePath": "dist/nodes/PocketbaseHttp/PocketbaseHttp.node.js",
     "displayName": "Pocketbase HTTP",
     "icon": {
@@ -97231,30 +97547,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-posthawk",
-    "version": "0.1.6",
-    "nodePath": "dist/nodes/Posthawk/Posthawk.node.js",
-    "displayName": "Posthawk",
-    "icon": {
-      "light": "assets/icons/community/60057d877dc8d0480cc42a8e.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-posthawk",
-    "version": "0.1.6",
-    "nodePath": "dist/nodes/Posthawk/PosthawkTrigger.node.js",
-    "displayName": "Posthawk Trigger",
-    "icon": {
-      "light": "assets/icons/community/60057d877dc8d0480cc42a8e.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-postial",
     "version": "0.2.1",
     "nodePath": "dist/nodes/SocialMint/SocialMint.node.js",
@@ -97320,21 +97612,6 @@
       "light": "assets/icons/community/ed173f35af0651a0527e0300.svg"
     },
     "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-postnify",
-    "version": "1.0.3",
-    "nodePath": "dist/nodes/Postnify/Postnify.node.js",
-    "displayName": "Postnify",
-    "icon": {
-      "light": "assets/icons/community/ca416e6fea2382e0d8580a81.svg"
-    },
-    "categories": [
-      "Social Media",
-      "Scheduling"
-    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -97433,9 +97710,25 @@
   },
   {
     "package": "n8n-nodes-postwire",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "nodePath": "dist/nodes/PostWire/PostWire.node.js",
     "displayName": "PostWire",
+    "icon": {
+      "light": "assets/icons/community/e27eb2a319d1d8af6d7ef6ce.svg",
+      "dark": "assets/icons/community/e07c1d17a2b54d0de055fd89.svg"
+    },
+    "categories": [
+      "Marketing & Content",
+      "Communication"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-postwire",
+    "version": "0.4.0",
+    "nodePath": "dist/nodes/PostWireTrigger/PostWireTrigger.node.js",
+    "displayName": "PostWire Trigger",
     "icon": {
       "light": "assets/icons/community/e27eb2a319d1d8af6d7ef6ce.svg",
       "dark": "assets/icons/community/e07c1d17a2b54d0de055fd89.svg"
@@ -98298,25 +98591,6 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-propertyguru-scraper",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/ApifyPropertyguruScraper/ApifyPropertyguruScraper.node.js",
-    "displayName": "Apify API key connection",
-    "icon": {
-      "light": "assets/icons/community/4e30ef18cc5a5900ba1fcf0c.svg"
-    },
-    "categories": [
-      "Development",
-      "Marketing & Content",
-      "Sales",
-      "Analytics",
-      "Utility",
-      "Data & Storage"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
   },
   {
     "package": "n8n-nodes-proposaly",
@@ -99908,16 +100182,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-random-pokemon",
-    "version": "0.1.1",
-    "nodePath": "./nodes/RandomPokemon.node.js",
-    "displayName": "Random Pokemon",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
     "package": "n8n-nodes-randomizer",
     "version": "0.1.0",
     "nodePath": "dist/nodes/RandomizerNode/RandomizerNode.node.js",
@@ -100004,14 +100268,16 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-rckflr-cosine-similarity",
-    "version": "1.0.0",
-    "nodePath": "dist/nodes/CosineSimilarity/CosineSimilarity.node.js",
-    "displayName": "Cosine Similarity",
-    "icon": {},
+    "package": "n8n-nodes-rcon",
+    "version": "0.2.0",
+    "nodePath": "dist/nodes/Rcon/Rcon.node.js",
+    "displayName": "RCON",
+    "icon": {
+      "light": "assets/icons/community/cdee55e62ac4061a18cd0383.svg"
+    },
     "categories": [],
     "subcategories": {},
-    "assetStatus": "no-assets"
+    "assetStatus": "ok"
   },
   {
     "package": "n8n-nodes-rcszilla",
@@ -100860,6 +101126,22 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-registrum",
+    "version": "0.1.1",
+    "nodePath": "dist/nodes/Registrum/Registrum.node.js",
+    "displayName": "Registrum",
+    "icon": {
+      "light": "assets/icons/community/586fca6252d161d6da74f6f6.svg",
+      "dark": "assets/icons/community/954b47acfe18204e916672cc.svg"
+    },
+    "categories": [
+      "Data & Storage",
+      "Development"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-regos",
     "version": "0.4.0",
     "nodePath": "dist/nodes/Regos/Regos.node.js",
@@ -101134,7 +101416,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccount/ReplizAccount.node.js",
     "displayName": "Repliz Account",
     "icon": {
@@ -101146,7 +101428,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountFacebook/ReplizAccountFacebook.node.js",
     "displayName": "Repliz Account Facebook",
     "icon": {
@@ -101158,7 +101440,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountInstagram/ReplizAccountInstagram.node.js",
     "displayName": "Repliz Account Instagram",
     "icon": {
@@ -101170,7 +101452,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountLinkedIn/ReplizAccountLinkedIn.node.js",
     "displayName": "Repliz Account LinkedIn",
     "icon": {
@@ -101182,7 +101464,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountShopee/ReplizAccountShopee.node.js",
     "displayName": "Repliz Account Shopee",
     "icon": {
@@ -101194,7 +101476,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountThreads/ReplizAccountThreads.node.js",
     "displayName": "Repliz Account Threads",
     "icon": {
@@ -101206,7 +101488,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountTikTok/ReplizAccountTikTok.node.js",
     "displayName": "Repliz Account TikTok",
     "icon": {
@@ -101218,7 +101500,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountTwitter/ReplizAccountTwitter.node.js",
     "displayName": "Repliz Account Twitter",
     "icon": {
@@ -101230,7 +101512,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountWhatsApp/ReplizAccountWhatsApp.node.js",
     "displayName": "Repliz Account WhatsApp",
     "icon": {
@@ -101242,7 +101524,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAccountYoutube/ReplizAccountYoutube.node.js",
     "displayName": "Repliz Account YouTube",
     "icon": {
@@ -101254,7 +101536,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAddon/ReplizAddon.node.js",
     "displayName": "Repliz Addon",
     "icon": {
@@ -101266,7 +101548,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizAutomation/ReplizAutomation.node.js",
     "displayName": "Repliz Automation",
     "icon": {
@@ -101278,7 +101560,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizChat/ReplizChat.node.js",
     "displayName": "Repliz Chat",
     "icon": {
@@ -101290,7 +101572,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizComment/ReplizComment.node.js",
     "displayName": "Repliz Comment",
     "icon": {
@@ -101302,7 +101584,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizContent/ReplizContent.node.js",
     "displayName": "Repliz Content",
     "icon": {
@@ -101314,7 +101596,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizReport/ReplizReport.node.js",
     "displayName": "Repliz Report",
     "icon": {
@@ -101326,7 +101608,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizResearch/ReplizResearch.node.js",
     "displayName": "Repliz Research",
     "icon": {
@@ -101338,7 +101620,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizSchedule/ReplizSchedule.node.js",
     "displayName": "Repliz Schedule",
     "icon": {
@@ -101350,7 +101632,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizStorage/ReplizStorage.node.js",
     "displayName": "Repliz Storage",
     "icon": {
@@ -101362,7 +101644,7 @@
   },
   {
     "package": "n8n-nodes-repliz",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "nodePath": "dist/nodes/ReplizTemplateAutomation/ReplizTemplateAutomation.node.js",
     "displayName": "Repliz Template Automation",
     "icon": {
@@ -101711,6 +101993,32 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-rexwapi",
+    "version": "1.9.0",
+    "nodePath": "dist/nodes/RexWapi/RexWapi.node.js",
+    "displayName": "RexWapi",
+    "icon": {
+      "light": "assets/icons/community/18818e4a38923188ec8b10e1.svg",
+      "dark": "assets/icons/community/18818e4a38923188ec8b10e1.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-rexwapi",
+    "version": "1.9.0",
+    "nodePath": "dist/nodes/RexWapiTrigger/RexWapiTrigger.node.js",
+    "displayName": "RexWapi Trigger",
+    "icon": {
+      "light": "assets/icons/community/18818e4a38923188ec8b10e1.svg",
+      "dark": "assets/icons/community/18818e4a38923188ec8b10e1.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-reygrid",
     "version": "1.1.0",
     "nodePath": "dist/nodes/ReyGrid/ReyGrid.node.js",
@@ -101783,16 +102091,6 @@
       ]
     },
     "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-rich-fields",
-    "version": "0.1.1",
-    "nodePath": "dist/nodes/RichFields/RichFields.node.js",
-    "displayName": "Rich Fields",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
   },
   {
     "package": "n8n-nodes-richpanel",
@@ -102444,222 +102742,12 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-ryze-automation-logger",
-    "version": "1.0.6",
-    "nodePath": "dist/nodes/RyzeAutomationLogger/RyzeAutomationLogger.node.js",
-    "displayName": "Ryze Automation Logger",
-    "icon": {
-      "light": "assets/icons/community/aaa8c2f8323a2ccef1398ebe.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-automation-router",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/RyzeAutomationRouter/RyzeAutomationRouter.node.js",
-    "displayName": "Ryze Automation Router",
-    "icon": {
-      "light": "assets/icons/community/6f037b96d0ff92356e1d3d8f.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-execution-logger",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/Example/Example.node.js",
-    "displayName": "Example",
-    "icon": {
-      "light": "assets/icons/community/f0ee71fe9a79ea55e512634f.svg",
-      "dark": "assets/icons/community/675264a8ce888a7eadac3b64.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-execution-logger",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/GithubIssues/GithubIssues.node.js",
-    "displayName": "GitHub Issues",
-    "icon": {
-      "light": "assets/icons/community/2bd691b9bdf43641d9f8f472.svg",
-      "dark": "assets/icons/community/625f44a08a872a70b14ffccc.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-execution-logger",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/RyzeExecutionLogger/RyzeExecutionLogger.node.js",
-    "displayName": "Ryze Execution Logger",
-    "icon": {
-      "light": "assets/icons/community/abe289471934212fb17b7801.svg",
-      "dark": "assets/icons/community/73205238133bcc83f46a2982.svg"
-    },
-    "categories": [
-      "Data & Storage",
-      "Ryze Automation"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-monthly-uploader",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/Example/Example.node.js",
-    "displayName": "Example",
-    "icon": {
-      "light": "assets/icons/community/f0ee71fe9a79ea55e512634f.svg",
-      "dark": "assets/icons/community/675264a8ce888a7eadac3b64.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-monthly-uploader",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/GithubIssues/GithubIssues.node.js",
-    "displayName": "GitHub Issues",
-    "icon": {
-      "light": "assets/icons/community/2bd691b9bdf43641d9f8f472.svg",
-      "dark": "assets/icons/community/625f44a08a872a70b14ffccc.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-monthly-uploader",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/RyzeMonthlyUploader/RyzeMonthlyUploader.node.js",
-    "displayName": "Ryze Monthly Uploader",
-    "icon": {
-      "light": "assets/icons/community/25aa6abec33bb18cef5c6db2.svg",
-      "dark": "assets/icons/community/694b479cd4054f8e87bc2810.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-ryze-pixel-sender",
     "version": "0.1.16",
     "nodePath": "dist/nodes/RyzePixelSender/RyzePixelSender.node.js",
     "displayName": "Ryze Pixel Sender",
     "icon": {
       "light": "assets/icons/community/14131fb8e03fbd2244fd76b5.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-scraper-logger",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/Example/Example.node.js",
-    "displayName": "Example",
-    "icon": {
-      "light": "assets/icons/community/f0ee71fe9a79ea55e512634f.svg",
-      "dark": "assets/icons/community/675264a8ce888a7eadac3b64.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-scraper-logger",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/GithubIssues/GithubIssues.node.js",
-    "displayName": "GitHub Issues",
-    "icon": {
-      "light": "assets/icons/community/2bd691b9bdf43641d9f8f472.svg",
-      "dark": "assets/icons/community/625f44a08a872a70b14ffccc.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-scraper-logger",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/RyzeScraperLogger/RyzeScraperLogger.node.js",
-    "displayName": "Ryze Scraper Logger",
-    "icon": {
-      "light": "assets/icons/community/abe289471934212fb17b7801.svg",
-      "dark": "assets/icons/community/73205238133bcc83f46a2982.svg"
-    },
-    "categories": [
-      "Data & Storage",
-      "Ryze Automation"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-workflow-logger",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/Example/Example.node.js",
-    "displayName": "Example",
-    "icon": {
-      "light": "assets/icons/community/f0ee71fe9a79ea55e512634f.svg",
-      "dark": "assets/icons/community/675264a8ce888a7eadac3b64.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-workflow-logger",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/GithubIssues/GithubIssues.node.js",
-    "displayName": "GitHub Issues",
-    "icon": {
-      "light": "assets/icons/community/2bd691b9bdf43641d9f8f472.svg",
-      "dark": "assets/icons/community/625f44a08a872a70b14ffccc.svg"
-    },
-    "categories": [
-      "Development",
-      "Developer Tools"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-ryze-workflow-logger",
-    "version": "0.1.0",
-    "nodePath": "dist/nodes/WorkflowLogger/WorkflowLogger.node.js",
-    "displayName": "Workflow Logger",
-    "icon": {
-      "light": "assets/icons/community/fee5b587f0d34e5d44d44cf2.svg",
-      "dark": "assets/icons/community/421bcbb3eae560677a0af1a7.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -102719,26 +102807,17 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-sahabaa",
-    "version": "2.1.0",
-    "nodePath": "dist/nodes/Sahabaa/Sahabaa.node.js",
-    "displayName": "Sahabaa",
+    "package": "n8n-nodes-sahifa",
+    "version": "1.0.0",
+    "nodePath": "dist/nodes/Sahifa/Sahifa.node.js",
+    "displayName": "Sahifa",
     "icon": {
-      "light": "assets/icons/community/95810de12e4a216ddcb02e7c.svg"
+      "light": "assets/icons/community/f9f13e0e4149caf00b4d2a15.svg"
     },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-sahabaa",
-    "version": "2.1.0",
-    "nodePath": "dist/nodes/Sahabaa/SahabaaTrigger.node.js",
-    "displayName": "Sahabaa Trigger",
-    "icon": {
-      "light": "assets/icons/community/95810de12e4a216ddcb02e7c.svg"
-    },
-    "categories": [],
+    "categories": [
+      "Utility",
+      "Productivity"
+    ],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -103163,18 +103242,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-sap-hana-data",
-    "version": "1.0.1",
-    "nodePath": "dist/nodes/SapHanaData/SapHanaData.node.js",
-    "displayName": "SAP HANA Data",
-    "icon": {
-      "light": "assets/icons/community/ac64c94845112c0670bf68c8.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-sap-idoc-guard",
     "version": "0.1.11",
     "nodePath": "dist/nodes/SapIdocGuard/SapIdocGuard.node.js",
@@ -103429,19 +103496,6 @@
     "displayName": "Scavio",
     "icon": {
       "light": "assets/icons/community/fbe5e79b5a5b9b9b7e70393d.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-schedule-range",
-    "version": "0.1.3",
-    "nodePath": "dist/nodes/ScheduleTriggerRange/ScheduleTriggerRange.node.js",
-    "displayName": "Schedule Trigger (with Range)",
-    "icon": {
-      "light": "assets/icons/community/67e0a634fe6b8a8228ee73ff.svg",
-      "dark": "assets/icons/community/67e0a634fe6b8a8228ee73ff.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -104829,18 +104883,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-serperdev",
-    "version": "1.2.1",
-    "nodePath": "dist/nodes/serperdev/Serperdev.node.js",
-    "displayName": "Serper.dev",
-    "icon": {
-      "light": "assets/icons/community/54e5b7bbace332388cddb7bb.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-serpex",
     "version": "1.1.0",
     "nodePath": "dist/nodes/Serpex/Serpex.node.js",
@@ -104956,18 +104998,6 @@
     "displayName": "sevDesk",
     "icon": {
       "light": "assets/icons/community/a5547094389467d64ddeffeb.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-sftp-custom",
-    "version": "0.1.5",
-    "nodePath": "dist/nodes/Sftp/Sftp.node.js",
-    "displayName": "SFTP",
-    "icon": {
-      "light": "assets/icons/community/cad572fc8ef0c28257f13619.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -105095,7 +105125,7 @@
   },
   {
     "package": "n8n-nodes-shalom",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "nodePath": "dist/nodes/ShalomApi/ShalomApi.node.js",
     "displayName": "Shalom API",
     "icon": {
@@ -105403,18 +105433,6 @@
     "displayName": "Shopee Affiliate",
     "icon": {
       "light": "assets/icons/community/abbde44507c28a803a78dad7.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-shopier",
-    "version": "0.1.2",
-    "nodePath": "dist/nodes/Shopier/Shopier.node.js",
-    "displayName": "Shopier",
-    "icon": {
-      "light": "assets/icons/community/5093c8c234e97d47494b5d2e.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -106140,6 +106158,18 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-sirdas",
+    "version": "0.3.3",
+    "nodePath": "dist/nodes/Sirdas/Sirdas.node.js",
+    "displayName": "Sırdaş",
+    "icon": {
+      "light": "assets/icons/community/4c0613e5ea827e910454a779.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-sirene",
     "version": "0.1.0",
     "nodePath": "dist/nodes/Sirene/Sirene.node.js",
@@ -106156,7 +106186,7 @@
   },
   {
     "package": "n8n-nodes-sirenic",
-    "version": "0.16.0",
+    "version": "0.17.0",
     "nodePath": "dist/nodes/Sirenic/Sirenic.node.js",
     "displayName": "Sirenic",
     "icon": {
@@ -106173,7 +106203,7 @@
   },
   {
     "package": "n8n-nodes-sirenic",
-    "version": "0.16.0",
+    "version": "0.17.0",
     "nodePath": "dist/nodes/SirenicTrigger/SirenicTrigger.node.js",
     "displayName": "Sirenic Trigger",
     "icon": {
@@ -108745,7 +108775,7 @@
   },
   {
     "package": "n8n-nodes-speechall",
-    "version": "0.3.0",
+    "version": "2.0.0",
     "nodePath": "dist/nodes/Speechall/Speechall.node.js",
     "displayName": "Speechall",
     "icon": {
@@ -109067,18 +109097,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-stacktree",
-    "version": "0.2.0",
-    "nodePath": "dist/nodes/Stacktree/Stacktree.node.js",
-    "displayName": "Stacktree",
-    "icon": {
-      "light": "assets/icons/community/9dd110065957033c56ac44c8.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-stackzap",
     "version": "0.1.1",
     "nodePath": "dist/nodes/StackZap/StackZap.node.js",
@@ -109281,32 +109299,6 @@
         "Files"
       ]
     },
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-stoa",
-    "version": "2.0.1",
-    "nodePath": "dist/nodes/Stoa/Stoa.node.js",
-    "displayName": "Stoa",
-    "icon": {
-      "light": "assets/icons/community/93d83f4917f618f61dd18b1b.svg",
-      "dark": "assets/icons/community/93d83f4917f618f61dd18b1b.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-stoa",
-    "version": "2.0.1",
-    "nodePath": "dist/nodes/Stoa/LmChatStoa.node.js",
-    "displayName": "Stoa Chat Model",
-    "icon": {
-      "light": "assets/icons/community/93d83f4917f618f61dd18b1b.svg",
-      "dark": "assets/icons/community/93d83f4917f618f61dd18b1b.svg"
-    },
-    "categories": [],
-    "subcategories": {},
     "assetStatus": "ok"
   },
   {
@@ -110143,6 +110135,19 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-surusai",
+    "version": "0.3.0",
+    "nodePath": "dist/nodes/SurusAi/SurusAi.node.js",
+    "displayName": "SURUS AI",
+    "icon": {
+      "light": "assets/icons/community/cfc9a071c4c9de57cf30f2fb.svg",
+      "dark": "assets/icons/community/9abf7f6268812d72f7b43039.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-svix-webhook-verify",
     "version": "0.2.4",
     "nodePath": "dist/nodes/SvixWebhookVerify/SvixWebhookVerify.node.js",
@@ -110450,6 +110455,30 @@
     "categories": [
       "Productivity"
     ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-syncx",
+    "version": "1.0.9",
+    "nodePath": "dist/nodes/SyncX/SyncX.node.js",
+    "displayName": "SyncX",
+    "icon": {
+      "light": "assets/icons/community/e020795d7ca4cf63c1b51401.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-syncx",
+    "version": "1.0.9",
+    "nodePath": "dist/nodes/SyncX/SyncXTrigger.node.js",
+    "displayName": "SyncX Trigger",
+    "icon": {
+      "light": "assets/icons/community/e020795d7ca4cf63c1b51401.svg"
+    },
+    "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -113343,9 +113372,21 @@
   },
   {
     "package": "n8n-nodes-test-node",
-    "version": "1.0.38",
-    "nodePath": "dist/RemoteChromiumCDPAutomationAPINode.node.js",
-    "displayName": "Remote Chromium CDP Automation API",
+    "version": "1.0.45",
+    "nodePath": "dist/PrivateAPIServerNode.node.js",
+    "displayName": "Private API Server",
+    "icon": {
+      "light": "assets/icons/community/299ba609ceaccc8f5ea37ff3.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-test-node",
+    "version": "1.0.45",
+    "nodePath": "dist/PrivateAPIServerFilesNode.node.js",
+    "displayName": "Private API Server Files",
     "icon": {
       "light": "assets/icons/community/299ba609ceaccc8f5ea37ff3.svg"
     },
@@ -114141,18 +114182,6 @@
     "icon": {
       "light": "assets/icons/community/622ed7f2c0c55545cec1ba12.svg",
       "dark": "assets/icons/community/622ed7f2c0c55545cec1ba12.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-time-window-matcher",
-    "version": "1.0.1",
-    "nodePath": "dist/nodes/TimeWindowMatcher/TimeWindowMatcher.node.js",
-    "displayName": "Time Window Matcher",
-    "icon": {
-      "light": "assets/icons/community/e6b398cfa2dc2705c448bf9a.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -115720,30 +115749,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-trigger-discord",
-    "version": "0.8.4",
-    "nodePath": "dist/nodes/DiscordInteraction/DiscordInteraction.node.js",
-    "displayName": "Discord Interaction",
-    "icon": {
-      "light": "assets/icons/community/c55cbd4d4e786b991e9470eb.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-trigger-discord",
-    "version": "0.8.4",
-    "nodePath": "dist/nodes/DiscordTrigger/DiscordTrigger.node.js",
-    "displayName": "Discord Trigger",
-    "icon": {
-      "light": "assets/icons/community/c55cbd4d4e786b991e9470eb.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-trigger-discord-save-fix",
     "version": "0.8.4",
     "nodePath": "dist/nodes/DiscordInteraction/DiscordInteraction.node.js",
@@ -115778,16 +115783,6 @@
     "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-trigguard",
-    "version": "0.2.0",
-    "nodePath": "dist/nodes/TrigGuard/TrigGuard.node.js",
-    "displayName": "TrigGuard Authorize",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
   },
   {
     "package": "n8n-nodes-trinks-kalil",
@@ -115827,6 +115822,18 @@
     "categories": [
       "Miscellaneous"
     ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-tripit",
+    "version": "0.6.0",
+    "nodePath": "dist/nodes/TripIt/TripIt.node.js",
+    "displayName": "TripIt",
+    "icon": {
+      "light": "assets/icons/community/3a8c5c5f7dd2603898e5ff4f.svg"
+    },
+    "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -116224,30 +116231,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-turso",
-    "version": "0.5.0",
-    "nodePath": "dist/nodes/Turso/Turso.node.js",
-    "displayName": "Turso",
-    "icon": {
-      "light": "assets/icons/community/483f294916a81baf5b3e2eb8.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-turso",
-    "version": "0.5.0",
-    "nodePath": "dist/nodes/TursoAiTool/TursoAiTool.node.js",
-    "displayName": "Turso AI Tool",
-    "icon": {
-      "light": "assets/icons/community/229a538397ed42fc935dbc60.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-turtle",
     "version": "0.4.61",
     "nodePath": "dist/nodes/CoinTrade/CoinTradeTrigger.node.js",
@@ -116637,44 +116620,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-twitter-uploader-inf",
-    "version": "0.1.89",
-    "nodePath": "dist/nodes/Twitter/TwitterBinaryCheck.node.js",
-    "displayName": "Twitter Binary Check",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-twitter-uploader-inf",
-    "version": "0.1.89",
-    "nodePath": "dist/nodes/Twitter/TwitterMediaUpload.node.js",
-    "displayName": "Twitter Media Upload",
-    "icon": {},
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "no-assets"
-  },
-  {
-    "package": "n8n-nodes-twittershots",
-    "version": "0.5.0",
-    "nodePath": "dist/nodes/TwitterShots/TwitterShots.node.js",
-    "displayName": "TwitterShots",
-    "icon": {
-      "light": "assets/icons/community/0623c01fffbb1d0efc7b459b.svg"
-    },
-    "categories": [
-      "Twitter/X",
-      "Twitter Screenshots",
-      "Screenshots",
-      "Efficiency",
-      "Media"
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-typebot",
     "version": "1.3.26",
     "nodePath": "dist/nodes/Typebot/Typebot.node.js",
@@ -116881,6 +116826,18 @@
       "Analytics",
       "Marketing"
     ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-ume-social-seeding",
+    "version": "1.0.3",
+    "nodePath": "dist/nodes/UmeSocialSeeding/UmeSocialSeeding.node.js",
+    "displayName": "UME Social Seeding",
+    "icon": {
+      "light": "assets/icons/community/917080814980ca41d2984b59.png"
+    },
+    "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -117736,11 +117693,12 @@
   },
   {
     "package": "n8n-nodes-upload-post",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "nodePath": "dist/nodes/UploadPost/UploadPost.node.js",
     "displayName": "Upload Post",
     "icon": {
-      "light": "assets/icons/community/8863226d7f312d149da7c988.svg"
+      "light": "assets/icons/community/8863226d7f312d149da7c988.svg",
+      "dark": "assets/icons/community/8863226d7f312d149da7c988.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -118273,6 +118231,19 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-vatfix-plus",
+    "version": "1.0.22",
+    "nodePath": "dist/nodes/Vatfix/Vatfix.node.js",
+    "displayName": "VATFix Plus",
+    "icon": {
+      "light": "assets/icons/community/2f8f3993496bd69f52a502f1.svg",
+      "dark": "assets/icons/community/2f8f3993496bd69f52a502f1.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-vatis-transcribe",
     "version": "0.1.10",
     "nodePath": "dist/nodes/VatisTranscribe/VatisTranscribe.node.js",
@@ -118324,18 +118295,6 @@
     "displayName": "Vector Store Processor",
     "icon": {
       "light": "assets/icons/community/907bebb567e0231d00a92fe3.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-vectorgov",
-    "version": "0.1.6",
-    "nodePath": "dist/nodes/VectorGov/VectorGov.node.js",
-    "displayName": "VectorGov",
-    "icon": {
-      "light": "assets/icons/community/64ac187cf4979b93f7a45195.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -118598,19 +118557,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-verifyruns",
-    "version": "0.1.1",
-    "nodePath": "dist/nodes/VerifyRuns/VerifyRuns.node.js",
-    "displayName": "VerifyRuns",
-    "icon": {
-      "light": "assets/icons/community/53016e6ef0b7a5531d75190a.svg",
-      "dark": "assets/icons/community/c53548446ab1e39ec9d8117e.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-vertex-ai",
     "version": "0.2.0",
     "nodePath": "dist/nodes/VertexAI/VertexAI.node.js",
@@ -118684,6 +118630,18 @@
     "categories": [
       "Miscellaneous"
     ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-viacep-br",
+    "version": "0.1.4",
+    "nodePath": "dist/nodes/ViaCep/ViaCep.node.js",
+    "displayName": "ViaCEP",
+    "icon": {
+      "light": "assets/icons/community/4fa2a2f68b97579309037998.svg"
+    },
+    "categories": [],
     "subcategories": {},
     "assetStatus": "ok"
   },
@@ -119518,6 +119476,78 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-voyageai",
+    "version": "0.1.3",
+    "nodePath": "dist/nodes/EmbeddingsVoyageAi/EmbeddingsVoyageAi.node.js",
+    "displayName": "Embeddings VoyageAI",
+    "icon": {
+      "light": "assets/icons/community/74eea3e3ac39dde081993dd4.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Embeddings"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-voyageai",
+    "version": "0.1.3",
+    "nodePath": "dist/nodes/EmbeddingsVoyageAiContextualized/EmbeddingsVoyageAiContextualized.node.js",
+    "displayName": "Embeddings VoyageAI Contextualized",
+    "icon": {
+      "light": "assets/icons/community/74eea3e3ac39dde081993dd4.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Embeddings"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-voyageai",
+    "version": "0.1.3",
+    "nodePath": "dist/nodes/EmbeddingsVoyageAiMultimodal/EmbeddingsVoyageAiMultimodal.node.js",
+    "displayName": "Embeddings VoyageAI Multimodal",
+    "icon": {
+      "light": "assets/icons/community/74eea3e3ac39dde081993dd4.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Embeddings"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-voyageai",
+    "version": "0.1.3",
+    "nodePath": "dist/nodes/RerankerVoyageAi/RerankerVoyageAi.node.js",
+    "displayName": "Reranker VoyageAI",
+    "icon": {
+      "light": "assets/icons/community/74eea3e3ac39dde081993dd4.svg"
+    },
+    "categories": [
+      "AI"
+    ],
+    "subcategories": {
+      "AI": [
+        "Rerankers"
+      ]
+    },
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-voyageai-embeddings-unofficial",
     "version": "0.1.6",
     "nodePath": "dist/nodes/EmbeddingsVoyageAi/EmbeddingsVoyageAi.node.js",
@@ -119533,80 +119563,6 @@
         "Embeddings"
       ]
     },
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-vrchat",
-    "version": "1.3.1",
-    "nodePath": "dist/nodes/VRChat/VRChat.node.js",
-    "displayName": "VRChat",
-    "icon": {
-      "light": "assets/icons/community/219d96a5a7745a6754f963fe.svg"
-    },
-    "categories": [
-      ""
-    ],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-vrchat",
-    "version": "1.3.1",
-    "nodePath": "dist/nodes/VRChat/VRChatLogAnalyzer.node.js",
-    "displayName": "VRChat Log Analyzer",
-    "icon": {
-      "light": "assets/icons/community/219d96a5a7745a6754f963fe.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-vrchat",
-    "version": "1.3.1",
-    "nodePath": "dist/nodes/VRChat/VRChatLogTrigger.node.js",
-    "displayName": "VRChat Log Trigger",
-    "icon": {
-      "light": "assets/icons/community/219d96a5a7745a6754f963fe.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-vrchat",
-    "version": "1.3.1",
-    "nodePath": "dist/nodes/OSC/VrchatOscSend.node.js",
-    "displayName": "VRChat OSC Send",
-    "icon": {
-      "light": "assets/icons/community/219d96a5a7745a6754f963fe.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-vrchat",
-    "version": "1.3.1",
-    "nodePath": "dist/nodes/OSC/VrchatOscTrigger.node.js",
-    "displayName": "VRChat OSC Trigger",
-    "icon": {
-      "light": "assets/icons/community/219d96a5a7745a6754f963fe.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-vrchat",
-    "version": "1.3.1",
-    "nodePath": "dist/nodes/VRChat/VRChatTrigger.node.js",
-    "displayName": "VRChat Trigger",
-    "icon": {
-      "light": "assets/icons/community/219d96a5a7745a6754f963fe.svg"
-    },
-    "categories": [],
-    "subcategories": {},
     "assetStatus": "ok"
   },
   {
@@ -121190,6 +121146,22 @@
     "assetStatus": "ok"
   },
   {
+    "package": "n8n-nodes-webhook-signature",
+    "version": "0.1.2",
+    "nodePath": "dist/nodes/VerifyWebhookSignature/VerifyWebhookSignature.node.js",
+    "displayName": "Verify Webhook Signature",
+    "icon": {
+      "light": "assets/icons/community/e23e3e0baee6bdf90ee73149.svg",
+      "dark": "assets/icons/community/e3beff263f7c1a5f089185cb.svg"
+    },
+    "categories": [
+      "Development",
+      "Developer Tools"
+    ],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
     "package": "n8n-nodes-webhook-wait",
     "version": "1.0.13",
     "nodePath": "dist/nodes/WebhookWait/WebhookWait.node.js",
@@ -121498,7 +121470,7 @@
   },
   {
     "package": "n8n-nodes-webz-news-search",
-    "version": "0.1.5",
+    "version": "0.2.0",
     "nodePath": "dist/nodes/WebzNewsSearch/WebzNewsSearch.node.js",
     "displayName": "Webz.io News Search",
     "icon": {
@@ -122303,18 +122275,6 @@
     "displayName": "WhatsApp via QR (OnlineLiveSupport)",
     "icon": {
       "light": "assets/icons/community/5d483bc31071aac764538983.png"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-whatsapp-gateway",
-    "version": "1.11.0",
-    "nodePath": "dist/nodes/WhatsAppGateway/WhatsAppGateway.node.js",
-    "displayName": "WhatsApp Gateway",
-    "icon": {
-      "light": "assets/icons/community/8d47b86847b92142213fadff.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -124031,6 +123991,30 @@
     "displayName": "YAML",
     "icon": {
       "light": "assets/icons/community/8da4649546c8ea0f44c41ba9.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-yandex-disk",
+    "version": "1.0.0",
+    "nodePath": "dist/nodes/YandexDisk/YandexDisk.node.js",
+    "displayName": "Yandex Disk",
+    "icon": {
+      "light": "assets/icons/community/09882014e97714883df01fb7.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-yandex-disk",
+    "version": "1.0.0",
+    "nodePath": "dist/nodes/YandexDisk/YandexDiskTrigger.node.js",
+    "displayName": "Yandex Disk Trigger",
+    "icon": {
+      "light": "assets/icons/community/09882014e97714883df01fb7.svg"
     },
     "categories": [],
     "subcategories": {},
@@ -125888,104 +125872,8 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloFriendTrigger/ZaloFriendTrigger.node.js",
-    "displayName": "Zalo Friend Trigger",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloGroup/ZaloGroup.node.js",
-    "displayName": "Zalo Group",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloLoginByQr/ZaloLoginByQr.node.js",
-    "displayName": "Zalo Login",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloMessageTrigger/ZaloMessageTrigger.node.js",
-    "displayName": "Zalo Message Trigger",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloPoll/ZaloPoll.node.js",
-    "displayName": "Zalo Poll",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloSendMessage/ZaloSendMessage.node.js",
-    "displayName": "Zalo Send Message",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloTag/ZaloTag.node.js",
-    "displayName": "Zalo Tag",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
-    "package": "n8n-nodes-zalo-stephen",
-    "version": "0.9.19",
-    "nodePath": "dist/nodes/ZaloUser/ZaloUser.node.js",
-    "displayName": "Zalo User",
-    "icon": {
-      "light": "assets/icons/community/28e233aa5fb75187027436ef.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-zalo-tokado",
-    "version": "0.4.26",
+    "version": "0.4.27",
     "nodePath": "dist/nodes/ZaloSendMessage/ZaloSendMessage.node.js",
     "displayName": "Gửi Tin Nhắn Zalo",
     "icon": {
@@ -125997,7 +125885,7 @@
   },
   {
     "package": "n8n-nodes-zalo-tokado",
-    "version": "0.4.26",
+    "version": "0.4.27",
     "nodePath": "dist/nodes/ZaloUser/ZaloUser.node.js",
     "displayName": "Quản Lý Bạn Bè Zalo",
     "icon": {
@@ -126009,7 +125897,7 @@
   },
   {
     "package": "n8n-nodes-zalo-tokado",
-    "version": "0.4.26",
+    "version": "0.4.27",
     "nodePath": "dist/nodes/ZaloGroup/ZaloGroup.node.js",
     "displayName": "Quản Lý Nhóm Zalo",
     "icon": {
@@ -126021,7 +125909,7 @@
   },
   {
     "package": "n8n-nodes-zalo-tokado",
-    "version": "0.4.26",
+    "version": "0.4.27",
     "nodePath": "dist/nodes/ZaloMessageTrigger/ZaloMessageTrigger.node.js",
     "displayName": "Zalo Trigger (Nhận Tin Nhắn)",
     "icon": {
@@ -126033,7 +125921,7 @@
   },
   {
     "package": "n8n-nodes-zalo-tokado",
-    "version": "0.4.26",
+    "version": "0.4.27",
     "nodePath": "dist/nodes/ZaloLoginByQr/ZaloLoginByQr.node.js",
     "displayName": "Đăng Nhập Zalo (QR)",
     "icon": {
@@ -126962,18 +126850,6 @@
     "assetStatus": "ok"
   },
   {
-    "package": "n8n-nodes-zep-stemx-memory",
-    "version": "1.0.4",
-    "nodePath": "dist/nodes/ZepMemory/ZepMemory.node.js",
-    "displayName": "Zep Memory",
-    "icon": {
-      "light": "assets/icons/community/cb37c0bd4a6741b5b7b4f288.svg"
-    },
-    "categories": [],
-    "subcategories": {},
-    "assetStatus": "ok"
-  },
-  {
     "package": "n8n-nodes-zernio",
     "version": "0.7.1",
     "nodePath": "dist/late/Late.node.js",
@@ -127037,6 +126913,22 @@
         "Language Models"
       ]
     },
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-zigpoll",
+    "version": "0.1.9",
+    "nodePath": "dist/nodes/Zigpoll/ZigpollTrigger.node.js",
+    "displayName": "Zigpoll Trigger",
+    "icon": {
+      "light": "assets/icons/community/be13e75a7ae73044f33ff32c.svg",
+      "dark": "assets/icons/community/73b12a6e326af457a068350c.svg"
+    },
+    "categories": [
+      "Miscellaneous",
+      "Surveys & Forms"
+    ],
+    "subcategories": {},
     "assetStatus": "ok"
   },
   {
@@ -127716,6 +127608,30 @@
     "displayName": "Zuri TCV Process",
     "icon": {
       "light": "assets/icons/community/9309c32371b0be69cb61a015.png"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-zuuna",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/Zuuna/Zuuna.node.js",
+    "displayName": "Zuuna",
+    "icon": {
+      "light": "assets/icons/community/7954783be4ad3e3df42ebdad.svg"
+    },
+    "categories": [],
+    "subcategories": {},
+    "assetStatus": "ok"
+  },
+  {
+    "package": "n8n-nodes-zuuna",
+    "version": "0.1.0",
+    "nodePath": "dist/nodes/ZuunaTrigger/ZuunaTrigger.node.js",
+    "displayName": "Zuuna Trigger",
+    "icon": {
+      "light": "assets/icons/community/7954783be4ad3e3df42ebdad.svg"
     },
     "categories": [],
     "subcategories": {},
