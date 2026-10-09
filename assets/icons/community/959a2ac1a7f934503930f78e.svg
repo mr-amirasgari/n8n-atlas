@@ -1,0 +1,22 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-8 0 64 64" fill="none">
+  <ns0:defs>
+    <ns0:linearGradient id="n8n-light-light" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#f0abfc" />
+      <ns0:stop offset="100%" stop-color="#c084fc" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="n8n-light-mid" x1="0" y1="0" x2="0" y2="1">
+      <ns0:stop offset="0%" stop-color="#a855f7" />
+      <ns0:stop offset="100%" stop-color="#7e22ce" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="n8n-light-dark" x1="0" y1="1" x2="1" y2="0">
+      <ns0:stop offset="0%" stop-color="#581c87" />
+      <ns0:stop offset="100%" stop-color="#9333ea" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:path d="M24 2 L4 32 L24 32 Z" fill="url(#n8n-light-light)" />
+  <ns0:path d="M24 2 L44 32 L24 32 Z" fill="url(#n8n-light-mid)" opacity="0.85" />
+  <ns0:path d="M24 62 L4 32 L24 32 Z" fill="url(#n8n-light-mid)" opacity="0.75" />
+  <ns0:path d="M24 62 L44 32 L24 32 Z" fill="url(#n8n-light-dark)" />
+  <ns0:line x1="24" y1="2" x2="24" y2="62" stroke="#fae8ff" stroke-width="0.5" opacity="0.6" />
+  <ns0:line x1="4" y1="32" x2="44" y2="32" stroke="#fae8ff" stroke-width="0.5" opacity="0.4" />
+</ns0:svg>

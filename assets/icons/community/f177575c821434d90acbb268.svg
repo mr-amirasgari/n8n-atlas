@@ -1,0 +1,37 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#00ff88;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#0099ff;stop-opacity:1" />
+    </ns0:linearGradient>
+    
+    
+    <ns0:linearGradient id="phoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" style="stop-color:#00dd77;stop-opacity:1" />
+      <ns0:stop offset="100%" style="stop-color:#0088ee;stop-opacity:1" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  
+  
+  <ns0:circle cx="30" cy="30" r="28" fill="url(#mainGradient)" stroke="rgba(255,255,255,0.1)" stroke-width="1" />
+  
+  
+  <ns0:circle cx="30" cy="30" r="22" fill="#2c3e50" opacity="0.9" />
+  
+  
+  <ns0:path d="M 12 24             Q 12 16 20 16             L 40 16             Q 48 16 48 24             L 48 32             Q 48 40 40 40             L 22 40             L 15 46             L 15 40             Q 12 40 12 32             Z" fill="none" stroke="url(#mainGradient)" stroke-width="2.5" stroke-linejoin="round" />
+  
+  
+  <ns0:g transform="translate(30, 30)">
+    
+    <ns0:path d="M -6 -8               Q -8 -10 -6 -12               Q -4 -10 -2 -8               Q -1 -7 0 -6               L 3 -3               Q 4 -2 5 -1               Q 6 0 7 2               Q 9 4 7 6               Q 5 8 3 6               L 0 3               Q -1 2 -2 1               L -5 -2               Q -6 -4 -6 -8 Z" fill="url(#phoneGradient)" stroke="rgba(255,255,255,0.2)" stroke-width="0.5" />
+  </ns0:g>
+  
+  
+  <ns0:circle cx="45" cy="15" r="4" fill="#ff4757" opacity="0.9" />
+  <ns0:circle cx="45" cy="15" r="2" fill="#ffffff" />
+  
+  
+  <ns0:ellipse cx="25" cy="20" rx="8" ry="4" fill="rgba(255,255,255,0.1)" transform="rotate(-20 25 20)" />
+</ns0:svg>

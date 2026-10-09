@@ -1,0 +1,25 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+  <ns0:defs>
+    <ns0:linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#7B2FBE" />
+      <ns0:stop offset="100%" stop-color="#4A90D9" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="shineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.18" />
+      <ns0:stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </ns0:linearGradient>
+  </ns0:defs>
+
+  
+  <ns0:rect width="60" height="60" rx="12" ry="12" fill="url(#bgGrad)" />
+
+  
+  <ns0:rect width="60" height="32" rx="12" ry="12" fill="url(#shineGrad)" />
+
+  
+  <ns0:circle cx="30" cy="30" r="22" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-opacity="0.18" />
+  <ns0:circle cx="30" cy="30" r="16" fill="none" stroke="#ffffff" stroke-width="1" stroke-opacity="0.12" />
+
+  
+  <ns0:text x="30" y="41" font-family="'Arial Black', Impact, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="auto" letter-spacing="-2">W</ns0:text>
+</ns0:svg>
