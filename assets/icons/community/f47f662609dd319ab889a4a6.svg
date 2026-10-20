@@ -1,0 +1,15 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <ns0:defs>
+    <ns0:linearGradient id="bubble" x1="0.15" y1="0.05" x2="0.8" y2="0.95">
+      <ns0:stop offset="0" stop-color="#FF9A2E" />
+      <ns0:stop offset="0.55" stop-color="#FF4F5E" />
+      <ns0:stop offset="1" stop-color="#FF1F8E" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <ns0:stop offset="0" stop-color="#4A3AE8" />
+      <ns0:stop offset="1" stop-color="#3D7BFF" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:path fill="url(#bubble)" d="M20 5h24c9.4 0 16 6.6 16 16v14c0 9.400-6.600 16-16 16H26.500L15 60.500c-1.500 1.200-3.300.100-3-1.800L13.500 50C7.800 47.600 4 42 4 35V21C4 11.600 10.600 5 20 5z" />
+  <ns0:path fill="none" stroke="url(#wave)" stroke-width="6.500" stroke-linecap="round" stroke-linejoin="round" d="M9.500 33.500c4.500 4.500 8.500 3.500 10.500-2.500l2-7c1.800-6.500 8-6.500 9.500 0l2.500 10c1.500 6.500 8 6.800 11 1.500 2.500-4.500 5.500-7.500 10-9" />
+</ns0:svg>
