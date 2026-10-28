@@ -1,0 +1,15 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <ns0:defs>
+    <ns0:linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0" stop-color="#ff8a5b" />
+      <ns0:stop offset="1" stop-color="#ff4d7d" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="tail" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0" stop-color="#8d55ff" />
+      <ns0:stop offset="1" stop-color="#4f7bff" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:rect width="64" height="64" rx="14" fill="#14112b" />
+  <ns0:circle cx="31" cy="30" r="15" fill="none" stroke="url(#ring)" stroke-width="8" />
+  <ns0:path d="M33 34 L47 52 L55 52 L41 34 Z" fill="url(#tail)" />
+</ns0:svg>
