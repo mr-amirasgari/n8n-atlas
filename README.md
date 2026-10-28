@@ -296,6 +296,6 @@ https://mr-amirasgari.github.io/n8n-atlas/
 💻 **GitHub Repository**  
 https://github.com/mr-amirasgari/n8n-atlas
 
----
+----
 
 Built to make the n8n ecosystem easier to explore.
