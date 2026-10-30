@@ -1,0 +1,49 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="32 32 960 960" fill="none">
+	<ns0:defs>
+		<ns0:linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+			<ns0:stop stop-color="#1a1c2b" />
+			<ns0:stop offset="1" stop-color="#0d0e12" />
+		</ns0:linearGradient>
+		<ns0:radialGradient id="glow" cx="540" cy="470" r="420" gradientUnits="userSpaceOnUse">
+			<ns0:stop stop-color="#5968d9" stop-opacity="0.55" />
+			<ns0:stop offset="0.55" stop-color="#5968d9" stop-opacity="0.12" />
+			<ns0:stop offset="1" stop-color="#5968d9" stop-opacity="0" />
+		</ns0:radialGradient>
+		<ns0:linearGradient id="rim" x1="0" y1="0" x2="0" y2="1">
+			<ns0:stop stop-color="#fff" stop-opacity="0.22" />
+			<ns0:stop offset="0.35" stop-color="#fff" stop-opacity="0.07" />
+			<ns0:stop offset="1" stop-color="#fff" stop-opacity="0.04" />
+		</ns0:linearGradient>
+		<ns0:linearGradient id="wingA" x1="250" y1="470" x2="760" y2="250" gradientUnits="userSpaceOnUse">
+			<ns0:stop stop-color="#d9dbff" />
+			<ns0:stop offset="1" stop-color="#fff" />
+		</ns0:linearGradient>
+		<ns0:linearGradient id="wingB" x1="760" y1="250" x2="560" y2="780" gradientUnits="userSpaceOnUse">
+			<ns0:stop stop-color="#9093f4" />
+			<ns0:stop offset="1" stop-color="#5968d9" />
+		</ns0:linearGradient>
+		<ns0:linearGradient id="keel" x1="500" y1="530" x2="450" y2="660" gradientUnits="userSpaceOnUse">
+			<ns0:stop stop-color="#3a44a8" />
+			<ns0:stop offset="1" stop-color="#1e234a" />
+		</ns0:linearGradient>
+		<ns0:linearGradient id="dots" x1="380" y1="660" x2="230" y2="815" gradientUnits="userSpaceOnUse">
+			<ns0:stop stop-color="#7acdf0" />
+			<ns0:stop offset="1" stop-color="#9093f4" />
+		</ns0:linearGradient>
+		<ns0:filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+			<ns0:feGaussianBlur stdDeviation="28" />
+		</ns0:filter>
+	</ns0:defs>
+	<ns0:rect x="32" y="32" width="960" height="960" rx="250" fill="url(#bg)" />
+	<ns0:rect x="32" y="32" width="960" height="960" rx="250" fill="url(#glow)" />
+	<ns0:rect x="34" y="34" width="956" height="956" rx="248" stroke="url(#rim)" stroke-width="4" />
+	<ns0:path d="M760 250 250 470 500 530 560 780Z" fill="#7a83ff" opacity="0.45" filter="url(#soft)" />
+	<ns0:circle cx="352" cy="690" r="24" fill="url(#dots)" />
+	<ns0:circle cx="292" cy="752" r="18" fill="url(#dots)" opacity="0.7" />
+	<ns0:circle cx="242" cy="806" r="12" fill="url(#dots)" opacity="0.4" />
+	<ns0:g stroke-linejoin="round" stroke-width="10">
+		<ns0:path d="M500 530 450 650 560 780Z" fill="url(#keel)" stroke="url(#keel)" />
+		<ns0:path d="M760 250 500 530 560 780Z" fill="url(#wingB)" stroke="url(#wingB)" />
+		<ns0:path d="M760 250 250 470 500 530Z" fill="url(#wingA)" stroke="url(#wingA)" />
+	</ns0:g>
+</ns0:svg>

@@ -1,0 +1,105 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <ns0:defs>
+    <ns0:linearGradient id="gsolo" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0" stop-color="#FFC15A" />
+      <ns0:stop offset=".48" stop-color="#FF8A20" />
+      <ns0:stop offset="1" stop-color="#EB570C" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="hsolo" x2="0" y2="1">
+      <ns0:stop stop-color="white" stop-opacity=".275" />
+      <ns0:stop offset="1" stop-color="white" stop-opacity="0" />
+    </ns0:linearGradient>
+    <ns0:clipPath id="csolo">
+      <ns0:rect x=".5" y=".5" width="99" height="99" rx="22" />
+    </ns0:clipPath>
+  </ns0:defs>
+  <ns0:rect x=".5" y=".5" width="99" height="99" rx="22" fill="url(#gsolo)" stroke="#B95316" />
+  <ns0:path d="M0 0H100V30Q48 51 0 39Z" fill="url(#hsolo)" clip-path="url(#csolo)" />
+  <ns0:defs>
+    <ns0:filter id="fsolo" x="-15%" y="-15%" width="130%" height="130%" color-interpolation-filters="sRGB">
+      <ns0:feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0" result="sum0" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="0.23" result="e1" />
+      <ns0:feComposite in="sum0" in2="e1" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum1" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="0.46" result="e2" />
+      <ns0:feComposite in="sum1" in2="e2" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum2" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="0.6900000000000001" result="e3" />
+      <ns0:feComposite in="sum2" in2="e3" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum3" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="0.92" result="e4" />
+      <ns0:feComposite in="sum3" in2="e4" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum4" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="1.1500000000000001" result="e5" />
+      <ns0:feComposite in="sum4" in2="e5" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum5" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="1.3800000000000001" result="e6" />
+      <ns0:feComposite in="sum5" in2="e6" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum6" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="1.61" result="e7" />
+      <ns0:feComposite in="sum6" in2="e7" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum7" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="1.84" result="e8" />
+      <ns0:feComposite in="sum7" in2="e8" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum8" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="2.0700000000000003" result="e9" />
+      <ns0:feComposite in="sum8" in2="e9" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum9" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="2.3000000000000003" result="e10" />
+      <ns0:feComposite in="sum9" in2="e10" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum10" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="2.5300000000000002" result="e11" />
+      <ns0:feComposite in="sum10" in2="e11" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum11" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="2.7600000000000002" result="e12" />
+      <ns0:feComposite in="sum11" in2="e12" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum12" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="2.99" result="e13" />
+      <ns0:feComposite in="sum12" in2="e13" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum13" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="3.22" result="e14" />
+      <ns0:feComposite in="sum13" in2="e14" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum14" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="3.45" result="e15" />
+      <ns0:feComposite in="sum14" in2="e15" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum15" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="3.68" result="e16" />
+      <ns0:feComposite in="sum15" in2="e16" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum16" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="3.91" result="e17" />
+      <ns0:feComposite in="sum16" in2="e17" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum17" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="4.140000000000001" result="e18" />
+      <ns0:feComposite in="sum17" in2="e18" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum18" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="4.37" result="e19" />
+      <ns0:feComposite in="sum18" in2="e19" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum19" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="4.6000000000000005" result="e20" />
+      <ns0:feComposite in="sum19" in2="e20" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum20" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="4.83" result="e21" />
+      <ns0:feComposite in="sum20" in2="e21" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum21" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="5.0600000000000005" result="e22" />
+      <ns0:feComposite in="sum21" in2="e22" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum22" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="5.29" result="e23" />
+      <ns0:feComposite in="sum22" in2="e23" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum23" />
+      <ns0:feMorphology in="SourceAlpha" operator="erode" radius="5.5200000000000005" result="e24" />
+      <ns0:feComposite in="sum23" in2="e24" operator="arithmetic" k1="0" k2="1" k3=".0416667" k4="0" result="sum24" />
+      <ns0:feGaussianBlur in="sum24" stdDeviation=".32" result="height" />
+      <ns0:feDiffuseLighting in="height" surfaceScale="-9" diffuseConstant=".75" lighting-color="#535D68" result="lighting">
+        <ns0:feDistantLight azimuth="225" elevation="50" />
+      </ns0:feDiffuseLighting>
+      <ns0:feComposite in="lighting" in2="SourceAlpha" operator="in" result="surface" />
+      <ns0:feFlood flood-color="#070A0F" flood-opacity=".58" result="shadeColor" />
+      <ns0:feComposite in="shadeColor" in2="height" operator="in" result="occlusion" />
+      <ns0:feOffset in="SourceAlpha" dx=".25" dy=".35" result="down" />
+      <ns0:feComposite in="SourceAlpha" in2="down" operator="out" result="upper" />
+      <ns0:feFlood flood-color="#101319" flood-opacity=".65" />
+      <ns0:feComposite in2="upper" operator="in" result="topedge" />
+      <ns0:feOffset in="SourceAlpha" dx="-.25" dy="-.35" result="up" />
+      <ns0:feComposite in="SourceAlpha" in2="up" operator="out" result="lower" />
+      <ns0:feFlood flood-color="#69717A" flood-opacity=".5" />
+      <ns0:feComposite in2="lower" operator="in" result="bottomedge" />
+      <ns0:feMerge>
+        <ns0:feMergeNode in="surface" />
+        <ns0:feMergeNode in="occlusion" />
+        <ns0:feMergeNode in="topedge" />
+        <ns0:feMergeNode in="bottomedge" />
+      </ns0:feMerge>
+    </ns0:filter>
+  </ns0:defs>
+  <ns0:g data-logo-mark="true" filter="url(#fsolo)" fill="#191919">
+    <ns0:path d="M32 29L22 20" fill="none" stroke="#191919" stroke-width="3.6" stroke-linecap="round" />
+    <ns0:path d="M65 29L78 20" fill="none" stroke="#191919" stroke-width="3.6" stroke-linecap="round" />
+    <ns0:path d="M60 50L81 50" fill="none" stroke="#191919" stroke-width="3.6" stroke-linecap="round" />
+    <ns0:path d="M32 71L22 80" fill="none" stroke="#191919" stroke-width="3.6" stroke-linecap="round" />
+    <ns0:path d="M65 71L78 80" fill="none" stroke="#191919" stroke-width="3.6" stroke-linecap="round" />
+    <ns0:path d="M32 24H66Q69 24 69 27V32Q69 35 66 35H40V44H60Q63 44 63 47V52Q63 55 60 55H40V65H66Q69 65 69 68V73Q69 76 66 76H32Q29 76 29 73V27Q29 24 32 24Z" />
+    <ns0:circle cx="22" cy="20" r="4.5" />
+    <ns0:circle cx="78" cy="20" r="4.5" />
+    <ns0:circle cx="81" cy="50" r="4.5" />
+    <ns0:circle cx="22" cy="80" r="4.5" />
+    <ns0:circle cx="78" cy="80" r="4.5" />
+  </ns0:g>
+</ns0:svg>
