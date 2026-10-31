@@ -1,0 +1,35 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <ns0:defs>
+    <ns0:linearGradient id="flycrawlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#6366F1" />
+      <ns0:stop offset="100%" stop-color="#8B5CF6" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#818CF8" stop-opacity="0.4" />
+      <ns0:stop offset="100%" stop-color="#C084FC" stop-opacity="0.1" />
+    </ns0:linearGradient>
+    <ns0:filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <ns0:feGaussianBlur stdDeviation="2" result="blur" />
+      <ns0:feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </ns0:filter>
+  </ns0:defs>
+
+  
+  <ns0:rect width="60" height="60" rx="14" fill="#0F172A" />
+  <ns0:rect x="1" y="1" width="58" height="58" rx="13" fill="none" stroke="url(#flycrawlGrad)" stroke-width="1.5" stroke-opacity="0.4" />
+
+  
+  <ns0:circle cx="30" cy="30" r="18" fill="url(#glowGrad)" />
+
+  
+  <ns0:path d="M16 22 L28 17 L44 24 L42 40 L26 44 L16 34 Z" fill="none" stroke="#6366F1" stroke-width="1.2" stroke-opacity="0.3" stroke-dasharray="2 2" />
+
+  
+  <ns0:circle cx="16" cy="22" r="2" fill="#818CF8" opacity="0.6" />
+  <ns0:circle cx="44" cy="24" r="2" fill="#818CF8" opacity="0.6" />
+  <ns0:circle cx="26" cy="44" r="2" fill="#818CF8" opacity="0.6" />
+
+  
+  <ns0:path d="M33 13 L21 30 L29 30 L25 47 L41 27 L32 27 Z" fill="url(#flycrawlGrad)" filter="url(#glow)" />
+  <ns0:path d="M32 15 L23 29 L30 29 L26 44 L39 28 L31 28 Z" fill="#FFFFFF" opacity="0.85" />
+</ns0:svg>
