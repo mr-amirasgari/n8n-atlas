@@ -1,0 +1,16 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <ns0:defs>
+    <ns0:radialGradient id="ring" cx="0" cy="0" r="1.42">
+      <ns0:stop offset=".04" stop-color="#fff" stop-opacity=".5" />
+      <ns0:stop offset=".3" stop-color="#fff" stop-opacity=".06" />
+      <ns0:stop offset=".6" stop-color="#fff" stop-opacity=".06" />
+      <ns0:stop offset="1" stop-color="#fff" stop-opacity=".3" />
+    </ns0:radialGradient>
+  </ns0:defs>
+  <ns0:rect width="64" height="64" rx="18" fill="#1c1c1c" />
+  <ns0:rect x="1" y="1" width="62" height="62" rx="17" fill="none" stroke="url(#ring)" stroke-width="2" />
+  <ns0:g fill="#f1ede8" transform="translate(15 15) scale(1.4167)">
+    <ns0:path d="M12 0L22.81 21.90Q19.51 20.49 16.54 21.56Q12.35 17.16 12 8.81Q11.65 17.16 7.46 21.56Q4.49 20.49 1.19 21.90Z" />
+    <ns0:path d="M12 17.46Q13.14 19.75 15.16 21.73L13.46 24L10.54 24L8.84 21.73Q10.86 19.75 12 17.46Z" />
+  </ns0:g>
+</ns0:svg>
