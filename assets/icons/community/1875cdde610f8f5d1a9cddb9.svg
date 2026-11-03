@@ -1,0 +1,44 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <ns0:defs>
+    <ns0:linearGradient id="pavtechGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#07B6D5" />
+      <ns0:stop offset="100%" stop-color="#10B981" />
+    </ns0:linearGradient>
+    <ns0:filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <ns0:feGaussianBlur stdDeviation="1.5" result="blur" />
+      <ns0:feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </ns0:filter>
+  </ns0:defs>
+
+  
+  <ns0:path d="M32 54 L32 34" stroke="url(#pavtechGrad)" stroke-width="3" stroke-linecap="round" />
+  
+  
+  <ns0:path d="M32 44 L20 36 L14 36" stroke="#07B6D5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path d="M32 36 L22 24 L16 24" stroke="#07B6D5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path d="M32 30 L26 16 L22 16" stroke="#07B6D5" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  
+  <ns0:path d="M32 44 L44 36 L50 36" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path d="M32 36 L42 24 L48 24" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <ns0:path d="M32 30 L38 16 L42 16" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  
+  <ns0:path d="M32 34 L32 14" stroke="url(#pavtechGrad)" stroke-width="2.5" stroke-linecap="round" />
+
+  
+  
+  <ns0:circle cx="32" cy="34" r="3.5" fill="#07B6D5" filter="url(#glow)" />
+  <ns0:circle cx="32" cy="14" r="3" fill="#10B981" filter="url(#glow)" />
+  <ns0:circle cx="32" cy="54" r="3" fill="#07B6D5" />
+
+  
+  <ns0:circle cx="14" cy="36" r="2.8" fill="#07B6D5" />
+  <ns0:circle cx="16" cy="24" r="2.8" fill="#07B6D5" />
+  <ns0:circle cx="22" cy="16" r="2.8" fill="#07B6D5" />
+
+  
+  <ns0:circle cx="50" cy="36" r="2.8" fill="#10B981" />
+  <ns0:circle cx="48" cy="24" r="2.8" fill="#10B981" />
+  <ns0:circle cx="42" cy="16" r="2.8" fill="#10B981" />
+</ns0:svg>
