@@ -1,0 +1,38 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 338 338" fill="none" style="background: transparent;">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="338" y2="338" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#00b87c" />
+      <ns0:stop offset="100%" stop-color="#008e5e" />
+    </ns0:linearGradient>
+
+    
+    <ns0:linearGradient id="whiteElementGrad" x1="0" y1="0" x2="0" y2="1">
+      <ns0:stop offset="0%" stop-color="#ffffff" />
+      <ns0:stop offset="100%" stop-color="#ffffff" />
+    </ns0:linearGradient>
+
+    
+    <ns0:linearGradient id="pulseGrad" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <ns0:stop offset="0%" stop-color="#d4fff2" />
+      <ns0:stop offset="100%" stop-color="#a8f0d8" />
+    </ns0:linearGradient>
+
+    
+    <ns0:filter id="whiteElementShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <ns0:feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.08" />
+    </ns0:filter>
+  </ns0:defs>
+
+  
+  <ns0:rect width="338" height="338" rx="83" fill="url(#paint0_linear_1_2)" />
+
+  
+  <ns0:rect x="1" y="1" width="336" height="336" rx="82" stroke="#ffffff" stroke-width="2" stroke-opacity="0.15" />
+
+  
+  <ns0:g filter="url(#whiteElementShadow)">
+    <ns0:path d="M242.852 267.25C222.221 267.25 201.838 262.754 181.702 253.762C161.567 244.771 143.247 232.019 126.742 215.508C110.237 198.997 97.4892 180.677 88.4975 160.548C79.5058 140.419 75.0066 120.035 75 99.3979C75 96.4271 75.9903 93.9514 77.9708 91.9708C79.9514 89.9903 82.4271 89 85.3979 89H125.504C127.815 89 129.878 89.7856 131.693 91.3569C133.509 92.9281 134.582 94.7832 134.912 96.9222L141.349 131.582C141.679 134.223 141.596 136.451 141.101 138.266C140.606 140.082 139.698 141.65 138.378 142.97L114.364 167.232C117.664 173.339 121.583 179.237 126.118 184.928C130.654 190.619 135.648 196.108 141.101 201.397C146.217 206.513 151.581 211.26 157.193 215.637C162.805 220.014 168.746 224.014 175.018 227.639L198.29 204.367C199.775 202.882 201.716 201.77 204.112 201.03C206.509 200.291 208.859 200.083 211.163 200.406L245.328 207.338C247.638 207.998 249.536 209.197 251.022 210.933C252.507 212.669 253.25 214.607 253.25 216.746V256.852C253.25 259.823 252.26 262.299 250.279 264.279C248.299 266.26 245.823 267.25 242.852 267.25Z" fill="url(#whiteElementGrad)" />
+    <ns0:path d="M197.329 130.578L219.439 182.168L232.926 150.702H248.919V143.332H228.062L219.439 163.456L197.329 111.866L183.842 143.332H167.849V150.702H188.706L197.329 130.578Z" fill="url(#pulseGrad)" />
+  </ns0:g>
+</ns0:svg>
