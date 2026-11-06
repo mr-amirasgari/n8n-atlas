@@ -1,0 +1,26 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <ns0:defs>
+    <ns0:linearGradient id="suiteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#0F172A" />
+      <ns0:stop offset="100%" stop-color="#1E293B" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="deFlag" x1="0%" y1="0%" x2="0%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#1E293B" />
+      <ns0:stop offset="33%" stop-color="#1E293B" />
+      <ns0:stop offset="33%" stop-color="#DC2626" />
+      <ns0:stop offset="66%" stop-color="#DC2626" />
+      <ns0:stop offset="66%" stop-color="#F59E0B" />
+      <ns0:stop offset="100%" stop-color="#F59E0B" />
+    </ns0:linearGradient>
+  </ns0:defs>
+  <ns0:rect width="64" height="64" rx="14" fill="url(#suiteGrad)" />
+  <ns0:rect x="6" y="8" width="52" height="48" rx="10" fill="none" stroke="#334155" stroke-width="2" />
+  
+  <ns0:path d="M32 14 C39 14 46 16 46 22 C46 35 37 45 32 48 C27 45 18 35 18 22 C18 16 25 14 32 14 Z" fill="none" stroke="#F59E0B" stroke-width="2.5" stroke-linejoin="round" />
+  
+  <ns0:path d="M22 25 L42 25" stroke="#1E293B" stroke-width="3" stroke-linecap="round" />
+  <ns0:path d="M22 29 L42 29" stroke="#EF4444" stroke-width="3" stroke-linecap="round" />
+  <ns0:path d="M22 33 L42 33" stroke="#F59E0B" stroke-width="3" stroke-linecap="round" />
+  
+  <ns0:circle cx="32" cy="40" r="2.5" fill="#10B981" />
+</ns0:svg>
