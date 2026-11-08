@@ -1,0 +1,28 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <ns0:defs>
+    <ns0:linearGradient id="favHexTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#0284c7" />
+      <ns0:stop offset="100%" stop-color="#0369a1" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="favHexBot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#0056b3" />
+      <ns0:stop offset="100%" stop-color="#002b66" />
+    </ns0:linearGradient>
+    <ns0:linearGradient id="favCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <ns0:stop offset="0%" stop-color="#38bdf8" />
+      <ns0:stop offset="100%" stop-color="#818cf8" />
+    </ns0:linearGradient>
+    <ns0:filter id="favGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <ns0:feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#0056b3" flood-opacity="0.3" />
+    </ns0:filter>
+  </ns0:defs>
+  
+  <ns0:g filter="url(#favGlow)">
+    <ns0:polygon points="32,4 58,19 58,45 32,60 6,45 6,19" fill="url(#favHexBot)" />
+    <ns0:polygon points="32,4 58,19 32,33 6,19" fill="url(#favHexTop)" opacity="0.95" />
+    <ns0:polygon points="32,33 58,19 58,45 32,60" fill="#003366" opacity="0.6" />
+    <ns0:circle cx="32" cy="33" r="6.5" fill="url(#favCyan)" stroke="#ffffff" stroke-width="2.5" />
+    <ns0:path d="M13,23 L32,33 L51,23" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85" />
+    <ns0:path d="M32,33 L32,54" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.85" />
+  </ns0:g>
+</ns0:svg>
