@@ -1,0 +1,24 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <ns0:defs>
+    <ns0:linearGradient id="pp-tile" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0%" stop-color="#1B2232" />
+      <ns0:stop offset="55%" stop-color="#0B0F18" />
+      <ns0:stop offset="100%" stop-color="#1E2538" />
+    </ns0:linearGradient>
+    <ns0:radialGradient id="pp-body" cx="36%" cy="30%" r="78%">
+      <ns0:stop offset="0%" stop-color="#FFFFFF" />
+      <ns0:stop offset="34%" stop-color="#F1EAE0" />
+      <ns0:stop offset="64%" stop-color="#D9D3E8" />
+      <ns0:stop offset="100%" stop-color="#9FA8B8" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="pp-rim" cx="70%" cy="82%" r="52%">
+      <ns0:stop offset="0%" stop-color="#CFE0EA" stop-opacity="0.85" />
+      <ns0:stop offset="100%" stop-color="#CFE0EA" stop-opacity="0" />
+    </ns0:radialGradient>
+  </ns0:defs>
+  <ns0:rect width="64" height="64" rx="14" fill="url(#pp-tile)" />
+  <ns0:circle cx="32" cy="32" r="20" fill="url(#pp-body)" />
+  <ns0:circle cx="32" cy="32" r="20" fill="url(#pp-rim)" />
+  <ns0:ellipse cx="25" cy="23.5" rx="5.5" ry="4" fill="#FFFFFF" opacity="0.75" />
+  <ns0:circle cx="32" cy="32" r="19.4" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" />
+</ns0:svg>
