@@ -1,4 +1,4 @@
-# n8n Atlas
+#  n8n Atlas
 
 **Discover and explore official and community integrations across the n8n ecosystem.**
 
