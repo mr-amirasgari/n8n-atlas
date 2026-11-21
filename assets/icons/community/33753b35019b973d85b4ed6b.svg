@@ -1,0 +1,20 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <ns0:defs>
+    <ns0:pattern id="c" width="8" height="8" patternUnits="userSpaceOnUse">
+      <ns0:rect width="8" height="8" fill="#fff" />
+      <ns0:rect width="4" height="4" fill="#dfe3ea" />
+      <ns0:rect x="4" y="4" width="4" height="4" fill="#dfe3ea" />
+    </ns0:pattern>
+    <ns0:linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0" stop-color="#4f86ff" />
+      <ns0:stop offset="1" stop-color="#1f4fe0" />
+    </ns0:linearGradient>
+    <ns0:clipPath id="s"><ns0:rect width="64" height="64" rx="16" /></ns0:clipPath>
+  </ns0:defs>
+  <ns0:g clip-path="url(#s)">
+    <ns0:rect width="64" height="64" fill="#fff" />
+    <ns0:path d="M0 0H64V22C46 26 30 40 24 64H0Z" fill="url(#g)" />
+  </ns0:g>
+  <ns0:circle cx="40" cy="38" r="11" fill="#0f1115" />
+  <ns0:circle cx="40" cy="38" r="15.5" fill="none" stroke="#0f1115" stroke-width="2" stroke-dasharray="3.2 3.2" />
+</ns0:svg>
