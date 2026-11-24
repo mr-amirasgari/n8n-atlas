@@ -1,0 +1,24 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <ns0:title>Nubbo</ns0:title>
+  <ns0:defs>
+    <ns0:linearGradient id="skyI" x1="50%" y1="0%" x2="50%" y2="100%">
+      <ns0:stop offset="0%" stop-color="#5188f9" />
+      <ns0:stop offset="55%" stop-color="#094ad7" />
+      <ns0:stop offset="100%" stop-color="#0636ad" />
+    </ns0:linearGradient>
+    <ns0:radialGradient id="glowI" cx="28%" cy="18%" r="70%">
+      <ns0:stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+      <ns0:stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </ns0:radialGradient>
+    <ns0:filter id="softI" x="-30%" y="-30%" width="160%" height="160%">
+      <ns0:feGaussianBlur stdDeviation="4" />
+    </ns0:filter>
+    <ns0:linearGradient id="bodyI" x1="0" y1="32" x2="0" y2="92" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#ffffff" /><ns0:stop offset="100%" stop-color="#e6edfb" />
+    </ns0:linearGradient></ns0:defs>
+  <ns0:rect width="128" height="128" rx="28" fill="url(#skyI)" />
+  <ns0:rect width="128" height="128" rx="28" fill="url(#glowI)" />
+
+    <ns0:ellipse cx="64" cy="94" rx="34" ry="6" fill="#04257a" opacity="0.35" filter="url(#softI)" />
+    <ns0:path d="M23 74 A18 18 0 0 0 41 92 L85 92 A20 20 0 0 0 105 72 A20 20 0 0 0 88.4 52.3 A26 26 0 0 0 37 56.4 A18 18 0 0 0 23 74 Z" fill="url(#bodyI)" />
+</ns0:svg>
