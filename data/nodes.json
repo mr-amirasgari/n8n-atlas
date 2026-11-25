@@ -56,6 +56,27 @@
     "official": true
   },
   {
+    "name": "AgentChannelApproval",
+    "package": "n8n-nodes-base",
+    "path": "dist/nodes/AgentChannelApproval/AgentChannelApproval.node.js",
+    "type": "node",
+    "official": true
+  },
+  {
+    "name": "AgentDecisionResponse",
+    "package": "n8n-nodes-base",
+    "path": "dist/nodes/AgentDecision/AgentDecisionResponse.node.js",
+    "type": "node",
+    "official": true
+  },
+  {
+    "name": "AgentDecisionTrigger",
+    "package": "n8n-nodes-base",
+    "path": "dist/nodes/AgentDecision/AgentDecisionTrigger.node.js",
+    "type": "trigger",
+    "official": true
+  },
+  {
     "name": "AgentTool",
     "package": "@n8n/nodes-langchain",
     "path": "dist/nodes/agents/Agent/AgentTool.node.js",
