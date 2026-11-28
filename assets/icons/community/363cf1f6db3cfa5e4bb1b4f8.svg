@@ -1,0 +1,14 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Clipkiln">
+  <ns0:defs>
+    
+    <ns0:linearGradient id="ck" x1="0.1585" y1="-0.0915" x2="0.8415" y2="1.0915">
+      <ns0:stop offset="0" stop-color="#0000DD" />
+      <ns0:stop offset="1" stop-color="#FFCC00" />
+    </ns0:linearGradient>
+    <ns0:filter id="halo" x="-30%" y="-30%" width="160%" height="160%">
+      <ns0:feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000008" flood-opacity="0.85" />
+    </ns0:filter>
+  </ns0:defs>
+  <ns0:rect width="64" height="64" rx="14" fill="url(#ck)" />
+  <ns0:path d="M44 21 A15 15 0 1 0 44 43" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" filter="url(#halo)" />
+</ns0:svg>
